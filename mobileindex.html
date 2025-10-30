@@ -42,7 +42,6 @@
         --shadow: 0 6px 24px rgba(0,0,0,.08);
       }
     }
-
     html, body { height: 100%; }
     body {
       margin: 0;
@@ -51,152 +50,49 @@
                   var(--bg);
       color: var(--fg);
     }
-
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 20px clamp(12px, 3vw, 28px) 40px;
-    }
-
+    .container { max-width: 1000px; margin: 0 auto; padding: 20px clamp(12px, 3vw, 28px) 40px; }
     .hero {
-      border-radius: 24px;
-      padding: clamp(16px, 3.5vw, 28px);
-      margin: 16px 0 22px;
-      background:
-        linear-gradient(135deg, rgba(37,99,235,.14), rgba(99,102,241,.08)),
-        var(--panel);
-      box-shadow: var(--shadow);
-      border: 1px solid var(--border);
+      border-radius: 24px; padding: clamp(16px, 3.5vw, 28px); margin: 16px 0 22px;
+      background: linear-gradient(135deg, rgba(37,99,235,.14), rgba(99,102,241,.08)), var(--panel);
+      box-shadow: var(--shadow); border: 1px solid var(--border);
     }
-    .hero h1 {
-      margin: 0 0 4px;
-      font-weight: 800;
-      letter-spacing: -.02em;
-      font-size: clamp(1.4rem, 3.4vw, 2rem);
-    }
-    .hero p {
-      margin: 0;
-      color: var(--muted);
-      font-size: clamp(.95rem, 2.2vw, 1.05rem);
-    }
-
-    .card {
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: clamp(12px, 2vw, 18px);
-      background: linear-gradient(180deg, var(--panel), var(--panel-2));
-      box-shadow: var(--shadow);
-      margin-bottom: 16px;
-    }
-    .sticky {
-      position: sticky;
-      top: 10px;
-      z-index: 50;
-      backdrop-filter: saturate(120%) blur(6px);
-    }
-
-    .row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-    @media (max-width: 740px) {
-      .row { grid-template-columns: 1fr; }
-    }
-    label {
-      font-size: .9rem;
-      color: var(--muted);
-      margin-bottom: 6px;
-      display: block;
-    }
+    .hero h1 { margin: 0 0 4px; font-weight: 800; letter-spacing: -.02em; font-size: clamp(1.4rem, 3.4vw, 2rem); }
+    .hero p { margin: 0; color: var(--muted); font-size: clamp(.95rem, 2.2vw, 1.05rem); }
+    .card { border: 1px solid var(--border); border-radius: var(--radius);
+      padding: clamp(12px, 2vw, 18px); background: linear-gradient(180deg, var(--panel), var(--panel-2));
+      box-shadow: var(--shadow); margin-bottom: 16px; }
+    .sticky { position: sticky; top: 10px; z-index: 50; backdrop-filter: saturate(120%) blur(6px); }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 740px) { .row { grid-template-columns: 1fr; } }
+    label { font-size: .9rem; color: var(--muted); margin-bottom: 6px; display: block; }
     select, button {
-      width: 100%;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      padding: 14px 14px;
-      font-size: 1rem;
-      background: var(--surface);
-      color: var(--fg);
-      -webkit-tap-highlight-color: transparent;
+      width: 100%; border-radius: 12px; border: 1px solid var(--border); padding: 14px 14px; font-size: 1rem;
+      background: var(--surface); color: var(--fg); -webkit-tap-highlight-color: transparent;
       transition: box-shadow .15s ease, transform .06s ease, border-color .15s ease;
       box-shadow: inset 0 0 0 1px rgba(255,255,255,.02), 0 1px 0 rgba(0,0,0,.04);
     }
-    select:focus, button:focus {
-      outline: none;
-      border-color: var(--accent);
-      box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 35%, transparent);
-    }
-    button {
-      border-color: var(--accent);
-      background: linear-gradient(180deg, var(--accent), var(--accent-2));
-      color: white;
-      font-weight: 700;
-      letter-spacing: .2px;
-    }
-    button:hover { transform: translateY(-1px); }
-    button:active { transform: translateY(0); }
-    button:disabled { opacity: .6; cursor: not-allowed; }
-
-    .grid-3 {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 12px;
-      align-items: end;
-    }
+    select:focus, button:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 35%, transparent); }
+    button { border-color: var(--accent); background: linear-gradient(180deg, var(--accent), var(--accent-2)); color: white; font-weight: 700; letter-spacing: .2px; }
+    button:hover { transform: translateY(-1px); } button:active { transform: translateY(0); } button:disabled { opacity: .6; cursor: not-allowed; }
+    .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; align-items: end; }
     @media (max-width: 740px) { .grid-3 { grid-template-columns: 1fr; } }
-
-    .pill {
-      display: inline-block;
-      padding: 2px 8px;
-      border-radius: 999px;
-      font-size: .8rem;
-      border: 1px solid var(--border);
-      background: var(--surface);
-    }
-    .ok { background: var(--ok-bg); border-color: var(--ok-br); }
-    .no { background: var(--no-bg); border-color: var(--no-br); }
-    .muted { color: var(--muted); }
-    .sub { font-size: .95rem; color: var(--muted); }
-
-    table { width: 100%; border-collapse: collapse; }
-    th, td { border-top: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: .8rem; border: 1px solid var(--border); background: var(--surface); }
+    .ok { background: var(--ok-bg); border-color: var(--ok-br); } .no { background: var(--no-bg); border-color: var(--no-br); }
+    .muted { color: var(--muted); } .sub { font-size: .95rem; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; } th, td { border-top: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
     thead th { position: sticky; top: 0; background: var(--panel-2); }
     .scroll-x { overflow-x: auto; }
-
     @media (max-width: 740px) {
-      .table-as-cards table, .table-as-cards thead, .table-as-cards tbody, .table-as-cards th, .table-as-cards td, .table-as-cards tr {
-        display: block;
-        width: 100%;
-      }
+      .table-as-cards table, .table-as-cards thead, .table-as-cards tbody, .table-as-cards th, .table-as-cards td, .table-as-cards tr { display: block; width: 100%; }
       .table-as-cards thead { display: none; }
-      .table-as-cards tr {
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        padding: 10px;
-        margin-bottom: 10px;
-        background: var(--surface);
-      }
-      .table-as-cards td {
-        border: 0;
-        padding: 6px 0;
-      }
-      .table-as-cards td::before {
-        content: attr(data-label);
-        font-weight: 700;
-        display: block;
-        color: var(--muted);
-        margin-bottom: 2px;
-      }
+      .table-as-cards tr { border: 1px solid var(--border); border-radius: 12px; padding: 10px; margin-bottom: 10px; background: var(--surface); }
+      .table-as-cards td { border: 0; padding: 6px 0; }
+      .table-as-cards td::before { content: attr(data-label); font-weight: 700; display: block; color: var(--muted); margin-bottom: 2px; }
     }
-
-    footer {
-      margin-top: 28px;
-      padding-top: 14px;
-      border-top: 1px solid var(--border);
-      color: var(--muted);
-      text-align: center;
-      font-size: .95rem;
-    }
+    footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); text-align: center; font-size: .95rem; }
+    details.debug { margin-top: 10px; }
+    details.debug summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: .9rem; }
   </style>
 </head>
 <body>
@@ -239,6 +135,7 @@
 
 <script>
 const STATE = { data: null, stops: [], routes: [] };
+const ACRONYMS = ["BLDG","DFAC","MP","HHC","TMC","PBO","AWRDS","CFCC","ECP"];
 
 function canonStop(raw){
   if (!raw) return raw;
@@ -264,7 +161,7 @@ function canonStop(raw){
   if (m2) return `DFAC ${m2[1]}`;
   const tokens = s.split(/\s+/).map(t => {
     const upper = t.toUpperCase();
-    if (["BLDG","DFAC","MP","HHC","TMC","PBO","AWRDS","CFCC"].includes(upper)) return upper;
+    if (ACRONYMS.includes(upper)) return upper;
     if (upper==="VII") return "VII";
     return t.charAt(0).toUpperCase()+t.slice(1).toLowerCase();
   });
@@ -282,13 +179,6 @@ function fmtETA(minDiff){
   return h===0 ? `${m} min` : `${h} hr ${m} min`;
 }
 function localNowHHMM(){ const d = new Date(); return pad(d.getHours())+":"+pad(d.getMinutes()); }
-function normalizeNextTimePair(dep, arr, nowMin){
-  let depMin = toMinutes(dep); let arrMin = toMinutes(arr);
-  if (depMin < nowMin) depMin += 1440;
-  if (arrMin <= toMinutes(dep)) arrMin += 1440;
-  if (arrMin < depMin) arrMin = depMin + 1;
-  return {depMin, arrMin};
-}
 function projectAfter(baseMin, clockHHMM){
   let t = toMinutes(clockHHMM); while (t < baseMin) t += 1440; return t;
 }
@@ -314,39 +204,42 @@ function mapRunTimesByStop(run){
   run.times.forEach(t => m.set(canonStop(t.stop), t.time));
   return m;
 }
+
 function findDirectRuns(origin, dest, routeNameOpt){
-  const now = localNowHHMM();
-  const nowMin = toMinutes(now);
+  const nowMin = toMinutes(localNowHHMM());
   const all = [];
+  const debug = [];
   STATE.data.routes.forEach(route => {
     if (routeNameOpt && route.route_name !== routeNameOpt) return;
     const stopsCanon = route.stops.map(canonStop);
-    const idxMap = new Map(stopsCanon.map((s,i)=>[s,i]));
-    if (!idxMap.has(origin) || !idxMap.has(dest)) return;
-    const iO = idxMap.get(origin), iD = idxMap.get(dest);
-    if (iD <= iO) return;
+    if (!stopsCanon.includes(origin) || !stopsCanon.includes(dest)) {
+      debug.push({route: route.route_name, reason: "route_missing_one_of_stops"});
+      return;
+    }
     route.runs.forEach(run => {
       const timeMap = mapRunTimesByStop(run);
       const tO = timeMap.get(origin);
       const tD = timeMap.get(dest);
       if (!tO || !tD) {
-        all.push({route: route.route_name, run: run.bus_id, dep: null, arr: null, valid:false});
+        all.push({route: route.route_name, run: run.bus_id, dep: tO||null, arr: tD||null, valid:false, reason: "missing_time_for_stop"});
         return;
       }
-      const pair = normalizeNextTimePair(tO, tD, nowMin);
-      const valid = pair.arrMin > pair.depMin;
-      all.push({ route: route.route_name, run: run.bus_id, dep: tO, arr: tD, depMin: pair.depMin, arrMin: pair.arrMin, valid });
+      let depMin = projectAfter(nowMin, tO);
+      let arrMin = projectAfter(depMin, tD);
+      if (arrMin <= depMin) arrMin += 1440;
+      const valid = arrMin > depMin;
+      all.push({ route: route.route_name, run: run.bus_id, dep: tO, arr: tD, depMin, arrMin, valid });
     });
   });
   const candidates = all.filter(x=>x.valid);
   candidates.sort((a,b)=> a.arrMin - b.arrMin || a.depMin - b.depMin);
   const recommended = candidates[0] || null;
   const others = all
-    .filter(x=>!recommended || x.run !== recommended.run || x.route !== recommended.route)
-    .filter(x=>x.dep)
+    .filter(x=>x.dep && ( !recommended || x.run !== recommended.run || x.route !== recommended.route))
     .sort((a,b)=> (a.depMin || 1e9) - (b.depMin || 1e9));
-  return {recommended, others, nowMin};
+  return {recommended, others, nowMin, all, debug};
 }
+
 function findBestTransfer(origin, dest){
   const nowMin = toMinutes(localNowHHMM());
   let best = null;
@@ -361,10 +254,7 @@ function findBestTransfer(origin, dest){
   function bestLeg(originStop, endStop, notBeforeMin){
     let bestLeg = null;
     routeIdx.forEach(({route, stopsCanon})=>{
-      const idx = new Map(stopsCanon.map((s,i)=>[s,i]));
-      if (!idx.has(originStop) || !idx.has(endStop)) return;
-      const iO = idx.get(originStop), iE = idx.get(endStop);
-      if (iE <= iO) return;
+      if (!stopsCanon.includes(originStop) || !stopsCanon.includes(endStop)) return;
       route.runs.forEach(run => {
         const times = mapRunTimesByStop(run);
         const tO = times.get(originStop);
@@ -396,7 +286,7 @@ function findBestTransfer(origin, dest){
 }
 
 function renderDirect(origin, dest, routeOpt){
-  const {recommended, others, nowMin} = findDirectRuns(origin, dest, routeOpt);
+  const {recommended, others, nowMin, all, debug} = findDirectRuns(origin, dest, routeOpt);
   const container = document.getElementById('results');
   container.innerHTML = '';
 
@@ -404,7 +294,9 @@ function renderDirect(origin, dest, routeOpt){
     const transfer = findBestTransfer(origin, dest);
     if (!transfer){
       container.innerHTML = `<div class="card"><h3>No direct routes found</h3>
-        <div class="muted">There are also no single-transfer options at this time.</div></div>`;
+        <div class="muted">There are also no single-transfer options at this time.</div>
+        ${renderDebug(all, debug, origin, dest)}
+      </div>`;
       return;
     }
     const totalETA = fmtETA(transfer.totalArrMin - nowMin);
@@ -424,6 +316,7 @@ function renderDirect(origin, dest, routeOpt){
           Depart <b>${transfer.via}</b> at <b>${transfer.leg2.dep}</b>, arrive <b>${dest}</b> at <b>${transfer.leg2.arr}</b> (ETA ${totalETA}).
         </li>
       </ol>
+      ${renderDebug(all, debug, origin, dest)}
     `;
     container.appendChild(card);
     return;
@@ -443,6 +336,7 @@ function renderDirect(origin, dest, routeOpt){
       ${recommended.arrMin >= 1440 ? `<div class="sub muted">* arrives after midnight</div>` : ''}
     </div>
     ${earlierArrival.length ? `<div class="note" style="margin-top:6px">Note: a later bus will arrive earlier than this one. See list below.</div>` : ''}
+    ${renderDebug(all, debug, origin, dest)}
   `;
   container.appendChild(rec);
 
@@ -462,8 +356,7 @@ function renderDirect(origin, dest, routeOpt){
     const willReach = o.valid;
     const etaDep = fmtETA((o.depMin ?? 1e9) - nowMin);
     const etaArr = willReach ? fmtETA((o.arrMin ?? 1e9) - nowMin) : '—';
-    const status = willReach ? `<span class="pill ok">will reach your destination</span>`
-                             : `<span class="pill no">will not</span>`;
+    const status = willReach ? `<span class="pill ok">will reach your destination</span>` : `<span class="pill no">will not</span>`;
     const note = (willReach && o.arrMin < recommended.arrMin) ? `this bus will also take you to your destination` : '';
     const arrAfterMidnight = willReach && o.arrMin >= 1440 ? `<div class="sub muted">* arrives after midnight</div>` : '';
     const tr = document.createElement('tr');
@@ -479,6 +372,30 @@ function renderDirect(origin, dest, routeOpt){
 
   tblCard.appendChild(table);
   document.getElementById('results').appendChild(tblCard);
+}
+
+function renderDebug(all, debug, origin, dest){
+  try {
+    const total = all.length;
+    const valid = all.filter(x=>x.valid).length;
+    const missingTimes = all.filter(x=>x.reason==="missing_time_for_stop").length;
+    const routesMissingStops = debug.filter(x=>x.reason==="route_missing_one_of_stops").length;
+    const details = [
+      `Runs considered: ${total}`,
+      `Valid direct runs: ${valid}`,
+      `Runs missing one/both times: ${missingTimes}`,
+      `Routes missing one of the stops: ${routesMissingStops}`
+    ].join(" • ");
+    const sample = all.slice(0,10).map(x => ({
+      route: x.route, run: x.run, dep: x.dep, arr: x.arr, valid: !!x.valid
+    }));
+    return `<details class="debug"><summary>Why am I not seeing some routes?</summary>
+      <div class="sub">${details}</div>
+      <pre class="mono">${JSON.stringify({origin, dest, sample}, null, 2)}</pre>
+    </details>`;
+  } catch(e){
+    return '';
+  }
 }
 
 async function init(){
