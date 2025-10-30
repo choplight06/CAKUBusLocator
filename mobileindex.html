@@ -374,7 +374,7 @@ function renderDirect(origin, dest, routeOpt){
   document.getElementById('results').appendChild(tblCard);
 }
 
-function renderDebug(all, debug, origin, dest){
+<!--function renderDebug(all, debug, origin, dest){
   try {
     const total = all.length;
     const valid = all.filter(x=>x.valid).length;
@@ -396,7 +396,7 @@ function renderDebug(all, debug, origin, dest){
   } catch(e){
     return '';
   }
-}
+} -->
 
 async function init(){
   document.getElementById('now').textContent = new Date().toLocaleString();
