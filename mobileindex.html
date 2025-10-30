@@ -6,84 +6,101 @@
   <title>CAKU Bus Finder</title>
   <style>
     :root {
-      --bg: #ffffff;
-      --fg: #111111;
-      --muted: #666666;
-      --border: #e6e6e6;
-      --ok-bg: #eaf8ef;
-      --ok-br: #bfe8cc;
-      --no-bg: #fbeeee;
-      --no-br: #f3c0c0;
-      --accent: #0f172a;
-      --card-shadow: 0 2px 8px rgba(0,0,0,.06);
+      --bg: #0b1020;
+      --surface: #0f172a;
+      --panel: #111a2e;
+      --panel-2: #0e1528;
+      --fg: #e6eefc;
+      --muted: #9fb0d0;
+      --border: #1e2a47;
+      --accent: #6ea8fe;
+      --accent-2: #60a5fa;
+      --ok-bg: #143126;
+      --ok-br: #2b6b47;
+      --no-bg: #351821;
+      --no-br: #7a2c40;
+      --shadow: 0 4px 24px rgba(0,0,0,.35);
       --radius: 16px;
-      --sp: 16px;
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      color-scheme: light dark;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color-scheme: dark;
     }
-    @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: light) {
       :root {
-        --bg: #0b0b0b;
-        --fg: #f1f5f9;
-        --muted: #a3a3a3;
-        --border: #262626;
-        --ok-bg: #0f2618;
-        --ok-br: #214731;
-        --no-bg: #2a1111;
-        --no-br: #5d2a2a;
-        --accent: #93c5fd;
-        --card-shadow: 0 1px 6px rgba(0,0,0,.4);
+        --bg: #f6f8ff;
+        --surface: #ffffff;
+        --panel: #ffffff;
+        --panel-2: #f9fbff;
+        --fg: #111827;
+        --muted: #64748b;
+        --border: #e5e7eb;
+        --accent: #2563eb;
+        --accent-2: #1d4ed8;
+        --ok-bg: #eaf8ef;
+        --ok-br: #bfe8cc;
+        --no-bg: #fbeeee;
+        --no-br: #f3c0c0;
+        --shadow: 0 6px 24px rgba(0,0,0,.08);
       }
     }
+
     html, body { height: 100%; }
     body {
       margin: 0;
-      background: var(--bg);
+      background: radial-gradient(1200px 800px at 10% -10%, rgba(96,165,250,.2), transparent 45%),
+                  radial-gradient(1200px 800px at 100% 0%, rgba(99,102,241,.18), transparent 40%),
+                  var(--bg);
       color: var(--fg);
-      padding-bottom: 72px; /* room for FAB */
     }
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 20px clamp(12px, 3vw, 28px);
-    }
-    h1, h2, h3 {
-      margin: .3em 0;
-      line-height: 1.2;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-    }
-    h1 { font-size: clamp(1.4rem, 2.5vw, 2rem); }
-    h2 { font-size: clamp(1.2rem, 2vw, 1.5rem); }
-    h3 { font-size: clamp(1.05rem, 1.8vw, 1.25rem); }
 
-    /* Cards */
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px clamp(12px, 3vw, 28px) 40px;
+    }
+
+    .hero {
+      border-radius: 24px;
+      padding: clamp(16px, 3.5vw, 28px);
+      margin: 16px 0 22px;
+      background:
+        linear-gradient(135deg, rgba(37,99,235,.14), rgba(99,102,241,.08)),
+        var(--panel);
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+    .hero h1 {
+      margin: 0 0 4px;
+      font-weight: 800;
+      letter-spacing: -.02em;
+      font-size: clamp(1.4rem, 3.4vw, 2rem);
+    }
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(.95rem, 2.2vw, 1.05rem);
+    }
+
     .card {
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: clamp(12px, 2vw, 18px);
-      box-shadow: var(--card-shadow);
-      background: var(--bg);
+      background: linear-gradient(180deg, var(--panel), var(--panel-2));
+      box-shadow: var(--shadow);
       margin-bottom: 16px;
     }
-
-    /* Sticky query bar */
     .sticky {
       position: sticky;
-      top: 0;
+      top: 10px;
       z-index: 50;
-      backdrop-filter: blur(6px);
-      background: color-mix(in srgb, var(--bg) 85%, transparent);
-      border: 1px solid var(--border);
+      backdrop-filter: saturate(120%) blur(6px);
     }
 
-    /* Form layout */
     .row {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 12px;
     }
-    @media (max-width: 700px) {
+    @media (max-width: 740px) {
       .row { grid-template-columns: 1fr; }
     }
     label {
@@ -98,23 +115,27 @@
       border: 1px solid var(--border);
       padding: 14px 14px;
       font-size: 1rem;
-      background: var(--bg);
+      background: var(--surface);
       color: var(--fg);
       -webkit-tap-highlight-color: transparent;
+      transition: box-shadow .15s ease, transform .06s ease, border-color .15s ease;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.02), 0 1px 0 rgba(0,0,0,.04);
     }
     select:focus, button:focus {
-      outline: 3px solid rgba(100, 149, 237, .4);
-      outline-offset: 2px;
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 35%, transparent);
     }
     button {
       border-color: var(--accent);
-      background: var(--accent);
+      background: linear-gradient(180deg, var(--accent), var(--accent-2));
       color: white;
-      font-weight: 600;
-      transition: transform .06s ease, opacity .2s ease;
+      font-weight: 700;
+      letter-spacing: .2px;
     }
-    button:active { transform: translateY(1px) scale(0.99); }
-    button:disabled { opacity: .5; cursor: not-allowed; }
+    button:hover { transform: translateY(-1px); }
+    button:active { transform: translateY(0); }
+    button:disabled { opacity: .6; cursor: not-allowed; }
 
     .grid-3 {
       display: grid;
@@ -122,9 +143,7 @@
       gap: 12px;
       align-items: end;
     }
-    @media (max-width: 700px) {
-      .grid-3 { grid-template-columns: 1fr; }
-    }
+    @media (max-width: 740px) { .grid-3 { grid-template-columns: 1fr; } }
 
     .pill {
       display: inline-block;
@@ -132,20 +151,19 @@
       border-radius: 999px;
       font-size: .8rem;
       border: 1px solid var(--border);
+      background: var(--surface);
     }
     .ok { background: var(--ok-bg); border-color: var(--ok-br); }
     .no { background: var(--no-bg); border-color: var(--no-br); }
     .muted { color: var(--muted); }
-    .sub { font-size: .9rem; color: var(--muted); }
+    .sub { font-size: .95rem; color: var(--muted); }
 
-    /* Table (desktop) */
     table { width: 100%; border-collapse: collapse; }
     th, td { border-top: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
-    thead th { position: sticky; top: 0; background: var(--bg); }
+    thead th { position: sticky; top: 0; background: var(--panel-2); }
     .scroll-x { overflow-x: auto; }
 
-    /* Table -> Cards (mobile) */
-    @media (max-width: 700px) {
+    @media (max-width: 740px) {
       .table-as-cards table, .table-as-cards thead, .table-as-cards tbody, .table-as-cards th, .table-as-cards td, .table-as-cards tr {
         display: block;
         width: 100%;
@@ -156,6 +174,7 @@
         border-radius: 12px;
         padding: 10px;
         margin-bottom: 10px;
+        background: var(--surface);
       }
       .table-as-cards td {
         border: 0;
@@ -163,37 +182,29 @@
       }
       .table-as-cards td::before {
         content: attr(data-label);
-        font-weight: 600;
+        font-weight: 700;
         display: block;
         color: var(--muted);
         margin-bottom: 2px;
       }
     }
 
-    /* Floating action button */
-    .fab {
-      position: fixed;
-      right: 16px;
-      bottom: 16px;
-      z-index: 60;
-      border-radius: 999px;
-      padding: 14px 18px;
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      box-shadow: var(--card-shadow);
-      font-size: 1rem;
+    footer {
+      margin-top: 28px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      text-align: center;
+      font-size: .95rem;
     }
-    .fab:active { transform: translateY(1px) scale(0.98); }
-
-    /* Safe-area on iOS */
-    .fab { bottom: max(16px, env(safe-area-inset-bottom)); right: max(16px, env(safe-area-inset-right)); }
-    .container { padding-bottom: calc(20px + env(safe-area-inset-bottom)); }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Find Your Next Bus in Camp Arifjan, Kuwait!</h1>
+    <div class="hero">
+      <h1>Find Your Next Bus in Camp Arifjan, Kuwait!</h1>
+      <p>Pick your current stop and destination. We’ll show the best direct ride (and a transfer if needed).</p>
+    </div>
 
     <div id="queryCard" class="card sticky">
       <div class="row">
@@ -222,14 +233,13 @@
     </div>
 
     <div id="results"></div>
-  </div>
 
-  <button class="fab" id="toTopBtn" title="Change stops">Change stops ↑</button>
+    <footer>© 2025 Chloe Hoplight</footer>
+  </div>
 
 <script>
 const STATE = { data: null, stops: [], routes: [] };
 
-/* === UI Canonicalization to de-dup stops === */
 function canonStop(raw){
   if (!raw) return raw;
   let s = String(raw).trim();
@@ -264,7 +274,6 @@ function canonStop(raw){
   return canon;
 }
 
-/* === Time helpers === */
 function pad(n){ return String(n).padStart(2,'0'); }
 function toMinutes(hhmm){ const [h,m] = hhmm.split(':').map(x=>parseInt(x,10)); return h*60+m; }
 function fmtETA(minDiff){
@@ -284,7 +293,6 @@ function projectAfter(baseMin, clockHHMM){
   let t = toMinutes(clockHHMM); while (t < baseMin) t += 1440; return t;
 }
 
-/* === Stops & selectors === */
 function uniqueStops(data){
   const set = new Set();
   data.routes.forEach(r => r.stops.forEach(st => set.add(canonStop(st))));
@@ -301,7 +309,6 @@ function populateSelectors(){
   routeFilter.innerHTML = `<option value="">All routes</option>` + routes.map(r=>`<option>${r}</option>`).join('');
 }
 
-/* === Mapping & searches === */
 function mapRunTimesByStop(run){
   const m = new Map();
   run.times.forEach(t => m.set(canonStop(t.stop), t.time));
@@ -317,7 +324,7 @@ function findDirectRuns(origin, dest, routeNameOpt){
     const idxMap = new Map(stopsCanon.map((s,i)=>[s,i]));
     if (!idxMap.has(origin) || !idxMap.has(dest)) return;
     const iO = idxMap.get(origin), iD = idxMap.get(dest);
-    if (iD <= iO) return; // direct only
+    if (iD <= iO) return;
     route.runs.forEach(run => {
       const timeMap = mapRunTimesByStop(run);
       const tO = timeMap.get(origin);
@@ -388,7 +395,6 @@ function findBestTransfer(origin, dest){
   return best;
 }
 
-/* === Rendering === */
 function renderDirect(origin, dest, routeOpt){
   const {recommended, others, nowMin} = findDirectRuns(origin, dest, routeOpt);
   const container = document.getElementById('results');
@@ -475,7 +481,6 @@ function renderDirect(origin, dest, routeOpt){
   document.getElementById('results').appendChild(tblCard);
 }
 
-/* === Init === */
 async function init(){
   document.getElementById('now').textContent = new Date().toLocaleString();
   const res = await fetch('schedule.json');
@@ -487,14 +492,11 @@ async function init(){
   const destination = document.getElementById('destination');
   const routeFilter = document.getElementById('routeFilter');
   const btn = document.getElementById('findBtn');
-  const toTop = document.getElementById('toTopBtn');
-  const queryCard = document.getElementById('queryCard');
 
   function validate(){ btn.disabled = !(origin.value && destination.value && origin.value !== destination.value); }
   origin.addEventListener('change', validate);
   destination.addEventListener('change', validate);
   btn.addEventListener('click', () => { renderDirect(origin.value, destination.value, routeFilter.value || null); });
-  toTop.addEventListener('click', () => { queryCard.scrollIntoView({behavior: 'smooth', block: 'start'}); });
 }
 
 init();
