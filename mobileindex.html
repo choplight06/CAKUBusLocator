@@ -374,7 +374,7 @@ function renderDirect(origin, dest, routeOpt){
   document.getElementById('results').appendChild(tblCard);
 }
 
-<!--function renderDebug(all, debug, origin, dest){
+function renderDebug(all, debug, origin, dest){
   try {
     const total = all.length;
     const valid = all.filter(x=>x.valid).length;
@@ -389,14 +389,14 @@ function renderDirect(origin, dest, routeOpt){
     const sample = all.slice(0,10).map(x => ({
       route: x.route, run: x.run, dep: x.dep, arr: x.arr, valid: !!x.valid
     }));
-    return `<details class="debug"><summary>Why am I not seeing some routes?</summary>
+    <!--return `<details class="debug"><summary>Why am I not seeing some routes?</summary>
       <div class="sub">${details}</div>
       <pre class="mono">${JSON.stringify({origin, dest, sample}, null, 2)}</pre>
-    </details>`;
+    </details>`;-->
   } catch(e){
     return '';
   }
-} -->
+} 
 
 async function init(){
   document.getElementById('now').textContent = new Date().toLocaleString();
