@@ -388,7 +388,13 @@ function renderDirect(origin, dest, routeOpt){
 
 async function init(){
   document.getElementById('now').textContent = new Date().toLocaleString();
-  const res = await fetch('schedule_with_pickup_dropoff.json');
+ // replace your existing fetch(...) line with this:
+const jsonUrl = new URL('schedule_with_pickup_dropoff.json?v=3', location.href).toString();
+console.log('Loading schedule from:', jsonUrl);
+const res = await fetch(jsonUrl, { cache: 'no-store' });
+if (!res.ok) throw new Error(`Failed to fetch ${jsonUrl} → ${res.status}`);
+STATE.data = await res.json();
+
   STATE.data = await res.json();
   STATE.stops = uniqueStops(STATE.data);
   populateSelectors();
