@@ -388,12 +388,21 @@ function renderDirect(origin, dest, routeOpt){
 
 async function init(){
   document.getElementById('now').textContent = new Date().toLocaleString();
- // replace your existing fetch(...) line with this:
-const jsonUrl = new URL('schedule_with_pickup_dropoff.json?v=3', location.href).toString();
+// robust fetch with logging + JSON shape normalization
+const jsonUrl = new URL('schedule_with_pickup_dropoff.json?v=5', location.href).toString();
 console.log('Loading schedule from:', jsonUrl);
 const res = await fetch(jsonUrl, { cache: 'no-store' });
 if (!res.ok) throw new Error(`Failed to fetch ${jsonUrl} → ${res.status}`);
-STATE.data = await res.json();
+const json = await res.json();
+
+// <— normalize: support either array-of-routes OR { routes: [...] }
+STATE.data = Array.isArray(json) ? json : (json.routes || json);
+
+// optional: warn if we didn't find routes
+if (!Array.isArray(STATE.data)) {
+  throw new Error('Unexpected schedule shape: expected an array or {routes:[...]}. Got keys: ' + Object.keys(json).join(', '));
+}
+
 
   STATE.data = await res.json();
   STATE.stops = uniqueStops(STATE.data);
