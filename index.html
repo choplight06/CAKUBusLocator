@@ -90,8 +90,6 @@
       .table-as-cards td::before { content: attr(data-label); font-weight: 700; display: block; color: var(--muted); margin-bottom: 2px; }
     }
     footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); text-align: center; font-size: .95rem; }
-    details.debug { margin-top: 10px; }
-    details.debug summary { cursor: pointer; font-weight: 600; color: var(--accent); }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: .9rem; }
   </style>
 </head>
@@ -374,14 +372,7 @@ function renderDirect(origin, dest, routeOpt){
   document.getElementById('results').appendChild(tblCard);
 }
 
-function renderDebug(all, debug, origin, dest){
-  try {
-    const total = all.length;
-    const valid = all.filter(x=>x.valid).length;
-    const missingTimes = all.filter(x=>x.reason==="missing_time_for_stop").length;
-    const routesMissingStops = debug.filter(x=>x.reason==="route_missing_one_of_stops").length;
-    const details = [
-      `Runs considered: ${total}`,
+`,
       `Valid direct runs: ${valid}`,
       `Runs missing one/both times: ${missingTimes}`,
       `Routes missing one of the stops: ${routesMissingStops}`
@@ -389,10 +380,7 @@ function renderDebug(all, debug, origin, dest){
     const sample = all.slice(0,10).map(x => ({
       route: x.route, run: x.run, dep: x.dep, arr: x.arr, valid: !!x.valid
     }));
-    return `<details class="debug"><summary>Why am I not seeing some routes?</summary>
-      <div class="sub">${details}</div>
-      <pre class="mono">${JSON.stringify({origin, dest, sample}, null, 2)}</pre>
-    </details>`;
+    return ``;
   } catch(e){
     return '';
   }
@@ -400,7 +388,78 @@ function renderDebug(all, debug, origin, dest){
 
 async function init(){
   document.getElementById('now').textContent = new Date().toLocaleString();
-  const res = await fetch('schedule.json');
+// robust fetch + normalization for both old and new JSON shapes
+const jsonUrl = new URL('schedule_with_pickup_dropoff.json?v=7', location.href).toString();
+console.log('Loading schedule from:', jsonUrl);
+const res = await fetch(jsonUrl, { cache: 'no-store' });
+if (!res.ok) throw new Error(`Failed to fetch ${jsonUrl} → ${res.status}`);
+const raw = await res.json();
+
+// Accept either array-of-routes OR { routes: [...] }
+const rawRoutes = Array.isArray(raw) ? raw : (raw && Array.isArray(raw.routes) ? raw.routes : []);
+if (!rawRoutes.length) throw new Error('No routes found in JSON (expected array or {routes:[...]})');
+
+// Normalize to { label, stops[], departures[][{tripId, times[][{stop,time}]}] }
+function inferStopsFromDepartures(deps) {
+  const s = new Set();
+  (deps || []).forEach(trip => (trip?.times || trip?.stops || []).forEach(t => {
+    const stopName = t.stop || t.name;
+    if (stopName) s.add(stopName);
+  }));
+  return [...s];
+}
+
+const routes = rawRoutes.map((r, idx) => {
+  const label = r.label || r.name || r.route || r.routeId || `Route ${idx+1}`;
+  const departures = (r.departures || r.trips || r.runs || []).map((trip, i) => {
+    const timesSrc = trip?.times || trip?.stops || [];
+    const times = timesSrc
+      .map(t => ({ stop: t.stop || t.name, time: t.time || t.departure || t.arrival }))
+      .filter(t => t.stop && t.time);
+    return {
+      tripId: trip.tripId || trip.id || (i+1),
+      times
+    };
+  }).filter(trip => trip.times && trip.times.length);
+
+  const stops = Array.isArray(r.stops) && r.stops.length
+    ? r.stops
+    : inferStopsFromDepartures(departures);
+
+  return { label, stops, departures, is24Hour: !!r.is24Hour, serviceWindow: r.serviceWindow || null };
+}).filter(r => r.stops.length && r.departures.length);
+
+if (!routes.length) throw new Error('Routes normalized, but none have both stops and departures.');
+
+// Assign to STATE using the normalized shape
+STATE.data = routes;
+
+// Compute stops robustly from either r.stops or r.departures[*].times
+STATE.stops = (function uniqueStops(routes){
+  const set = new Set();
+  routes.forEach(r => {
+    (r.stops || []).forEach(s => s && set.add(s));
+    (r.departures || []).forEach(trip => (trip.times || []).forEach(t => t.stop && set.add(t.stop)));
+  });
+  return [...set].sort((a,b)=>a.localeCompare(b));
+})(STATE.data);
+
+// (optional) tiny banner so you can see it worked; delete later
+document.body.insertAdjacentHTML('beforeend',
+  `<div style="position:fixed;bottom:8px;left:8px;padding:.5rem .75rem;border-radius:6px;background:#0f172a;color:#e6eefc;font:12px/1.2 ui-sans-serif;z-index:9999">
+     Loaded <code>${routes.length}</code> routes · <code>${STATE.stops.length}</code> unique stops
+   </div>`);
+
+
+// <— normalize: support either array-of-routes OR { routes: [...] }
+STATE.data = Array.isArray(json) ? json : (json.routes || json);
+
+// optional: warn if we didn't find routes
+if (!Array.isArray(STATE.data)) {
+  throw new Error('Unexpected schedule shape: expected an array or {routes:[...]}. Got keys: ' + Object.keys(json).join(', '));
+}
+
+
   STATE.data = await res.json();
   STATE.stops = uniqueStops(STATE.data);
   populateSelectors();
