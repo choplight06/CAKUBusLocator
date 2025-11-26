@@ -132,336 +132,253 @@
   </div>
 
 <script>
-const STATE = { data: null, stops: [], routes: [] };
-const ACRONYMS = ["BLDG","DFAC","MP","HHC","TMC","PBO","AWRDS","CFCC","ECP"];
+const STATE = {
+  routes: [],
+  stops: []
+};
 
-function canonStop(raw){
-  if (!raw) return raw;
-  let s = String(raw).trim();
-  const low = s.toLowerCase().replace(/\s+/g,' ').trim();
-  const map = new Map([
-    ["class vii yard","Class VII"],
-    ["class vii","Class VII"],
-    ["wash rack","Washrack"],
-    ["washrack","Washrack"],
-    ["zone 6 dfac","DFAC 6"],
-    ["zone 6 dfac, dfac 6","DFAC 6"],
-    ["dfac 6","DFAC 6"],
-    ["paint shop","Paint Shop"],
-    ["paintshop","Paint Shop"],
-    ["zone 2 dfac","DFAC 2"],
-    ["dfac 2","DFAC 2"],
-  ]);
-  if (map.has(low)) return map.get(low);
-  const m1 = low.match(/^zone\s+(\d+)\s+dfac$/);
-  if (m1) return `DFAC ${m1[1]}`;
-  const m2 = low.match(/^dfac\s*([0-9]+)$/);
-  if (m2) return `DFAC ${m2[1]}`;
-  const tokens = s.split(/\s+/).map(t => {
-    const upper = t.toUpperCase();
-    if (ACRONYMS.includes(upper)) return upper;
-    if (upper==="VII") return "VII";
-    return t.charAt(0).toUpperCase()+t.slice(1).toLowerCase();
-  });
-  let canon = tokens.join(" ");
-  if (canon.toUpperCase()==="WASHRACK") canon = "Washrack";
-  if (canon.toUpperCase()==="CLASS VII") canon = "Class VII";
-  return canon;
+function canonStop(name) {
+  return (name || '').trim().toUpperCase();
 }
 
-function pad(n){ return String(n).padStart(2,'0'); }
-function toMinutes(hhmm){ const [h,m] = hhmm.split(':').map(x=>parseInt(x,10)); return h*60+m; }
-function fmtETA(minDiff){
-  if (minDiff < 0) return "departed";
-  const h = Math.floor(minDiff/60); const m = minDiff%60;
-  return h===0 ? `${m} min` : `${h} hr ${m} min`;
-}
-function localNowHHMM(){ const d = new Date(); return pad(d.getHours())+":"+pad(d.getMinutes()); }
-function projectAfter(baseMin, clockHHMM){
-  let t = toMinutes(clockHHMM); while (t < baseMin) t += 1440; return t;
+function toMinutes(hhmm) {
+  const [h, m] = String(hhmm).split(':').map(Number);
+  return (Number.isFinite(h) && Number.isFinite(m)) ? h * 60 + m : NaN;
 }
 
-function uniqueStops(data){
-  const set = new Set();
-  data.routes.forEach(r => r.stops.forEach(st => set.add(canonStop(st))));
-  return Array.from(set).sort((a,b)=>a.localeCompare(b));
-}
-function populateSelectors(){
-  const origin = document.getElementById('origin');
-  const destination = document.getElementById('destination');
-  const routeFilter = document.getElementById('routeFilter');
-  const stops = STATE.stops;
-  origin.innerHTML = `<option value="">Select stop…</option>` + stops.map(s=>`<option>${s}</option>`).join('');
-  destination.innerHTML = `<option value="">Select stop…</option>` + stops.map(s=>`<option>${s}</option>`).join('');
-  const routes = STATE.data.routes.map(r=>r.route_name);
-  routeFilter.innerHTML = `<option value="">All routes</option>` + routes.map(r=>`<option>${r}</option>`).join('');
-}
-
-function mapRunTimesByStop(run){
-  const m = new Map();
-  run.times.forEach(t => m.set(canonStop(t.stop), t.time));
+function projectAfter(refMin, hhmm) {
+  let m = toMinutes(hhmm);
+  if (!Number.isFinite(m)) return NaN;
+  while (m < refMin) m += 1440; // roll over to next day if needed
   return m;
 }
 
-function findDirectRuns(origin, dest, routeNameOpt){
-  const nowMin = toMinutes(localNowHHMM());
-  const all = [];
-  const debug = [];
-  STATE.data.routes.forEach(route => {
-    if (routeNameOpt && route.route_name !== routeNameOpt) return;
-    const stopsCanon = route.stops.map(canonStop);
-    if (!stopsCanon.includes(origin) || !stopsCanon.includes(dest)) {
-      debug.push({route: route.route_name, reason: "route_missing_one_of_stops"});
-      return;
-    }
-    route.runs.forEach(run => {
-      const timeMap = mapRunTimesByStop(run);
-      const tO = timeMap.get(origin);
-      const tD = timeMap.get(dest);
-      if (!tO || !tD) {
-        all.push({route: route.route_name, run: run.bus_id, dep: tO||null, arr: tD||null, valid:false, reason: "missing_time_for_stop"});
-        return;
-      }
-      let depMin = projectAfter(nowMin, tO);
-      let arrMin = projectAfter(depMin, tD);
-      if (arrMin <= depMin) arrMin += 1440;
-      const valid = arrMin > depMin;
-      all.push({ route: route.route_name, run: run.bus_id, dep: tO, arr: tD, depMin, arrMin, valid });
-    });
-  });
-  const candidates = all.filter(x=>x.valid);
-  candidates.sort((a,b)=> a.arrMin - b.arrMin || a.depMin - b.depMin);
-  const recommended = candidates[0] || null;
-  const others = all
-    .filter(x=>x.dep && ( !recommended || x.run !== recommended.run || x.route !== recommended.route))
-    .sort((a,b)=> (a.depMin || 1e9) - (b.depMin || 1e9));
-  return {recommended, others, nowMin, all, debug};
+function localNowHHMM() {
+  const d = new Date();
+  const hh = String(d.getHours()).padStart(2, '0');
+  const mm = String(d.getMinutes()).padStart(2, '0');
+  return `${hh}:${mm}`;
 }
 
-function findBestTransfer(origin, dest){
-  const nowMin = toMinutes(localNowHHMM());
-  let best = null;
-  const routeIdx = STATE.data.routes.map(r => ({
-    route: r,
-    stopsCanon: r.stops.map(canonStop),
-  }));
-  const allStops = new Set();
-  routeIdx.forEach(({stopsCanon}) => stopsCanon.forEach(s => allStops.add(s)));
-  const stopsList = Array.from(allStops).filter(s => s !== origin && s !== dest);
+function fmtETA(deltaMin) {
+  if (!Number.isFinite(deltaMin) || deltaMin < 0) return '';
+  const h = Math.floor(deltaMin / 60);
+  const m = deltaMin % 60;
+  if (h && m) return `${h}h ${m}m`;
+  if (h) return `${h}h`;
+  return `${m} min`;
+}
 
-  function bestLeg(originStop, endStop, notBeforeMin){
-    let bestLeg = null;
-    routeIdx.forEach(({route, stopsCanon})=>{
-      if (!stopsCanon.includes(originStop) || !stopsCanon.includes(endStop)) return;
-      route.runs.forEach(run => {
-        const times = mapRunTimesByStop(run);
-        const tO = times.get(originStop);
-        const tE = times.get(endStop);
-        if (!tO || !tE) return;
-        let depMin = projectAfter(notBeforeMin, tO);
-        let arrMin = projectAfter(depMin, tE);
-        if (arrMin <= depMin) arrMin += 1440;
-        const leg = { route: route.route_name, run: run.bus_id, dep: tO, arr: tE, depMin, arrMin };
-        if (!bestLeg || leg.arrMin < bestLeg.arrMin || (leg.arrMin === bestLeg.arrMin && leg.depMin < bestLeg.depMin)){
-          bestLeg = leg;
+function buildStateFromJson(json) {
+  // Accept either { routes:[...] } or plain array
+  const rawRoutes = Array.isArray(json.routes) ? json.routes :
+                    (Array.isArray(json) ? json : []);
+  if (!rawRoutes.length) {
+    throw new Error('Unexpected schedule shape: no routes array found.');
+  }
+
+  const routes = rawRoutes.map((r, idx) => {
+    const label = r.label || r.name || r.routeId || `Route ${idx + 1}`;
+
+    const departures = (r.departures || []).map((dep, i) => ({
+      tripId: dep.tripId ?? dep.id ?? (i + 1),
+      times: (dep.times || []).map(t => ({
+        stop: t.stop,
+        time: t.time,
+        pickup: t.pickup !== false,
+        dropoff: t.dropoff !== false
+      })).filter(t => t.stop && t.time)
+    })).filter(dep => dep.times.length);
+
+    const stopSet = new Set();
+    (r.stops || []).forEach(s => s && stopSet.add(s));
+    departures.forEach(dep => dep.times.forEach(t => stopSet.add(t.stop)));
+
+    const stops = Array.from(stopSet);
+
+    return { label, stops, departures, is24Hour: !!r.is24Hour };
+  }).filter(r => r.stops.length && r.departures.length);
+
+  if (!routes.length) {
+    throw new Error('Routes normalized, but none had both stops and departures.');
+  }
+
+  const allStops = new Set();
+  routes.forEach(r => r.stops.forEach(s => allStops.add(s)));
+
+  STATE.routes = routes;
+  STATE.stops = Array.from(allStops).sort((a, b) => a.localeCompare(b));
+}
+
+function populateSelectors() {
+  const origin = document.getElementById('origin');
+  const destination = document.getElementById('destination');
+  const routeFilter = document.getElementById('routeFilter');
+
+  const stopOptions = STATE.stops.map(s => `<option>${s}</option>`).join('');
+
+  origin.innerHTML =
+    `<option value="">Select stop…</option>` + stopOptions;
+  destination.innerHTML =
+    `<option value="">Select stop…</option>` + stopOptions;
+
+  const routeOptions = STATE.routes
+    .map(r => `<option>${r.label}</option>`)
+    .join('');
+
+  routeFilter.innerHTML =
+    `<option value="">All routes</option>` + routeOptions;
+}
+
+function findDirectTrips(originName, destName, routeLabelOpt) {
+  const originCanon = canonStop(originName);
+  const destCanon = canonStop(destName);
+  const nowHHMM = localNowHHMM();
+  const nowMin = toMinutes(nowHHMM);
+
+  const trips = [];
+
+  STATE.routes.forEach(route => {
+    if (routeLabelOpt && route.label !== routeLabelOpt) return;
+
+    const hasOrigin = route.stops.some(s => canonStop(s) === originCanon);
+    const hasDest = route.stops.some(s => canonStop(s) === destCanon);
+    if (!hasOrigin || !hasDest) return;
+
+    route.departures.forEach(dep => {
+      let depTimeStr = null;
+      let arrTimeStr = null;
+
+      for (const t of dep.times) {
+        const cs = canonStop(t.stop);
+
+        if (!depTimeStr && cs === originCanon && t.pickup) {
+          depTimeStr = t.time;
         }
+
+        // Only allow arrival after we have a departure
+        if (depTimeStr && cs === destCanon && t.dropoff) {
+          arrTimeStr = t.time;
+          break;
+        }
+      }
+
+      if (!depTimeStr || !arrTimeStr) return;
+
+      const depMin = projectAfter(nowMin, depTimeStr);
+      let arrMin = projectAfter(depMin, arrTimeStr);
+      if (!Number.isFinite(depMin) || !Number.isFinite(arrMin)) return;
+      if (arrMin <= depMin) arrMin += 1440;
+
+      trips.push({
+        route: route.label,
+        tripId: dep.tripId,
+        depTimeStr,
+        arrTimeStr,
+        depMin,
+        arrMin
       });
     });
-    return bestLeg;
-  }
+  });
 
-  for (const via of stopsList){
-    const leg1 = bestLeg(origin, via, nowMin);
-    if (!leg1) continue;
-    const leg2 = bestLeg(via, dest, leg1.arrMin);
-    if (!leg2) continue;
-    const totalArrMin = leg2.arrMin;
-    if (!best || totalArrMin < best.totalArrMin){
-      best = { via, leg1, leg2, totalArrMin };
-    }
-  }
-  return best;
+  // Sort by departure time after "now"
+  trips.sort((a, b) => a.depMin - b.depMin);
+
+  const upcoming = trips.filter(t => t.depMin >= nowMin);
+  const recommended = upcoming[0] || null;
+  const others = upcoming.slice(1, 5); // show up to 5 more
+
+  return { recommended, others, nowMin };
 }
 
-function renderDirect(origin, dest, routeOpt){
-  const {recommended, others, nowMin, all, debug} = findDirectRuns(origin, dest, routeOpt);
+function renderResults(origin, dest, routeLabelOpt) {
+  const { recommended, others, nowMin } = findDirectTrips(origin, dest, routeLabelOpt);
   const container = document.getElementById('results');
   container.innerHTML = '';
 
-  if (!recommended){
-    const transfer = findBestTransfer(origin, dest);
-    if (!transfer){
-      container.innerHTML = `<div class="card"><h3>No direct routes found</h3>
-        <div class="muted">There are also no single-transfer options at this time.</div>
-        ${renderDebug(all, debug, origin, dest)}
+  if (!recommended) {
+    container.innerHTML = `
+      <div class="card">
+        <h3>No direct buses found</h3>
+        <div class="muted">
+          There are no direct buses from <strong>${origin}</strong>
+          to <strong>${dest}</strong> in the current schedule window.
+          Try a different route filter or another time of day.
+        </div>
       </div>`;
-      return;
-    }
-    const totalETA = fmtETA(transfer.totalArrMin - nowMin);
-    const leg1Wait = fmtETA(transfer.leg1.depMin - nowMin);
-    const leg2Wait = fmtETA(transfer.leg2.depMin - transfer.leg1.arrMin);
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.innerHTML = `
-      <h3>No direct routes available</h3>
-      <div>However, you can <b>opt for a transfer</b> at <b>${transfer.via}</b>:</div>
-      <ol>
-        <li>Leg 1 — <span class="pill">${transfer.leg1.route}</span> <span class="pill">${transfer.leg1.run}</span><br/>
-          Depart <b>${origin}</b> at <b>${transfer.leg1.dep}</b> (in ${leg1Wait}), arrive <b>${transfer.via}</b> at <b>${transfer.leg1.arr}</b>.
-        </li>
-        <li>Transfer wait at <b>${transfer.via}</b>: ${leg2Wait}</li>
-        <li>Leg 2 — <span class="pill">${transfer.leg2.route}</span> <span class="pill">${transfer.leg2.run}</span><br/>
-          Depart <b>${transfer.via}</b> at <b>${transfer.leg2.dep}</b>, arrive <b>${dest}</b> at <b>${transfer.leg2.arr}</b> (ETA ${totalETA}).
-        </li>
-      </ol>
-      ${renderDebug(all, debug, origin, dest)}
-    `;
-    container.appendChild(card);
     return;
   }
 
-  const earlierArrival = others.filter(o => o.valid && typeof o.arrMin==='number' && o.arrMin < recommended.arrMin);
+  const wait = recommended.depMin - nowMin;
+  const ride = recommended.arrMin - recommended.depMin;
 
-  const rec = document.createElement('div');
-  rec.className = 'card';
-  const depIn = fmtETA(recommended.depMin - nowMin);
-  const arrIn = fmtETA(recommended.arrMin - nowMin);
-  rec.innerHTML = `
-    <h3>Next bus to get you there</h3>
-    <div><span class="pill">${recommended.route}</span> <span class="pill">${recommended.run}</span></div>
-    <div class="sub" style="margin-top:8px">
-      Departs <b>${origin}</b> at <b>${recommended.dep}</b> (in ${depIn}), arrives <b>${dest}</b> at <b>${recommended.arr}</b> (ETA ${arrIn}).
-      ${recommended.arrMin >= 1440 ? `<div class="sub muted">* arrives after midnight</div>` : ''}
+  const recommendedHtml = `
+    <div class="card">
+      <h3>Next direct bus</h3>
+      <p>
+        <strong>${origin}</strong> → <strong>${dest}</strong><br/>
+        Route: <strong>${recommended.route}</strong>
+      </p>
+      <p>
+        Departs at <strong>${recommended.depTimeStr}</strong>
+        (in ${fmtETA(wait)}), arrives around
+        <strong>${recommended.arrTimeStr}</strong>
+        (ride ~${fmtETA(ride)}).
+      </p>
     </div>
-    ${earlierArrival.length ? `<div class="note" style="margin-top:6px">Note: a later bus will arrive earlier than this one. See list below.</div>` : ''}
-    ${renderDebug(all, debug, origin, dest)}
   `;
-  container.appendChild(rec);
 
-  const tblCard = document.createElement('div');
-  tblCard.className = 'card scroll-x table-as-cards';
-  tblCard.innerHTML = `<h3>Other upcoming buses from ${origin}</h3>`;
-  const table = document.createElement('table');
-  table.innerHTML = `
-    <thead>
-      <tr><th>Route / Run</th><th>Departs</th><th>Arrives at ${dest}</th><th>Status</th><th>Notes</th></tr>
-    </thead>
-    <tbody></tbody>
-  `;
-  const tbody = table.querySelector('tbody');
-
-  others.forEach(o => {
-    const willReach = o.valid;
-    const etaDep = fmtETA((o.depMin ?? 1e9) - nowMin);
-    const etaArr = willReach ? fmtETA((o.arrMin ?? 1e9) - nowMin) : '—';
-    const status = willReach ? `<span class="pill ok">will reach your destination</span>` : `<span class="pill no">will not</span>`;
-    const note = (willReach && o.arrMin < recommended.arrMin) ? `this bus will also take you to your destination` : '';
-    const arrAfterMidnight = willReach && o.arrMin >= 1440 ? `<div class="sub muted">* arrives after midnight</div>` : '';
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td data-label="Route / Run"><div><b>${o.route}</b></div><div class="sub">${o.run}</div></td>
-      <td data-label="Departs">${o.dep} <div class="sub muted">(${etaDep})</div></td>
-      <td data-label="Arrives">${willReach ? o.arr : '—'} ${willReach ? `<div class="sub muted">(ETA ${etaArr})</div>` : ''} ${arrAfterMidnight}</td>
-      <td data-label="Status">${status}</td>
-      <td data-label="Notes">${note}</td>
+  let othersHtml = '';
+  if (others.length) {
+    othersHtml = `
+      <div class="card">
+        <h3>More upcoming direct buses</h3>
+        <ul>
+          ${others.map(t =>
+            `<li>${t.route}: ${t.depTimeStr} → ${t.arrTimeStr}</li>`
+          ).join('')}
+        </ul>
+      </div>
     `;
-    tbody.appendChild(tr);
-  });
-
-  tblCard.appendChild(table);
-  document.getElementById('results').appendChild(tblCard);
-}
-
-`,
-      `Valid direct runs: ${valid}`,
-      `Runs missing one/both times: ${missingTimes}`,
-      `Routes missing one of the stops: ${routesMissingStops}`
-    ].join(" • ");
-    const sample = all.slice(0,10).map(x => ({
-      route: x.route, run: x.run, dep: x.dep, arr: x.arr, valid: !!x.valid
-    }));
-    return ``;
-  } catch(e){
-    return '';
   }
-} 
 
-async function init(){
+  container.innerHTML = recommendedHtml + othersHtml;
+}
+
+async function init() {
   document.getElementById('now').textContent = new Date().toLocaleString();
-// robust fetch + normalization for both old and new JSON shapes
-const jsonUrl = new URL('schedule_with_pickup_dropoff.json?v=7', location.href).toString();
-console.log('Loading schedule from:', jsonUrl);
-const res = await fetch(jsonUrl, { cache: 'no-store' });
-if (!res.ok) throw new Error(`Failed to fetch ${jsonUrl} → ${res.status}`);
-const raw = await res.json();
 
-// Accept either array-of-routes OR { routes: [...] }
-const rawRoutes = Array.isArray(raw) ? raw : (raw && Array.isArray(raw.routes) ? raw.routes : []);
-if (!rawRoutes.length) throw new Error('No routes found in JSON (expected array or {routes:[...]})');
+  let json;
+  try {
+    const res = await fetch('schedule_with_pickup_dropoff.json?v=1', {
+      cache: 'no-store'
+    });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}`);
+    }
+    json = await res.json();
+  } catch (e) {
+    console.error('Failed to load schedule JSON', e);
+    document.getElementById('results').innerHTML = `
+      <div class="card">
+        <h3>Could not load schedule</h3>
+        <div class="muted">Check that <code>schedule_with_pickup_dropoff.json</code> is in the same folder as <code>index.html</code> on GitHub.</div>
+      </div>`;
+    return;
+  }
 
-// Normalize to { label, stops[], departures[][{tripId, times[][{stop,time}]}] }
-function inferStopsFromDepartures(deps) {
-  const s = new Set();
-  (deps || []).forEach(trip => (trip?.times || trip?.stops || []).forEach(t => {
-    const stopName = t.stop || t.name;
-    if (stopName) s.add(stopName);
-  }));
-  return [...s];
-}
+  try {
+    buildStateFromJson(json);
+  } catch (e) {
+    console.error('Failed to interpret schedule JSON', e);
+    document.getElementById('results').innerHTML = `
+      <div class="card">
+        <h3>Schedule format error</h3>
+        <div class="muted">${e.message}</div>
+      </div>`;
+    return;
+  }
 
-const routes = rawRoutes.map((r, idx) => {
-  const label = r.label || r.name || r.route || r.routeId || `Route ${idx+1}`;
-  const departures = (r.departures || r.trips || r.runs || []).map((trip, i) => {
-    const timesSrc = trip?.times || trip?.stops || [];
-    const times = timesSrc
-      .map(t => ({ stop: t.stop || t.name, time: t.time || t.departure || t.arrival }))
-      .filter(t => t.stop && t.time);
-    return {
-      tripId: trip.tripId || trip.id || (i+1),
-      times
-    };
-  }).filter(trip => trip.times && trip.times.length);
-
-  const stops = Array.isArray(r.stops) && r.stops.length
-    ? r.stops
-    : inferStopsFromDepartures(departures);
-
-  return { label, stops, departures, is24Hour: !!r.is24Hour, serviceWindow: r.serviceWindow || null };
-}).filter(r => r.stops.length && r.departures.length);
-
-if (!routes.length) throw new Error('Routes normalized, but none have both stops and departures.');
-
-// Assign to STATE using the normalized shape
-STATE.data = routes;
-
-// Compute stops robustly from either r.stops or r.departures[*].times
-STATE.stops = (function uniqueStops(routes){
-  const set = new Set();
-  routes.forEach(r => {
-    (r.stops || []).forEach(s => s && set.add(s));
-    (r.departures || []).forEach(trip => (trip.times || []).forEach(t => t.stop && set.add(t.stop)));
-  });
-  return [...set].sort((a,b)=>a.localeCompare(b));
-})(STATE.data);
-
-// (optional) tiny banner so you can see it worked; delete later
-document.body.insertAdjacentHTML('beforeend',
-  `<div style="position:fixed;bottom:8px;left:8px;padding:.5rem .75rem;border-radius:6px;background:#0f172a;color:#e6eefc;font:12px/1.2 ui-sans-serif;z-index:9999">
-     Loaded <code>${routes.length}</code> routes · <code>${STATE.stops.length}</code> unique stops
-   </div>`);
-
-
-// <— normalize: support either array-of-routes OR { routes: [...] }
-STATE.data = Array.isArray(json) ? json : (json.routes || json);
-
-// optional: warn if we didn't find routes
-if (!Array.isArray(STATE.data)) {
-  throw new Error('Unexpected schedule shape: expected an array or {routes:[...]}. Got keys: ' + Object.keys(json).join(', '));
-}
-
-
-  STATE.data = await res.json();
-  STATE.stops = uniqueStops(STATE.data);
   populateSelectors();
 
   const origin = document.getElementById('origin');
@@ -469,13 +386,20 @@ if (!Array.isArray(STATE.data)) {
   const routeFilter = document.getElementById('routeFilter');
   const btn = document.getElementById('findBtn');
 
-  function validate(){ btn.disabled = !(origin.value && destination.value && origin.value !== destination.value); }
+  function validate() {
+    btn.disabled = !(origin.value && destination.value && origin.value !== destination.value);
+  }
+
   origin.addEventListener('change', validate);
   destination.addEventListener('change', validate);
-  btn.addEventListener('click', () => { renderDirect(origin.value, destination.value, routeFilter.value || null); });
+
+  btn.addEventListener('click', () => {
+    renderResults(origin.value, destination.value, routeFilter.value || null);
+  });
 }
 
 init();
 </script>
+
 </body>
 </html>
