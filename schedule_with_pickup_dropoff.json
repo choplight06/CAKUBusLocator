@@ -107,10 +107,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -122,10 +122,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -1503,7 +1503,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "05:51",
               "pickup": true,
               "dropoff": true
@@ -1521,7 +1521,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "05:54",
               "pickup": true,
               "dropoff": true
@@ -1593,7 +1593,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "06:11",
               "pickup": true,
               "dropoff": true
@@ -1611,7 +1611,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "06:14",
               "pickup": true,
               "dropoff": true
@@ -3982,7 +3982,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "06:31",
               "pickup": true,
               "dropoff": true
@@ -4000,7 +4000,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "06:34",
               "pickup": true,
               "dropoff": true
@@ -4072,7 +4072,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "06:51",
               "pickup": true,
               "dropoff": true
@@ -4090,7 +4090,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "06:54",
               "pickup": true,
               "dropoff": true
@@ -6461,7 +6461,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "07:11",
               "pickup": true,
               "dropoff": true
@@ -6479,7 +6479,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "07:14",
               "pickup": true,
               "dropoff": true
@@ -6551,7 +6551,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "07:31",
               "pickup": true,
               "dropoff": true
@@ -6569,7 +6569,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "07:34",
               "pickup": true,
               "dropoff": true
@@ -8940,7 +8940,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "07:51",
               "pickup": true,
               "dropoff": true
@@ -8958,7 +8958,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "07:54",
               "pickup": true,
               "dropoff": true
@@ -9030,7 +9030,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "08:11",
               "pickup": true,
               "dropoff": true
@@ -9048,7 +9048,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "08:14",
               "pickup": true,
               "dropoff": true
@@ -11419,7 +11419,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "08:31",
               "pickup": true,
               "dropoff": true
@@ -11437,7 +11437,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "08:34",
               "pickup": true,
               "dropoff": true
@@ -11509,7 +11509,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "08:51",
               "pickup": true,
               "dropoff": true
@@ -11527,7 +11527,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "08:54",
               "pickup": true,
               "dropoff": true
@@ -13898,7 +13898,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "09:11",
               "pickup": true,
               "dropoff": true
@@ -13916,7 +13916,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "09:14",
               "pickup": true,
               "dropoff": true
@@ -13988,7 +13988,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "09:31",
               "pickup": true,
               "dropoff": true
@@ -14006,7 +14006,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "09:34",
               "pickup": true,
               "dropoff": true
@@ -16377,7 +16377,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "09:51",
               "pickup": true,
               "dropoff": true
@@ -16395,7 +16395,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "09:54",
               "pickup": true,
               "dropoff": true
@@ -16467,7 +16467,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "10:11",
               "pickup": true,
               "dropoff": true
@@ -16485,7 +16485,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "10:14",
               "pickup": true,
               "dropoff": true
@@ -18856,7 +18856,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "10:31",
               "pickup": true,
               "dropoff": true
@@ -18874,7 +18874,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "10:34",
               "pickup": true,
               "dropoff": true
@@ -18946,7 +18946,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "10:51",
               "pickup": true,
               "dropoff": true
@@ -18964,7 +18964,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "10:54",
               "pickup": true,
               "dropoff": true
@@ -21335,7 +21335,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "11:11",
               "pickup": true,
               "dropoff": true
@@ -21353,7 +21353,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "11:14",
               "pickup": true,
               "dropoff": true
@@ -21425,7 +21425,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "11:31",
               "pickup": true,
               "dropoff": true
@@ -21443,7 +21443,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "11:34",
               "pickup": true,
               "dropoff": true
@@ -23814,7 +23814,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "11:51",
               "pickup": true,
               "dropoff": true
@@ -23832,7 +23832,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "11:54",
               "pickup": true,
               "dropoff": true
@@ -23904,7 +23904,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "12:11",
               "pickup": true,
               "dropoff": true
@@ -23922,7 +23922,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "12:14",
               "pickup": true,
               "dropoff": true
@@ -26293,7 +26293,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "12:31",
               "pickup": true,
               "dropoff": true
@@ -26311,7 +26311,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "12:34",
               "pickup": true,
               "dropoff": true
@@ -26383,7 +26383,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "12:51",
               "pickup": true,
               "dropoff": true
@@ -26401,7 +26401,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "12:54",
               "pickup": true,
               "dropoff": true
@@ -28772,7 +28772,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "13:11",
               "pickup": true,
               "dropoff": true
@@ -28790,7 +28790,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "13:14",
               "pickup": true,
               "dropoff": true
@@ -28862,7 +28862,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "13:31",
               "pickup": true,
               "dropoff": true
@@ -28880,7 +28880,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "13:34",
               "pickup": true,
               "dropoff": true
@@ -31251,7 +31251,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "13:51",
               "pickup": true,
               "dropoff": true
@@ -31269,7 +31269,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "13:54",
               "pickup": true,
               "dropoff": true
@@ -31341,7 +31341,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "14:11",
               "pickup": true,
               "dropoff": true
@@ -31359,7 +31359,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "14:14",
               "pickup": true,
               "dropoff": true
@@ -33730,7 +33730,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "14:31",
               "pickup": true,
               "dropoff": true
@@ -33748,7 +33748,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "14:34",
               "pickup": true,
               "dropoff": true
@@ -33820,7 +33820,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "14:51",
               "pickup": true,
               "dropoff": true
@@ -33838,7 +33838,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "14:54",
               "pickup": true,
               "dropoff": true
@@ -36209,7 +36209,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "15:11",
               "pickup": true,
               "dropoff": true
@@ -36227,7 +36227,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "15:14",
               "pickup": true,
               "dropoff": true
@@ -36299,7 +36299,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "15:31",
               "pickup": true,
               "dropoff": true
@@ -36317,7 +36317,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "15:34",
               "pickup": true,
               "dropoff": true
@@ -38688,7 +38688,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "15:51",
               "pickup": true,
               "dropoff": true
@@ -38706,7 +38706,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "15:54",
               "pickup": true,
               "dropoff": true
@@ -38778,7 +38778,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "16:11",
               "pickup": true,
               "dropoff": true
@@ -38796,7 +38796,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "16:14",
               "pickup": true,
               "dropoff": true
@@ -40693,7 +40693,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "16:31",
               "pickup": true,
               "dropoff": true
@@ -40711,7 +40711,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "16:34",
               "pickup": true,
               "dropoff": true
@@ -40783,7 +40783,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "16:51",
               "pickup": true,
               "dropoff": true
@@ -40801,7 +40801,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "16:54",
               "pickup": true,
               "dropoff": true
@@ -41840,7 +41840,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "17:11",
               "pickup": true,
               "dropoff": true
@@ -41858,7 +41858,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "17:14",
               "pickup": true,
               "dropoff": true
@@ -41930,7 +41930,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "17:31",
               "pickup": true,
               "dropoff": true
@@ -41948,7 +41948,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "17:34",
               "pickup": true,
               "dropoff": true
@@ -42591,7 +42591,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "17:51",
               "pickup": true,
               "dropoff": true
@@ -42609,7 +42609,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "17:54",
               "pickup": true,
               "dropoff": true
@@ -42681,7 +42681,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "18:11",
               "pickup": true,
               "dropoff": true
@@ -42699,7 +42699,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "18:14",
               "pickup": true,
               "dropoff": true
@@ -43198,7 +43198,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "18:31",
               "pickup": true,
               "dropoff": true
@@ -43216,7 +43216,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "18:34",
               "pickup": true,
               "dropoff": true
@@ -43288,7 +43288,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "18:51",
               "pickup": true,
               "dropoff": true
@@ -43306,7 +43306,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "18:54",
               "pickup": true,
               "dropoff": true
@@ -43751,7 +43751,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "19:11",
               "pickup": true,
               "dropoff": true
@@ -43769,7 +43769,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "19:14",
               "pickup": true,
               "dropoff": true
@@ -43841,7 +43841,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "19:31",
               "pickup": true,
               "dropoff": true
@@ -43859,7 +43859,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "19:34",
               "pickup": true,
               "dropoff": true
@@ -44304,7 +44304,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "19:51",
               "pickup": true,
               "dropoff": true
@@ -44322,7 +44322,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "19:54",
               "pickup": true,
               "dropoff": true
@@ -44394,7 +44394,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "20:11",
               "pickup": true,
               "dropoff": true
@@ -44412,7 +44412,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "20:14",
               "pickup": true,
               "dropoff": true
@@ -44857,7 +44857,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "20:31",
               "pickup": true,
               "dropoff": true
@@ -44875,7 +44875,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "20:34",
               "pickup": true,
               "dropoff": true
@@ -44947,7 +44947,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "20:51",
               "pickup": true,
               "dropoff": true
@@ -44965,7 +44965,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "20:54",
               "pickup": true,
               "dropoff": true
@@ -45410,7 +45410,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "21:11",
               "pickup": true,
               "dropoff": true
@@ -45428,7 +45428,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "21:14",
               "pickup": true,
               "dropoff": true
@@ -45500,7 +45500,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "21:31",
               "pickup": true,
               "dropoff": true
@@ -45518,7 +45518,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "21:34",
               "pickup": true,
               "dropoff": true
@@ -45873,7 +45873,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "22:11",
               "pickup": true,
               "dropoff": true
@@ -45891,7 +45891,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "22:14",
               "pickup": true,
               "dropoff": true
@@ -46396,7 +46396,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "22:51",
               "pickup": true,
               "dropoff": true
@@ -46414,7 +46414,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "22:54",
               "pickup": true,
               "dropoff": true
@@ -46847,7 +46847,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "23:31",
               "pickup": true,
               "dropoff": true
@@ -46865,7 +46865,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "23:34",
               "pickup": true,
               "dropoff": true
@@ -47046,7 +47046,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "00:11",
               "pickup": true,
               "dropoff": true
@@ -47064,7 +47064,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "00:14",
               "pickup": true,
               "dropoff": true
@@ -47233,7 +47233,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "00:51",
               "pickup": true,
               "dropoff": true
@@ -47251,7 +47251,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "00:54",
               "pickup": true,
               "dropoff": true
@@ -47432,7 +47432,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "01:31",
               "pickup": true,
               "dropoff": true
@@ -47450,7 +47450,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "01:34",
               "pickup": true,
               "dropoff": true
@@ -47535,7 +47535,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "02:11",
               "pickup": true,
               "dropoff": true
@@ -47553,7 +47553,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "02:14",
               "pickup": true,
               "dropoff": true
@@ -47680,7 +47680,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "02:51",
               "pickup": true,
               "dropoff": true
@@ -47698,7 +47698,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "02:54",
               "pickup": true,
               "dropoff": true
@@ -47879,7 +47879,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "03:31",
               "pickup": true,
               "dropoff": true
@@ -47897,7 +47897,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "03:34",
               "pickup": true,
               "dropoff": true
@@ -48230,10 +48230,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -48245,10 +48245,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -48605,7 +48605,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "05:11",
               "pickup": true,
               "dropoff": true
@@ -48623,7 +48623,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "05:14",
               "pickup": true,
               "dropoff": true
@@ -48695,7 +48695,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "05:31",
               "pickup": true,
               "dropoff": true
@@ -48713,7 +48713,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "05:34",
               "pickup": true,
               "dropoff": true
@@ -48792,7 +48792,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7 7",
+              "stop": "TMP 7",
               "time": "00:01",
               "pickup": true,
               "dropoff": true
@@ -48810,7 +48810,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD YARD",
+              "stop": "CLASS VII YARD",
               "time": "00:01",
               "pickup": true,
               "dropoff": true
@@ -49034,10 +49034,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -49049,10 +49049,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -49777,10 +49777,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -49792,10 +49792,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -50478,10 +50478,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -50493,10 +50493,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -51389,10 +51389,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -51404,10 +51404,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -52396,10 +52396,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
@@ -52411,10 +52411,10 @@
         "Training Area",
         "ASP",
         "AMMO",
-        "TMP 7 7",
+        "TMP 7",
         "DRMO",
         "LOT 58",
-        "CLASS VII YARD YARD",
+        "CLASS VII YARD",
         "BLDG 761D",
         "LOGCAP",
         "ECP",
