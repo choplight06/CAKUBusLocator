@@ -212,23 +212,51 @@ function buildStateFromJson(json) {
 }
 
 function populateSelectors() {
-  const origin = document.getElementById('origin');
-  const destination = document.getElementById('destination');
-  const routeFilter = document.getElementById('routeFilter');
+  const origin = document.getElementById("origin");
+  const destination = document.getElementById("destination");
+  const routeFilter = document.getElementById("routeFilter");
 
-  const stopOptions = STATE.stops.map(s => `<option>${s}</option>`).join('');
+  // Canonicalized list of main stops
+  const MAIN = new Set([
+    "DFAC 6",
+    "DFAC 2",
+    "Turf Track",
+    "Zone 6 Px/Gym",
+    "Combat Hets",
+    "Senior Pods",
+    "TMC"
+  ].map(canonStop));
 
-  origin.innerHTML =
-    `<option value="">Select stop…</option>` + stopOptions;
-  destination.innerHTML =
-    `<option value="">Select stop…</option>` + stopOptions;
+  // Build main + all stops
+  const mainStops = [];
+  const allStops = [];
 
-  const routeOptions = STATE.routes
-    .map(r => `<option>${r.label}</option>`)
-    .join('');
+  STATE.stops.forEach(s => {
+    const c = canonStop(s);
+    if (MAIN.has(c)) mainStops.push(s);
+    else allStops.push(s);
+  });
 
+  // Build HTML for optgroups
+  const stopOptionsHTML = `
+    <option value="">Select stop…</option>
+    <optgroup label="Main Stops">
+      ${mainStops.map(s => `<option>${s}</option>`).join("")}
+    </optgroup>
+    <optgroup label="All Stops">
+      ${allStops.map(s => `<option>${s}</option>`).join("")}
+    </optgroup>
+  `;
+
+  origin.innerHTML = stopOptionsHTML;
+  destination.innerHTML = stopOptionsHTML;
+
+  // Populate route filter
+  const routes = STATE.routes.map(r => r.label);
   routeFilter.innerHTML =
-    `<option value="">All routes</option>` + routeOptions;
+    `<option value="">All routes</option>` +
+    routes.map(r => `<option>${r}</option>`).join("");
+
 }
 
 function findDirectTrips(originName, destName, routeLabelOpt) {
