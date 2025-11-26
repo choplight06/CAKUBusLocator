@@ -91,9 +91,216 @@
     }
     footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); text-align: center; font-size: .95rem; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: .9rem; }
+  
+/* === V2X theme overrides === */
+
+/* Update core colors to be closer to gov2x.com */
+:root {
+  --bg: #f3f4f6;
+  --surface: #ffffff;
+  --panel: #ffffff;
+  --panel-2: #f9fafb;
+  --fg: #111827;
+  --muted: #4b5563;
+  --border: #d1d5db;
+  --accent: #0076c0;   /* V2X blue-ish */
+  --accent-2: #00a0df;
+  --ok-bg: #ecfdf5;
+  --ok-br: #16a34a;
+  --no-bg: #fef2f2;
+  --no-br: #dc2626;
+  --shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+}
+
+/* Light, corporate background instead of neon dark gradient */
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #e5f0f9 0, #f3f4f6 42%, #f9fafb 100%);
+  color: var(--fg);
+}
+
+/* Full-width V2X header strip */
+.v2x-header {
+  background: #001c3a; /* deep navy similar to V2X header */
+  color: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.45);
+}
+
+.v2x-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.v2x-brand {
+  display: flex;
+  align-items: center;
+}
+
+.v2x-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.v2x-product-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.v2x-product-name {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.v2x-product-subtitle {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+/* Make your main content feel like white “cards” on light gray, like the About Us page sections */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px clamp(12px, 3vw, 28px) 40px;
+}
+
+/* Hero becomes white card with subtle left accent, more like corporate section headers */
+.hero {
+  border-radius: 18px;
+  padding: 18px 18px 16px 20px;
+  margin: 18px 0 20px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,118,192,0.09), transparent 65%);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #0076c0, #00a0df);
+}
+
+.hero h1 {
+  position: relative;
+  margin: 0 0 6px;
+  font-weight: 700;
+  font-size: clamp(1.35rem, 3.2vw, 1.8rem);
+  letter-spacing: 0;
+}
+
+.hero p {
+  position: relative;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Query card and results as white panels */
+
+.card {
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  padding: 16px 16px 14px;
+  background: var(--panel);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+}
+
+#results .card {
+  background: var(--panel-2);
+}
+
+/* Buttons and selects tuned to a corporate-blue style */
+
+select,
+button {
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  padding: 11px 12px;
+  font-size: 0.95rem;
+  background: var(--surface);
+  color: var(--fg);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02);
+}
+
+select:focus,
+button:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px rgba(0,118,192,0.8);
+}
+
+button {
+  border-color: var(--accent);
+  background: linear-gradient(135deg, #0076c0, #00a0df);
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 10px 26px rgba(0, 76, 135, 0.45);
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 32px rgba(0, 76, 135, 0.55);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 6px 18px rgba(0, 76, 135, 0.6);
+}
+
+/* Footer closer to V2X style: light, small, aligned right */
+
+footer {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  text-align: right;
+  font-size: 0.78rem;
+}
+
+    
   </style>
 </head>
 <body>
+  <header class="v2x-header">
+    <div class="container v2x-header-inner">
+      <div class="v2x-brand">
+        <img
+          src="V2X-color-logo-reverse-09-2024.png"
+          alt="V2X"
+          class="v2x-logo"
+        />
+      </div>
+      <div class="v2x-product-copy">
+        <div class="v2x-product-name">CAKU Bus Finder</div>
+        <div class="v2x-product-subtitle">Mission connected. Mission committed.</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
   <div class="container">
     <div class="hero">
       <h1>Find Your Next Bus in Camp Arifjan, Kuwait!</h1>
