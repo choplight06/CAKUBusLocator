@@ -139,8 +139,44 @@ const STATE = {
 };
 
 function canonStop(name) {
-  return (name || '').trim().toUpperCase();
+  const raw = (name || '').trim().toUpperCase();
+  if (!raw) return raw;
+
+  // strip spaces so "WASH RACK" and "WASHRACK" collapse,
+  // "CLASS VII" and "CLASSVII YARD" collapse, etc.
+  const simple = raw.replace(/\s+/g, '');
+
+  // Explicit alias groups
+
+  // Zone 6 DFAC / DFAC 6
+  if (simple === 'ZONE6DFAC' || simple === 'DFAC6') {
+    return 'ZONE6DFAC';
+  }
+
+  // Zone 2 DFAC / DFAC 2
+  if (simple === 'ZONE2DFAC' || simple === 'DFAC2') {
+    return 'ZONE2DFAC';
+  }
+
+  // TMP / TMP 7
+  if (simple === 'TMP' || simple === 'TMP7') {
+    return 'TMP';
+  }
+
+  // WASH RACK / WASHRACK
+  if (simple === 'WASHRACK') {
+    return 'WASHRACK';
+  }
+
+  // Class VII / ClassVII Yard
+  if (simple === 'CLASSVII' || simple === 'CLASSVIIYARD') {
+    return 'CLASSVII';
+  }
+
+  // Default: use the space-stripped uppercase
+  return simple;
 }
+
 
 function toMinutes(hhmm) {
   const [h, m] = String(hhmm).split(':').map(Number);
