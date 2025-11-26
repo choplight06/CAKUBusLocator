@@ -211,16 +211,38 @@ function buildStateFromJson(json) {
 }
 
 function populateSelectors() {
-  const origin = document.getElementById('origin');
-  const destination = document.getElementById('destination');
-  const routeFilter = document.getElementById('routeFilter');
+ const origin = document.getElementById('origin');
+const destination = document.getElementById('destination');
+const routeFilter = document.getElementById('routeFilter');
 
-  const stopOptions = STATE.stops.map(s => `<option>${s}</option>`).join('');
+// Split STATE.stops into main vs other
+const mainStops = [];
+const otherStops = [];
 
-  origin.innerHTML =
-    `<option value="">Select stop…</option>` + stopOptions;
-  destination.innerHTML =
-    `<option value="">Select stop…</option>` + stopOptions;
+STATE.stops.forEach(stop => {
+  const cs = canonStop(stop); // uses  existing normalizer
+  if (MAIN_STOPS_CANON.includes(cs)) {
+    // avoid duplicates if same stop appears with slightly different spelling
+    if (!mainStops.some(ms => canonStop(ms) === cs)) {
+      mainStops.push(stop);
+    }
+  } else {
+    otherStops.push(stop);
+  }
+});
+
+const mainOptions = mainStops.map(s => `<option>${s}</option>`).join('');
+const otherOptions = otherStops.map(s => `<option>${s}</option>`).join('');
+
+// Shared HTML for both selects
+const selectorHtml = `
+  <option value="">Select stop…</option>
+  ${mainStops.length ? `<optgroup label="Main stops">${mainOptions}</optgroup>` : ''}
+  <optgroup label="All stops">${otherOptions}</optgroup>
+`;
+
+origin.innerHTML = selectorHtml;
+destination.innerHTML = selectorHtml;
 
   const routeOptions = STATE.routes
     .map(r => `<option>${r.label}</option>`)
