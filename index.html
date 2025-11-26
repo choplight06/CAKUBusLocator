@@ -212,52 +212,85 @@ function buildStateFromJson(json) {
 }
 
 function populateSelectors() {
+function populateSelectors() {
   const origin = document.getElementById("origin");
   const destination = document.getElementById("destination");
   const routeFilter = document.getElementById("routeFilter");
 
-  // Canonicalized list of main stops
-  const MAIN = new Set([
-    "DFAC 6",
-    "DFAC 2",
-    "Turf Track",
-    "Zone 6 Px/Gym",
-    "Combat Hets",
-    "Senior Pods",
-    "TMC"
-  ].map(canonStop));
-
-  // Build main + all stops
-  const mainStops = [];
-  const allStops = [];
-
+  // 1) Canonical-dedupe all stops: canon -> representative label
+  const stopMap = new Map(); // canon => display label
   STATE.stops.forEach(s => {
-    const c = canonStop(s);
-    if (MAIN.has(c)) mainStops.push(s);
-    else allStops.push(s);
+    if (!s) return;
+    const canon = canonStop(s);
+    if (!canon) return;
+    if (!stopMap.has(canon)) {
+      stopMap.set(canon, s); // first occurrence wins
+    }
   });
 
-  // Build HTML for optgroups
-  const stopOptionsHTML = `
+  // Turn into sorted array of { canon, label }
+  const allStopsArr = Array.from(stopMap.entries())
+    .map(([canon, label]) => ({ canon, label }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+
+  // 2) Define main stops, with nice labels
+  const MAIN_CONFIG = [
+    { raw: "Zone 6 DFAC",       label: "Zone 6 DFAC" },
+    { raw: "Zone 2 DFAC",       label: "Zone 2 DFAC" },
+    { raw: "Turf Track",        label: "Turf Track" },
+    { raw: "ZONE 6 PX/GYM",     label: "Zone 6 PX/Gym" }, // matches JSON stop
+    { raw: "Combat HETS",       label: "Combat HETS" },
+    { raw: "Senior Pods",       label: "Senior Pods" },
+    { raw: "TMC",               label: "TMC" }
+  ];
+
+  const MAIN_LABELS = new Map(
+    MAIN_CONFIG.map(m => [canonStop(m.raw), m.label])
+  );
+  const MAIN_CANON = new Set(
+    MAIN_CONFIG.map(m => canonStop(m.raw))
+  );
+
+  const mainStops = [];
+  const otherStops = [];
+
+  allStopsArr.forEach(s => {
+    if (MAIN_CANON.has(s.canon)) {
+      // Force the pretty label for main stops
+      mainStops.push({
+        canon: s.canon,
+        label: MAIN_LABELS.get(s.canon) || s.label
+      });
+    } else {
+      otherStops.push(s);
+    }
+  });
+
+  const makeOptions = (list) =>
+    list
+      .map(s => `<option value="${s.label}">${s.label}</option>`)
+      .join("");
+
+  const optionsHTML = `
     <option value="">Select stop…</option>
     <optgroup label="Main Stops">
-      ${mainStops.map(s => `<option>${s}</option>`).join("")}
+      ${makeOptions(mainStops)}
     </optgroup>
     <optgroup label="All Stops">
-      ${allStops.map(s => `<option>${s}</option>`).join("")}
+      ${makeOptions(otherStops)}
     </optgroup>
   `;
 
-  origin.innerHTML = stopOptionsHTML;
-  destination.innerHTML = stopOptionsHTML;
+  origin.innerHTML = optionsHTML;
+  destination.innerHTML = optionsHTML;
 
-  // Populate route filter
+  // 3) Route filter stays as before
   const routes = STATE.routes.map(r => r.label);
   routeFilter.innerHTML =
     `<option value="">All routes</option>` +
     routes.map(r => `<option>${r}</option>`).join("");
-
 }
+
 
 function findDirectTrips(originName, destName, routeLabelOpt) {
   const originCanon = canonStop(originName);
