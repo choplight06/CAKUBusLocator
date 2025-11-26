@@ -14,30 +14,29 @@
         "end": "21:30"
       },
       "is24Hour": false,
-     "stops": [
-  "ECP",
-  "LOGCAP",
-  "BLDG 761D",
-  "WASHRACK",
-  "BLDG 507",
-  "BLDG 512",
-  "ZONE 2 DFAC",
-  "DOL",
-  "160TH",
-  "TMC",
-  "TURF TRACK",
-  "SENIOR PODS",
-  "COMBAT HETS",
-  "ZONE 6 DFAC",
-  "AMC PODS",
-  "CJFLCC-I/82nd",
-  "F/H PAD",
-  "AT&T",
-  "ZONE 6 CHAPEL",
-  "BLDG 1211",
-  "ECP"
-],
-
+      "stops": [
+        "ECP",
+        "LOGCAP",
+        "BLDG 761D",
+        "WASHRACK",
+        "BLDG 507",
+        "BLDG 512",
+        "ZONE 2 DFAC",
+        "DOL",
+        "160TH",
+        "TMC",
+        "TURF TRACK",
+        "SENIOR PODS",
+        "COMBAT HETS",
+        "ZONE 6 DFAC",
+        "AMC PODS",
+        "CJFLCC-I/82nd",
+        "F/H PAD",
+        "AT&T",
+        "ZONE 6 CHAPEL",
+        "BLDG 1211",
+        "ECP"
+      ],
       "departures": [
         {
           "tripId": 1,
@@ -63,7 +62,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:37",
               "pickup": true,
               "dropoff": true
@@ -81,7 +80,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "04:42",
               "pickup": true,
               "dropoff": true
@@ -123,7 +122,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "04:58",
               "pickup": true,
               "dropoff": true
@@ -189,7 +188,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:52",
               "pickup": true,
               "dropoff": true
@@ -207,7 +206,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "04:57",
               "pickup": true,
               "dropoff": true
@@ -249,7 +248,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "05:13",
               "pickup": true,
               "dropoff": true
@@ -315,7 +314,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:07",
               "pickup": true,
               "dropoff": true
@@ -333,7 +332,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "05:12",
               "pickup": true,
               "dropoff": true
@@ -375,7 +374,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "05:28",
               "pickup": true,
               "dropoff": true
@@ -441,7 +440,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:22",
               "pickup": true,
               "dropoff": true
@@ -459,7 +458,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "05:27",
               "pickup": true,
               "dropoff": true
@@ -501,7 +500,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "05:43",
               "pickup": true,
               "dropoff": true
@@ -580,7 +579,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:32",
               "pickup": true,
               "dropoff": true
@@ -598,7 +597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "05:37",
               "pickup": true,
               "dropoff": true
@@ -640,7 +639,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "05:53",
               "pickup": true,
               "dropoff": true
@@ -706,7 +705,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:47",
               "pickup": true,
               "dropoff": true
@@ -724,7 +723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "05:52",
               "pickup": true,
               "dropoff": true
@@ -766,7 +765,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "06:08",
               "pickup": true,
               "dropoff": true
@@ -832,7 +831,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:02",
               "pickup": true,
               "dropoff": true
@@ -850,7 +849,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "06:07",
               "pickup": true,
               "dropoff": true
@@ -892,7 +891,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "06:23",
               "pickup": true,
               "dropoff": true
@@ -958,7 +957,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:17",
               "pickup": true,
               "dropoff": true
@@ -976,7 +975,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "06:22",
               "pickup": true,
               "dropoff": true
@@ -1018,7 +1017,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "06:38",
               "pickup": true,
               "dropoff": true
@@ -1300,7 +1299,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:53",
               "pickup": true,
               "dropoff": true
@@ -1378,7 +1377,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:08",
               "pickup": true,
               "dropoff": true
@@ -1456,7 +1455,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:23",
               "pickup": true,
               "dropoff": true
@@ -1534,7 +1533,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:38",
               "pickup": true,
               "dropoff": true
@@ -1576,7 +1575,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "06:05",
               "pickup": true,
               "dropoff": true
@@ -1594,7 +1593,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "06:10",
               "pickup": true,
               "dropoff": true
@@ -1666,7 +1665,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "06:25",
               "pickup": true,
               "dropoff": true
@@ -1684,7 +1683,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "06:30",
               "pickup": true,
               "dropoff": true
@@ -1756,7 +1755,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "05:45",
               "pickup": true,
               "dropoff": true
@@ -1774,7 +1773,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "05:50",
               "pickup": true,
               "dropoff": true
@@ -2314,7 +2313,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "05:31",
               "pickup": true,
               "dropoff": true
@@ -2368,7 +2367,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "05:49",
               "pickup": true,
               "dropoff": true
@@ -2458,7 +2457,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "05:46",
               "pickup": true,
               "dropoff": true
@@ -2512,7 +2511,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "06:04",
               "pickup": true,
               "dropoff": true
@@ -2602,7 +2601,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "06:01",
               "pickup": true,
               "dropoff": true
@@ -2656,7 +2655,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "06:19",
               "pickup": true,
               "dropoff": true
@@ -2746,7 +2745,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "06:16",
               "pickup": true,
               "dropoff": true
@@ -2800,7 +2799,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "06:34",
               "pickup": true,
               "dropoff": true
@@ -3059,7 +3058,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:27",
               "pickup": true,
               "dropoff": true
@@ -3077,7 +3076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "06:32",
               "pickup": true,
               "dropoff": true
@@ -3119,7 +3118,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "06:48",
               "pickup": true,
               "dropoff": true
@@ -3185,7 +3184,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:42",
               "pickup": true,
               "dropoff": true
@@ -3203,7 +3202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "06:47",
               "pickup": true,
               "dropoff": true
@@ -3245,7 +3244,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:03",
               "pickup": true,
               "dropoff": true
@@ -3311,7 +3310,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:57",
               "pickup": true,
               "dropoff": true
@@ -3329,7 +3328,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:02",
               "pickup": true,
               "dropoff": true
@@ -3371,7 +3370,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:18",
               "pickup": true,
               "dropoff": true
@@ -3437,7 +3436,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:12",
               "pickup": true,
               "dropoff": true
@@ -3455,7 +3454,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:17",
               "pickup": true,
               "dropoff": true
@@ -3497,7 +3496,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:33",
               "pickup": true,
               "dropoff": true
@@ -3779,7 +3778,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:48",
               "pickup": true,
               "dropoff": true
@@ -3857,7 +3856,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:03",
               "pickup": true,
               "dropoff": true
@@ -3935,7 +3934,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:18",
               "pickup": true,
               "dropoff": true
@@ -4013,7 +4012,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:33",
               "pickup": true,
               "dropoff": true
@@ -4055,7 +4054,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "07:05",
               "pickup": true,
               "dropoff": true
@@ -4073,7 +4072,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "07:10",
               "pickup": true,
               "dropoff": true
@@ -4145,7 +4144,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "07:25",
               "pickup": true,
               "dropoff": true
@@ -4163,7 +4162,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "07:30",
               "pickup": true,
               "dropoff": true
@@ -4235,7 +4234,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "06:45",
               "pickup": true,
               "dropoff": true
@@ -4253,7 +4252,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "06:50",
               "pickup": true,
               "dropoff": true
@@ -4793,7 +4792,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "06:31",
               "pickup": true,
               "dropoff": true
@@ -4847,7 +4846,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "06:49",
               "pickup": true,
               "dropoff": true
@@ -4937,7 +4936,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "06:46",
               "pickup": true,
               "dropoff": true
@@ -4991,7 +4990,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:04",
               "pickup": true,
               "dropoff": true
@@ -5081,7 +5080,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "07:01",
               "pickup": true,
               "dropoff": true
@@ -5135,7 +5134,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:19",
               "pickup": true,
               "dropoff": true
@@ -5225,7 +5224,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "07:16",
               "pickup": true,
               "dropoff": true
@@ -5279,7 +5278,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:34",
               "pickup": true,
               "dropoff": true
@@ -5538,7 +5537,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:22",
               "pickup": true,
               "dropoff": true
@@ -5556,7 +5555,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:27",
               "pickup": true,
               "dropoff": true
@@ -5598,7 +5597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:43",
               "pickup": true,
               "dropoff": true
@@ -5664,7 +5663,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:37",
               "pickup": true,
               "dropoff": true
@@ -5682,7 +5681,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:42",
               "pickup": true,
               "dropoff": true
@@ -5724,7 +5723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:58",
               "pickup": true,
               "dropoff": true
@@ -5790,7 +5789,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:52",
               "pickup": true,
               "dropoff": true
@@ -5808,7 +5807,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:57",
               "pickup": true,
               "dropoff": true
@@ -5850,7 +5849,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "08:13",
               "pickup": true,
               "dropoff": true
@@ -5916,7 +5915,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:07",
               "pickup": true,
               "dropoff": true
@@ -5934,7 +5933,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "08:12",
               "pickup": true,
               "dropoff": true
@@ -5976,7 +5975,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "08:28",
               "pickup": true,
               "dropoff": true
@@ -6258,7 +6257,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:43",
               "pickup": true,
               "dropoff": true
@@ -6336,7 +6335,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:58",
               "pickup": true,
               "dropoff": true
@@ -6414,7 +6413,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:13",
               "pickup": true,
               "dropoff": true
@@ -6492,7 +6491,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:28",
               "pickup": true,
               "dropoff": true
@@ -6534,7 +6533,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "08:05",
               "pickup": true,
               "dropoff": true
@@ -6552,7 +6551,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "08:10",
               "pickup": true,
               "dropoff": true
@@ -6624,7 +6623,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "08:25",
               "pickup": true,
               "dropoff": true
@@ -6642,7 +6641,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "08:30",
               "pickup": true,
               "dropoff": true
@@ -6714,7 +6713,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "07:45",
               "pickup": true,
               "dropoff": true
@@ -6732,7 +6731,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "07:50",
               "pickup": true,
               "dropoff": true
@@ -7272,7 +7271,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "07:31",
               "pickup": true,
               "dropoff": true
@@ -7326,7 +7325,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "07:49",
               "pickup": true,
               "dropoff": true
@@ -7416,7 +7415,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "07:46",
               "pickup": true,
               "dropoff": true
@@ -7470,7 +7469,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "08:04",
               "pickup": true,
               "dropoff": true
@@ -7560,7 +7559,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "08:01",
               "pickup": true,
               "dropoff": true
@@ -7614,7 +7613,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "08:19",
               "pickup": true,
               "dropoff": true
@@ -7704,7 +7703,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "08:16",
               "pickup": true,
               "dropoff": true
@@ -7758,7 +7757,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "08:34",
               "pickup": true,
               "dropoff": true
@@ -8017,7 +8016,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:17",
               "pickup": true,
               "dropoff": true
@@ -8035,7 +8034,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "08:22",
               "pickup": true,
               "dropoff": true
@@ -8077,7 +8076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "08:38",
               "pickup": true,
               "dropoff": true
@@ -8143,7 +8142,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:32",
               "pickup": true,
               "dropoff": true
@@ -8161,7 +8160,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "08:37",
               "pickup": true,
               "dropoff": true
@@ -8203,7 +8202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "08:53",
               "pickup": true,
               "dropoff": true
@@ -8269,7 +8268,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:47",
               "pickup": true,
               "dropoff": true
@@ -8287,7 +8286,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "08:52",
               "pickup": true,
               "dropoff": true
@@ -8329,7 +8328,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "09:08",
               "pickup": true,
               "dropoff": true
@@ -8395,7 +8394,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:02",
               "pickup": true,
               "dropoff": true
@@ -8413,7 +8412,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "09:07",
               "pickup": true,
               "dropoff": true
@@ -8455,7 +8454,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "09:23",
               "pickup": true,
               "dropoff": true
@@ -8737,7 +8736,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:38",
               "pickup": true,
               "dropoff": true
@@ -8815,7 +8814,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:53",
               "pickup": true,
               "dropoff": true
@@ -8893,7 +8892,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:08",
               "pickup": true,
               "dropoff": true
@@ -8971,7 +8970,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:23",
               "pickup": true,
               "dropoff": true
@@ -9013,7 +9012,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "09:05",
               "pickup": true,
               "dropoff": true
@@ -9031,7 +9030,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "09:10",
               "pickup": true,
               "dropoff": true
@@ -9103,7 +9102,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "09:25",
               "pickup": true,
               "dropoff": true
@@ -9121,7 +9120,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "09:30",
               "pickup": true,
               "dropoff": true
@@ -9193,7 +9192,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "08:45",
               "pickup": true,
               "dropoff": true
@@ -9211,7 +9210,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "08:50",
               "pickup": true,
               "dropoff": true
@@ -9751,7 +9750,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "08:31",
               "pickup": true,
               "dropoff": true
@@ -9805,7 +9804,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "08:49",
               "pickup": true,
               "dropoff": true
@@ -9895,7 +9894,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "08:46",
               "pickup": true,
               "dropoff": true
@@ -9949,7 +9948,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "09:04",
               "pickup": true,
               "dropoff": true
@@ -10039,7 +10038,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "09:01",
               "pickup": true,
               "dropoff": true
@@ -10093,7 +10092,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "09:19",
               "pickup": true,
               "dropoff": true
@@ -10183,7 +10182,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "09:16",
               "pickup": true,
               "dropoff": true
@@ -10237,7 +10236,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "09:34",
               "pickup": true,
               "dropoff": true
@@ -10496,7 +10495,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:12",
               "pickup": true,
               "dropoff": true
@@ -10514,7 +10513,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "09:17",
               "pickup": true,
               "dropoff": true
@@ -10556,7 +10555,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "09:33",
               "pickup": true,
               "dropoff": true
@@ -10622,7 +10621,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:27",
               "pickup": true,
               "dropoff": true
@@ -10640,7 +10639,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "09:32",
               "pickup": true,
               "dropoff": true
@@ -10682,7 +10681,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "09:48",
               "pickup": true,
               "dropoff": true
@@ -10748,7 +10747,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:42",
               "pickup": true,
               "dropoff": true
@@ -10766,7 +10765,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "09:47",
               "pickup": true,
               "dropoff": true
@@ -10808,7 +10807,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:03",
               "pickup": true,
               "dropoff": true
@@ -10874,7 +10873,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:57",
               "pickup": true,
               "dropoff": true
@@ -10892,7 +10891,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:02",
               "pickup": true,
               "dropoff": true
@@ -10934,7 +10933,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:18",
               "pickup": true,
               "dropoff": true
@@ -11216,7 +11215,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:33",
               "pickup": true,
               "dropoff": true
@@ -11294,7 +11293,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:48",
               "pickup": true,
               "dropoff": true
@@ -11372,7 +11371,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:03",
               "pickup": true,
               "dropoff": true
@@ -11450,7 +11449,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:18",
               "pickup": true,
               "dropoff": true
@@ -11492,7 +11491,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "10:05",
               "pickup": true,
               "dropoff": true
@@ -11510,7 +11509,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "10:10",
               "pickup": true,
               "dropoff": true
@@ -11582,7 +11581,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "10:25",
               "pickup": true,
               "dropoff": true
@@ -11600,7 +11599,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "10:30",
               "pickup": true,
               "dropoff": true
@@ -11672,7 +11671,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "09:45",
               "pickup": true,
               "dropoff": true
@@ -11690,7 +11689,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "09:50",
               "pickup": true,
               "dropoff": true
@@ -12230,7 +12229,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "09:31",
               "pickup": true,
               "dropoff": true
@@ -12284,7 +12283,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "09:49",
               "pickup": true,
               "dropoff": true
@@ -12374,7 +12373,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "09:46",
               "pickup": true,
               "dropoff": true
@@ -12428,7 +12427,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:04",
               "pickup": true,
               "dropoff": true
@@ -12518,7 +12517,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "10:01",
               "pickup": true,
               "dropoff": true
@@ -12572,7 +12571,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:19",
               "pickup": true,
               "dropoff": true
@@ -12662,7 +12661,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "10:16",
               "pickup": true,
               "dropoff": true
@@ -12716,7 +12715,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:34",
               "pickup": true,
               "dropoff": true
@@ -12975,7 +12974,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:07",
               "pickup": true,
               "dropoff": true
@@ -12993,7 +12992,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:12",
               "pickup": true,
               "dropoff": true
@@ -13035,7 +13034,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:28",
               "pickup": true,
               "dropoff": true
@@ -13101,7 +13100,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:22",
               "pickup": true,
               "dropoff": true
@@ -13119,7 +13118,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:27",
               "pickup": true,
               "dropoff": true
@@ -13161,7 +13160,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:43",
               "pickup": true,
               "dropoff": true
@@ -13227,7 +13226,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:37",
               "pickup": true,
               "dropoff": true
@@ -13245,7 +13244,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:42",
               "pickup": true,
               "dropoff": true
@@ -13287,7 +13286,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:58",
               "pickup": true,
               "dropoff": true
@@ -13353,7 +13352,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:52",
               "pickup": true,
               "dropoff": true
@@ -13371,7 +13370,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:57",
               "pickup": true,
               "dropoff": true
@@ -13413,7 +13412,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "11:13",
               "pickup": true,
               "dropoff": true
@@ -13695,7 +13694,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:28",
               "pickup": true,
               "dropoff": true
@@ -13773,7 +13772,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:43",
               "pickup": true,
               "dropoff": true
@@ -13851,7 +13850,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:58",
               "pickup": true,
               "dropoff": true
@@ -13929,7 +13928,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:13",
               "pickup": true,
               "dropoff": true
@@ -13971,7 +13970,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "11:05",
               "pickup": true,
               "dropoff": true
@@ -13989,7 +13988,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "11:10",
               "pickup": true,
               "dropoff": true
@@ -14061,7 +14060,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "11:25",
               "pickup": true,
               "dropoff": true
@@ -14079,7 +14078,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "11:30",
               "pickup": true,
               "dropoff": true
@@ -14151,7 +14150,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "10:45",
               "pickup": true,
               "dropoff": true
@@ -14169,7 +14168,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "10:50",
               "pickup": true,
               "dropoff": true
@@ -14709,7 +14708,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "10:31",
               "pickup": true,
               "dropoff": true
@@ -14763,7 +14762,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "10:49",
               "pickup": true,
               "dropoff": true
@@ -14853,7 +14852,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "10:46",
               "pickup": true,
               "dropoff": true
@@ -14907,7 +14906,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "11:04",
               "pickup": true,
               "dropoff": true
@@ -14997,7 +14996,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "11:01",
               "pickup": true,
               "dropoff": true
@@ -15051,7 +15050,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "11:19",
               "pickup": true,
               "dropoff": true
@@ -15141,7 +15140,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "11:16",
               "pickup": true,
               "dropoff": true
@@ -15195,7 +15194,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "11:34",
               "pickup": true,
               "dropoff": true
@@ -15454,7 +15453,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:02",
               "pickup": true,
               "dropoff": true
@@ -15472,7 +15471,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "11:07",
               "pickup": true,
               "dropoff": true
@@ -15514,7 +15513,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "11:23",
               "pickup": true,
               "dropoff": true
@@ -15580,7 +15579,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:17",
               "pickup": true,
               "dropoff": true
@@ -15598,7 +15597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "11:22",
               "pickup": true,
               "dropoff": true
@@ -15640,7 +15639,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "11:38",
               "pickup": true,
               "dropoff": true
@@ -15706,7 +15705,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:32",
               "pickup": true,
               "dropoff": true
@@ -15724,7 +15723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "11:37",
               "pickup": true,
               "dropoff": true
@@ -15766,7 +15765,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "11:53",
               "pickup": true,
               "dropoff": true
@@ -15832,7 +15831,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:47",
               "pickup": true,
               "dropoff": true
@@ -15850,7 +15849,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "11:52",
               "pickup": true,
               "dropoff": true
@@ -15892,7 +15891,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "12:08",
               "pickup": true,
               "dropoff": true
@@ -16174,7 +16173,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:23",
               "pickup": true,
               "dropoff": true
@@ -16252,7 +16251,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:38",
               "pickup": true,
               "dropoff": true
@@ -16330,7 +16329,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:53",
               "pickup": true,
               "dropoff": true
@@ -16408,7 +16407,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:08",
               "pickup": true,
               "dropoff": true
@@ -16450,7 +16449,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "12:05",
               "pickup": true,
               "dropoff": true
@@ -16468,7 +16467,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "12:10",
               "pickup": true,
               "dropoff": true
@@ -16540,7 +16539,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "12:25",
               "pickup": true,
               "dropoff": true
@@ -16558,7 +16557,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "12:30",
               "pickup": true,
               "dropoff": true
@@ -16630,7 +16629,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "11:45",
               "pickup": true,
               "dropoff": true
@@ -16648,7 +16647,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "11:50",
               "pickup": true,
               "dropoff": true
@@ -17188,7 +17187,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "11:31",
               "pickup": true,
               "dropoff": true
@@ -17242,7 +17241,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "11:49",
               "pickup": true,
               "dropoff": true
@@ -17332,7 +17331,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "11:46",
               "pickup": true,
               "dropoff": true
@@ -17386,7 +17385,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:04",
               "pickup": true,
               "dropoff": true
@@ -17476,7 +17475,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "12:01",
               "pickup": true,
               "dropoff": true
@@ -17530,7 +17529,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:19",
               "pickup": true,
               "dropoff": true
@@ -17620,7 +17619,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "12:16",
               "pickup": true,
               "dropoff": true
@@ -17674,7 +17673,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:34",
               "pickup": true,
               "dropoff": true
@@ -17933,7 +17932,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:57",
               "pickup": true,
               "dropoff": true
@@ -17951,7 +17950,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:02",
               "pickup": true,
               "dropoff": true
@@ -17993,7 +17992,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "12:18",
               "pickup": true,
               "dropoff": true
@@ -18059,7 +18058,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:07",
               "pickup": true,
               "dropoff": true
@@ -18077,7 +18076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:12",
               "pickup": true,
               "dropoff": true
@@ -18119,7 +18118,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "12:28",
               "pickup": true,
               "dropoff": true
@@ -18185,7 +18184,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:17",
               "pickup": true,
               "dropoff": true
@@ -18203,7 +18202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:22",
               "pickup": true,
               "dropoff": true
@@ -18245,7 +18244,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "12:38",
               "pickup": true,
               "dropoff": true
@@ -18311,7 +18310,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:42",
               "pickup": true,
               "dropoff": true
@@ -18329,7 +18328,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:47",
               "pickup": true,
               "dropoff": true
@@ -18371,7 +18370,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:03",
               "pickup": true,
               "dropoff": true
@@ -18653,7 +18652,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:18",
               "pickup": true,
               "dropoff": true
@@ -18731,7 +18730,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:33",
               "pickup": true,
               "dropoff": true
@@ -18809,7 +18808,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:48",
               "pickup": true,
               "dropoff": true
@@ -18887,7 +18886,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:03",
               "pickup": true,
               "dropoff": true
@@ -18929,7 +18928,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "13:05",
               "pickup": true,
               "dropoff": true
@@ -18947,7 +18946,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "13:10",
               "pickup": true,
               "dropoff": true
@@ -19019,7 +19018,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "13:25",
               "pickup": true,
               "dropoff": true
@@ -19037,7 +19036,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "13:30",
               "pickup": true,
               "dropoff": true
@@ -19109,7 +19108,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "12:45",
               "pickup": true,
               "dropoff": true
@@ -19127,7 +19126,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "12:50",
               "pickup": true,
               "dropoff": true
@@ -19667,7 +19666,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "12:31",
               "pickup": true,
               "dropoff": true
@@ -19721,7 +19720,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:49",
               "pickup": true,
               "dropoff": true
@@ -19811,7 +19810,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "12:46",
               "pickup": true,
               "dropoff": true
@@ -19865,7 +19864,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "13:04",
               "pickup": true,
               "dropoff": true
@@ -19955,7 +19954,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "13:01",
               "pickup": true,
               "dropoff": true
@@ -20009,7 +20008,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "13:19",
               "pickup": true,
               "dropoff": true
@@ -20099,7 +20098,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "13:16",
               "pickup": true,
               "dropoff": true
@@ -20153,7 +20152,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "13:34",
               "pickup": true,
               "dropoff": true
@@ -20412,7 +20411,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:52",
               "pickup": true,
               "dropoff": true
@@ -20430,7 +20429,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "12:57",
               "pickup": true,
               "dropoff": true
@@ -20472,7 +20471,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:13",
               "pickup": true,
               "dropoff": true
@@ -20538,7 +20537,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:02",
               "pickup": true,
               "dropoff": true
@@ -20556,7 +20555,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "13:07",
               "pickup": true,
               "dropoff": true
@@ -20598,7 +20597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:23",
               "pickup": true,
               "dropoff": true
@@ -20664,7 +20663,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:12",
               "pickup": true,
               "dropoff": true
@@ -20682,7 +20681,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "13:17",
               "pickup": true,
               "dropoff": true
@@ -20724,7 +20723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:33",
               "pickup": true,
               "dropoff": true
@@ -20790,7 +20789,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:37",
               "pickup": true,
               "dropoff": true
@@ -20808,7 +20807,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "13:42",
               "pickup": true,
               "dropoff": true
@@ -20850,7 +20849,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:58",
               "pickup": true,
               "dropoff": true
@@ -21132,7 +21131,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:13",
               "pickup": true,
               "dropoff": true
@@ -21210,7 +21209,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:28",
               "pickup": true,
               "dropoff": true
@@ -21288,7 +21287,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:43",
               "pickup": true,
               "dropoff": true
@@ -21366,7 +21365,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:58",
               "pickup": true,
               "dropoff": true
@@ -21408,7 +21407,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "14:05",
               "pickup": true,
               "dropoff": true
@@ -21426,7 +21425,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "14:10",
               "pickup": true,
               "dropoff": true
@@ -21498,7 +21497,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "14:25",
               "pickup": true,
               "dropoff": true
@@ -21516,7 +21515,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "14:30",
               "pickup": true,
               "dropoff": true
@@ -21588,7 +21587,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "13:45",
               "pickup": true,
               "dropoff": true
@@ -21606,7 +21605,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "13:50",
               "pickup": true,
               "dropoff": true
@@ -22146,7 +22145,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "13:31",
               "pickup": true,
               "dropoff": true
@@ -22200,7 +22199,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "13:49",
               "pickup": true,
               "dropoff": true
@@ -22290,7 +22289,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "13:46",
               "pickup": true,
               "dropoff": true
@@ -22344,7 +22343,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:04",
               "pickup": true,
               "dropoff": true
@@ -22434,7 +22433,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "14:01",
               "pickup": true,
               "dropoff": true
@@ -22488,7 +22487,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:19",
               "pickup": true,
               "dropoff": true
@@ -22578,7 +22577,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "14:16",
               "pickup": true,
               "dropoff": true
@@ -22632,7 +22631,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:34",
               "pickup": true,
               "dropoff": true
@@ -22891,7 +22890,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:47",
               "pickup": true,
               "dropoff": true
@@ -22909,7 +22908,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "13:52",
               "pickup": true,
               "dropoff": true
@@ -22951,7 +22950,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "14:08",
               "pickup": true,
               "dropoff": true
@@ -23017,7 +23016,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:57",
               "pickup": true,
               "dropoff": true
@@ -23035,7 +23034,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:02",
               "pickup": true,
               "dropoff": true
@@ -23077,7 +23076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "14:18",
               "pickup": true,
               "dropoff": true
@@ -23143,7 +23142,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:07",
               "pickup": true,
               "dropoff": true
@@ -23161,7 +23160,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:12",
               "pickup": true,
               "dropoff": true
@@ -23203,7 +23202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "14:28",
               "pickup": true,
               "dropoff": true
@@ -23269,7 +23268,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:32",
               "pickup": true,
               "dropoff": true
@@ -23287,7 +23286,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:37",
               "pickup": true,
               "dropoff": true
@@ -23329,7 +23328,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "14:53",
               "pickup": true,
               "dropoff": true
@@ -23611,7 +23610,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:08",
               "pickup": true,
               "dropoff": true
@@ -23689,7 +23688,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:23",
               "pickup": true,
               "dropoff": true
@@ -23767,7 +23766,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:38",
               "pickup": true,
               "dropoff": true
@@ -23845,7 +23844,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:53",
               "pickup": true,
               "dropoff": true
@@ -23887,7 +23886,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "15:05",
               "pickup": true,
               "dropoff": true
@@ -23905,7 +23904,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "15:10",
               "pickup": true,
               "dropoff": true
@@ -23977,7 +23976,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "15:25",
               "pickup": true,
               "dropoff": true
@@ -23995,7 +23994,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "15:30",
               "pickup": true,
               "dropoff": true
@@ -24067,7 +24066,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "14:45",
               "pickup": true,
               "dropoff": true
@@ -24085,7 +24084,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "14:50",
               "pickup": true,
               "dropoff": true
@@ -24625,7 +24624,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "14:31",
               "pickup": true,
               "dropoff": true
@@ -24679,7 +24678,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:49",
               "pickup": true,
               "dropoff": true
@@ -24769,7 +24768,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "14:46",
               "pickup": true,
               "dropoff": true
@@ -24823,7 +24822,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "15:04",
               "pickup": true,
               "dropoff": true
@@ -24913,7 +24912,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "15:01",
               "pickup": true,
               "dropoff": true
@@ -24967,7 +24966,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "15:19",
               "pickup": true,
               "dropoff": true
@@ -25057,7 +25056,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "15:16",
               "pickup": true,
               "dropoff": true
@@ -25111,7 +25110,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "15:34",
               "pickup": true,
               "dropoff": true
@@ -25370,7 +25369,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:42",
               "pickup": true,
               "dropoff": true
@@ -25388,7 +25387,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:47",
               "pickup": true,
               "dropoff": true
@@ -25430,7 +25429,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:03",
               "pickup": true,
               "dropoff": true
@@ -25496,7 +25495,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:52",
               "pickup": true,
               "dropoff": true
@@ -25514,7 +25513,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "14:57",
               "pickup": true,
               "dropoff": true
@@ -25556,7 +25555,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:13",
               "pickup": true,
               "dropoff": true
@@ -25622,7 +25621,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:02",
               "pickup": true,
               "dropoff": true
@@ -25640,7 +25639,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "15:07",
               "pickup": true,
               "dropoff": true
@@ -25682,7 +25681,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:23",
               "pickup": true,
               "dropoff": true
@@ -25748,7 +25747,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:27",
               "pickup": true,
               "dropoff": true
@@ -25766,7 +25765,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "15:32",
               "pickup": true,
               "dropoff": true
@@ -25808,7 +25807,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:48",
               "pickup": true,
               "dropoff": true
@@ -26090,7 +26089,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:03",
               "pickup": true,
               "dropoff": true
@@ -26168,7 +26167,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:18",
               "pickup": true,
               "dropoff": true
@@ -26246,7 +26245,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:33",
               "pickup": true,
               "dropoff": true
@@ -26324,7 +26323,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:48",
               "pickup": true,
               "dropoff": true
@@ -26366,7 +26365,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "16:05",
               "pickup": true,
               "dropoff": true
@@ -26384,7 +26383,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "16:10",
               "pickup": true,
               "dropoff": true
@@ -26456,7 +26455,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "16:25",
               "pickup": true,
               "dropoff": true
@@ -26474,7 +26473,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "16:30",
               "pickup": true,
               "dropoff": true
@@ -26546,7 +26545,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "15:45",
               "pickup": true,
               "dropoff": true
@@ -26564,7 +26563,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "15:50",
               "pickup": true,
               "dropoff": true
@@ -27104,7 +27103,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "15:31",
               "pickup": true,
               "dropoff": true
@@ -27158,7 +27157,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "15:49",
               "pickup": true,
               "dropoff": true
@@ -27248,7 +27247,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "15:46",
               "pickup": true,
               "dropoff": true
@@ -27302,7 +27301,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:04",
               "pickup": true,
               "dropoff": true
@@ -27392,7 +27391,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "16:01",
               "pickup": true,
               "dropoff": true
@@ -27446,7 +27445,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:19",
               "pickup": true,
               "dropoff": true
@@ -27536,7 +27535,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "16:16",
               "pickup": true,
               "dropoff": true
@@ -27590,7 +27589,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:34",
               "pickup": true,
               "dropoff": true
@@ -27849,7 +27848,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:37",
               "pickup": true,
               "dropoff": true
@@ -27867,7 +27866,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "15:42",
               "pickup": true,
               "dropoff": true
@@ -27909,7 +27908,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:58",
               "pickup": true,
               "dropoff": true
@@ -27975,7 +27974,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:47",
               "pickup": true,
               "dropoff": true
@@ -27993,7 +27992,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "15:52",
               "pickup": true,
               "dropoff": true
@@ -28035,7 +28034,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "16:08",
               "pickup": true,
               "dropoff": true
@@ -28101,7 +28100,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:57",
               "pickup": true,
               "dropoff": true
@@ -28119,7 +28118,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:02",
               "pickup": true,
               "dropoff": true
@@ -28161,7 +28160,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "16:18",
               "pickup": true,
               "dropoff": true
@@ -28227,7 +28226,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:22",
               "pickup": true,
               "dropoff": true
@@ -28245,7 +28244,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:27",
               "pickup": true,
               "dropoff": true
@@ -28287,7 +28286,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "16:43",
               "pickup": true,
               "dropoff": true
@@ -28569,7 +28568,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:58",
               "pickup": true,
               "dropoff": true
@@ -28647,7 +28646,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:13",
               "pickup": true,
               "dropoff": true
@@ -28725,7 +28724,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:28",
               "pickup": true,
               "dropoff": true
@@ -28803,7 +28802,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:43",
               "pickup": true,
               "dropoff": true
@@ -28845,7 +28844,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "17:05",
               "pickup": true,
               "dropoff": true
@@ -28863,7 +28862,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "17:10",
               "pickup": true,
               "dropoff": true
@@ -28935,7 +28934,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "17:25",
               "pickup": true,
               "dropoff": true
@@ -28953,7 +28952,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "17:30",
               "pickup": true,
               "dropoff": true
@@ -29025,7 +29024,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "16:45",
               "pickup": true,
               "dropoff": true
@@ -29043,7 +29042,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "16:50",
               "pickup": true,
               "dropoff": true
@@ -29583,7 +29582,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "16:31",
               "pickup": true,
               "dropoff": true
@@ -29637,7 +29636,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:49",
               "pickup": true,
               "dropoff": true
@@ -29727,7 +29726,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "16:46",
               "pickup": true,
               "dropoff": true
@@ -29781,7 +29780,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "17:04",
               "pickup": true,
               "dropoff": true
@@ -29871,7 +29870,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "17:01",
               "pickup": true,
               "dropoff": true
@@ -29925,7 +29924,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "17:19",
               "pickup": true,
               "dropoff": true
@@ -30015,7 +30014,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "17:16",
               "pickup": true,
               "dropoff": true
@@ -30069,7 +30068,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "17:34",
               "pickup": true,
               "dropoff": true
@@ -30328,7 +30327,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:32",
               "pickup": true,
               "dropoff": true
@@ -30346,7 +30345,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:37",
               "pickup": true,
               "dropoff": true
@@ -30388,7 +30387,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "16:53",
               "pickup": true,
               "dropoff": true
@@ -30454,7 +30453,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:42",
               "pickup": true,
               "dropoff": true
@@ -30472,7 +30471,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:47",
               "pickup": true,
               "dropoff": true
@@ -30514,7 +30513,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:03",
               "pickup": true,
               "dropoff": true
@@ -30580,7 +30579,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:52",
               "pickup": true,
               "dropoff": true
@@ -30598,7 +30597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "16:57",
               "pickup": true,
               "dropoff": true
@@ -30640,7 +30639,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:13",
               "pickup": true,
               "dropoff": true
@@ -30706,7 +30705,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:17",
               "pickup": true,
               "dropoff": true
@@ -30724,7 +30723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "17:22",
               "pickup": true,
               "dropoff": true
@@ -30766,7 +30765,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:38",
               "pickup": true,
               "dropoff": true
@@ -31048,7 +31047,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:53",
               "pickup": true,
               "dropoff": true
@@ -31126,7 +31125,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:08",
               "pickup": true,
               "dropoff": true
@@ -31204,7 +31203,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:23",
               "pickup": true,
               "dropoff": true
@@ -31282,7 +31281,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:38",
               "pickup": true,
               "dropoff": true
@@ -31324,7 +31323,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "18:05",
               "pickup": true,
               "dropoff": true
@@ -31342,7 +31341,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "18:10",
               "pickup": true,
               "dropoff": true
@@ -31414,7 +31413,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "18:25",
               "pickup": true,
               "dropoff": true
@@ -31432,7 +31431,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "18:30",
               "pickup": true,
               "dropoff": true
@@ -31504,7 +31503,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "17:45",
               "pickup": true,
               "dropoff": true
@@ -31522,7 +31521,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "17:50",
               "pickup": true,
               "dropoff": true
@@ -32062,7 +32061,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "17:31",
               "pickup": true,
               "dropoff": true
@@ -32116,7 +32115,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "17:49",
               "pickup": true,
               "dropoff": true
@@ -32206,7 +32205,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "17:46",
               "pickup": true,
               "dropoff": true
@@ -32260,7 +32259,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "18:04",
               "pickup": true,
               "dropoff": true
@@ -32350,7 +32349,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "18:01",
               "pickup": true,
               "dropoff": true
@@ -32404,7 +32403,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "18:19",
               "pickup": true,
               "dropoff": true
@@ -32494,7 +32493,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "18:16",
               "pickup": true,
               "dropoff": true
@@ -32548,7 +32547,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "18:34",
               "pickup": true,
               "dropoff": true
@@ -32807,7 +32806,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:27",
               "pickup": true,
               "dropoff": true
@@ -32825,7 +32824,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "17:32",
               "pickup": true,
               "dropoff": true
@@ -32867,7 +32866,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:48",
               "pickup": true,
               "dropoff": true
@@ -32933,7 +32932,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:37",
               "pickup": true,
               "dropoff": true
@@ -32951,7 +32950,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "17:42",
               "pickup": true,
               "dropoff": true
@@ -32993,7 +32992,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:58",
               "pickup": true,
               "dropoff": true
@@ -33059,7 +33058,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:47",
               "pickup": true,
               "dropoff": true
@@ -33077,7 +33076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "17:52",
               "pickup": true,
               "dropoff": true
@@ -33119,7 +33118,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "18:08",
               "pickup": true,
               "dropoff": true
@@ -33185,7 +33184,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:12",
               "pickup": true,
               "dropoff": true
@@ -33203,7 +33202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "18:17",
               "pickup": true,
               "dropoff": true
@@ -33245,7 +33244,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "18:33",
               "pickup": true,
               "dropoff": true
@@ -33527,7 +33526,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:48",
               "pickup": true,
               "dropoff": true
@@ -33605,7 +33604,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:03",
               "pickup": true,
               "dropoff": true
@@ -33683,7 +33682,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:18",
               "pickup": true,
               "dropoff": true
@@ -33761,7 +33760,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:33",
               "pickup": true,
               "dropoff": true
@@ -33803,7 +33802,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "19:05",
               "pickup": true,
               "dropoff": true
@@ -33821,7 +33820,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "19:10",
               "pickup": true,
               "dropoff": true
@@ -33893,7 +33892,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "19:25",
               "pickup": true,
               "dropoff": true
@@ -33911,7 +33910,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "19:30",
               "pickup": true,
               "dropoff": true
@@ -33983,7 +33982,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "18:45",
               "pickup": true,
               "dropoff": true
@@ -34001,7 +34000,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "18:50",
               "pickup": true,
               "dropoff": true
@@ -34541,7 +34540,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "18:31",
               "pickup": true,
               "dropoff": true
@@ -34595,7 +34594,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "18:49",
               "pickup": true,
               "dropoff": true
@@ -34685,7 +34684,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "18:46",
               "pickup": true,
               "dropoff": true
@@ -34739,7 +34738,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "19:04",
               "pickup": true,
               "dropoff": true
@@ -34829,7 +34828,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "19:01",
               "pickup": true,
               "dropoff": true
@@ -34883,7 +34882,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "19:19",
               "pickup": true,
               "dropoff": true
@@ -34973,7 +34972,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "19:16",
               "pickup": true,
               "dropoff": true
@@ -35027,7 +35026,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "19:34",
               "pickup": true,
               "dropoff": true
@@ -35286,7 +35285,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:22",
               "pickup": true,
               "dropoff": true
@@ -35304,7 +35303,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "18:27",
               "pickup": true,
               "dropoff": true
@@ -35346,7 +35345,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "18:43",
               "pickup": true,
               "dropoff": true
@@ -35412,7 +35411,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:32",
               "pickup": true,
               "dropoff": true
@@ -35430,7 +35429,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "18:37",
               "pickup": true,
               "dropoff": true
@@ -35472,7 +35471,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "18:53",
               "pickup": true,
               "dropoff": true
@@ -35538,7 +35537,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:42",
               "pickup": true,
               "dropoff": true
@@ -35556,7 +35555,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "18:47",
               "pickup": true,
               "dropoff": true
@@ -35598,7 +35597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:03",
               "pickup": true,
               "dropoff": true
@@ -35664,7 +35663,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:07",
               "pickup": true,
               "dropoff": true
@@ -35682,7 +35681,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "19:12",
               "pickup": true,
               "dropoff": true
@@ -35724,7 +35723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:28",
               "pickup": true,
               "dropoff": true
@@ -36006,7 +36005,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:43",
               "pickup": true,
               "dropoff": true
@@ -36084,7 +36083,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:58",
               "pickup": true,
               "dropoff": true
@@ -36162,7 +36161,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:13",
               "pickup": true,
               "dropoff": true
@@ -36240,7 +36239,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:28",
               "pickup": true,
               "dropoff": true
@@ -36282,7 +36281,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "20:05",
               "pickup": true,
               "dropoff": true
@@ -36300,7 +36299,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "20:10",
               "pickup": true,
               "dropoff": true
@@ -36372,7 +36371,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "20:25",
               "pickup": true,
               "dropoff": true
@@ -36390,7 +36389,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "20:30",
               "pickup": true,
               "dropoff": true
@@ -36462,7 +36461,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "19:45",
               "pickup": true,
               "dropoff": true
@@ -36480,7 +36479,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "19:50",
               "pickup": true,
               "dropoff": true
@@ -37020,7 +37019,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "19:31",
               "pickup": true,
               "dropoff": true
@@ -37074,7 +37073,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "19:49",
               "pickup": true,
               "dropoff": true
@@ -37164,7 +37163,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "19:46",
               "pickup": true,
               "dropoff": true
@@ -37218,7 +37217,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "20:04",
               "pickup": true,
               "dropoff": true
@@ -37308,7 +37307,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "20:01",
               "pickup": true,
               "dropoff": true
@@ -37362,7 +37361,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "20:19",
               "pickup": true,
               "dropoff": true
@@ -37452,7 +37451,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "20:16",
               "pickup": true,
               "dropoff": true
@@ -37506,7 +37505,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "20:34",
               "pickup": true,
               "dropoff": true
@@ -37765,7 +37764,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:17",
               "pickup": true,
               "dropoff": true
@@ -37783,7 +37782,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "19:22",
               "pickup": true,
               "dropoff": true
@@ -37825,7 +37824,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:38",
               "pickup": true,
               "dropoff": true
@@ -37891,7 +37890,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:27",
               "pickup": true,
               "dropoff": true
@@ -37909,7 +37908,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "19:32",
               "pickup": true,
               "dropoff": true
@@ -37951,7 +37950,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:48",
               "pickup": true,
               "dropoff": true
@@ -38017,7 +38016,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:37",
               "pickup": true,
               "dropoff": true
@@ -38035,7 +38034,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "19:42",
               "pickup": true,
               "dropoff": true
@@ -38077,7 +38076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:58",
               "pickup": true,
               "dropoff": true
@@ -38143,7 +38142,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:02",
               "pickup": true,
               "dropoff": true
@@ -38161,7 +38160,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "20:07",
               "pickup": true,
               "dropoff": true
@@ -38203,7 +38202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "20:23",
               "pickup": true,
               "dropoff": true
@@ -38485,7 +38484,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:38",
               "pickup": true,
               "dropoff": true
@@ -38563,7 +38562,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:53",
               "pickup": true,
               "dropoff": true
@@ -38641,7 +38640,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:08",
               "pickup": true,
               "dropoff": true
@@ -38719,7 +38718,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:23",
               "pickup": true,
               "dropoff": true
@@ -38761,7 +38760,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "21:05",
               "pickup": true,
               "dropoff": true
@@ -38779,7 +38778,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "21:10",
               "pickup": true,
               "dropoff": true
@@ -38851,7 +38850,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "21:25",
               "pickup": true,
               "dropoff": true
@@ -38869,7 +38868,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "21:30",
               "pickup": true,
               "dropoff": true
@@ -38893,7 +38892,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "20:45",
               "pickup": true,
               "dropoff": true
@@ -38911,7 +38910,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "20:50",
               "pickup": true,
               "dropoff": true
@@ -39211,7 +39210,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "20:31",
               "pickup": true,
               "dropoff": true
@@ -39265,7 +39264,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "20:49",
               "pickup": true,
               "dropoff": true
@@ -39355,7 +39354,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "20:46",
               "pickup": true,
               "dropoff": true
@@ -39409,7 +39408,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "21:04",
               "pickup": true,
               "dropoff": true
@@ -39499,7 +39498,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "21:01",
               "pickup": true,
               "dropoff": true
@@ -39553,7 +39552,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "21:19",
               "pickup": true,
               "dropoff": true
@@ -39770,7 +39769,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:12",
               "pickup": true,
               "dropoff": true
@@ -39788,7 +39787,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "20:17",
               "pickup": true,
               "dropoff": true
@@ -39830,7 +39829,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "20:33",
               "pickup": true,
               "dropoff": true
@@ -39896,7 +39895,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:22",
               "pickup": true,
               "dropoff": true
@@ -39914,7 +39913,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "20:27",
               "pickup": true,
               "dropoff": true
@@ -39956,7 +39955,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "20:43",
               "pickup": true,
               "dropoff": true
@@ -40022,7 +40021,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:32",
               "pickup": true,
               "dropoff": true
@@ -40040,7 +40039,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "20:37",
               "pickup": true,
               "dropoff": true
@@ -40082,7 +40081,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "20:53",
               "pickup": true,
               "dropoff": true
@@ -40148,7 +40147,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:57",
               "pickup": true,
               "dropoff": true
@@ -40166,7 +40165,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "21:02",
               "pickup": true,
               "dropoff": true
@@ -40208,7 +40207,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "21:18",
               "pickup": true,
               "dropoff": true
@@ -40490,7 +40489,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:33",
               "pickup": true,
               "dropoff": true
@@ -40568,7 +40567,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:48",
               "pickup": true,
               "dropoff": true
@@ -40646,7 +40645,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:03",
               "pickup": true,
               "dropoff": true
@@ -40724,7 +40723,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:18",
               "pickup": true,
               "dropoff": true
@@ -40766,7 +40765,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "21:45",
               "pickup": true,
               "dropoff": true
@@ -40784,7 +40783,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "21:50",
               "pickup": true,
               "dropoff": true
@@ -41013,7 +41012,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:07",
               "pickup": true,
               "dropoff": true
@@ -41031,7 +41030,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "21:12",
               "pickup": true,
               "dropoff": true
@@ -41073,7 +41072,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "21:28",
               "pickup": true,
               "dropoff": true
@@ -41103,7 +41102,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:17",
               "pickup": true,
               "dropoff": true
@@ -41121,7 +41120,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "21:22",
               "pickup": true,
               "dropoff": true
@@ -41169,7 +41168,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:27",
               "pickup": true,
               "dropoff": true
@@ -41187,7 +41186,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "21:32",
               "pickup": true,
               "dropoff": true
@@ -41229,7 +41228,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "21:48",
               "pickup": true,
               "dropoff": true
@@ -41295,7 +41294,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:52",
               "pickup": true,
               "dropoff": true
@@ -41313,7 +41312,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "21:57",
               "pickup": true,
               "dropoff": true
@@ -41355,7 +41354,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "22:13",
               "pickup": true,
               "dropoff": true
@@ -41637,7 +41636,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:28",
               "pickup": true,
               "dropoff": true
@@ -41673,7 +41672,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "22:45",
               "pickup": true,
               "dropoff": true
@@ -41691,7 +41690,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "22:50",
               "pickup": true,
               "dropoff": true
@@ -41920,7 +41919,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "22:22",
               "pickup": true,
               "dropoff": true
@@ -41938,7 +41937,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "22:27",
               "pickup": true,
               "dropoff": true
@@ -41980,7 +41979,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "22:43",
               "pickup": true,
               "dropoff": true
@@ -42046,7 +42045,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "22:47",
               "pickup": true,
               "dropoff": true
@@ -42064,7 +42063,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "22:52",
               "pickup": true,
               "dropoff": true
@@ -42106,7 +42105,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "23:08",
               "pickup": true,
               "dropoff": true
@@ -42352,7 +42351,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "23:45",
               "pickup": true,
               "dropoff": true
@@ -42370,7 +42369,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "23:50",
               "pickup": true,
               "dropoff": true
@@ -42581,7 +42580,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "23:17",
               "pickup": true,
               "dropoff": true
@@ -42599,7 +42598,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "23:22",
               "pickup": true,
               "dropoff": true
@@ -42641,7 +42640,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "23:38",
               "pickup": true,
               "dropoff": true
@@ -42707,7 +42706,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "23:42",
               "pickup": true,
               "dropoff": true
@@ -42725,7 +42724,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "23:47",
               "pickup": true,
               "dropoff": true
@@ -42959,7 +42958,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "00:45",
               "pickup": true,
               "dropoff": true
@@ -42977,7 +42976,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "00:50",
               "pickup": true,
               "dropoff": true
@@ -43206,7 +43205,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:12",
               "pickup": true,
               "dropoff": true
@@ -43224,7 +43223,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "00:17",
               "pickup": true,
               "dropoff": true
@@ -43266,7 +43265,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "00:33",
               "pickup": true,
               "dropoff": true
@@ -43512,7 +43511,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "01:45",
               "pickup": true,
               "dropoff": true
@@ -43530,7 +43529,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "01:50",
               "pickup": true,
               "dropoff": true
@@ -43759,7 +43758,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "01:07",
               "pickup": true,
               "dropoff": true
@@ -43777,7 +43776,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "01:12",
               "pickup": true,
               "dropoff": true
@@ -43819,7 +43818,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "01:28",
               "pickup": true,
               "dropoff": true
@@ -44065,7 +44064,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "02:45",
               "pickup": true,
               "dropoff": true
@@ -44083,7 +44082,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "02:50",
               "pickup": true,
               "dropoff": true
@@ -44312,7 +44311,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "02:02",
               "pickup": true,
               "dropoff": true
@@ -44330,7 +44329,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "02:07",
               "pickup": true,
               "dropoff": true
@@ -44372,7 +44371,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "02:23",
               "pickup": true,
               "dropoff": true
@@ -44618,7 +44617,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "03:45",
               "pickup": true,
               "dropoff": true
@@ -44636,7 +44635,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "03:50",
               "pickup": true,
               "dropoff": true
@@ -44865,7 +44864,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "02:57",
               "pickup": true,
               "dropoff": true
@@ -44883,7 +44882,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "03:02",
               "pickup": true,
               "dropoff": true
@@ -44925,7 +44924,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "03:18",
               "pickup": true,
               "dropoff": true
@@ -45328,7 +45327,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "03:52",
               "pickup": true,
               "dropoff": true
@@ -45346,7 +45345,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "03:57",
               "pickup": true,
               "dropoff": true
@@ -45388,7 +45387,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "04:13",
               "pickup": true,
               "dropoff": true
@@ -45574,7 +45573,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -45646,7 +45645,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -45718,7 +45717,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -45790,7 +45789,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -46061,7 +46060,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "00:02",
               "pickup": true,
               "dropoff": true
@@ -46079,7 +46078,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -46145,7 +46144,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "00:02",
               "pickup": true,
               "dropoff": true
@@ -46163,7 +46162,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -46229,7 +46228,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "00:02",
               "pickup": true,
               "dropoff": true
@@ -46247,7 +46246,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -47748,30 +47747,29 @@
         "end": "21:30"
       },
       "is24Hour": false,
-     "stops": [
-  "ECP",
-  "LOGCAP",
-  "BLDG 761D",
-  "WASHRACK",
-  "BLDG 507",
-  "BLDG 512",
-  "ZONE 2 DFAC",
-  "DOL",
-  "160TH",
-  "TMC",
-  "TURF TRACK",
-  "SENIOR PODS",
-  "COMBAT HETS",
-  "ZONE 6 DFAC",
-  "AMC PODS",
-  "CJFLCC-I/82nd",
-  "F/H PAD",
-  "AT&T",
-  "ZONE 6 CHAPEL",
-  "BLDG 1211",
-  "ECP"
-],
-
+      "stops": [
+        "ECP",
+        "LOGCAP",
+        "BLDG 761D",
+        "WASHRACK",
+        "BLDG 507",
+        "BLDG 512",
+        "ZONE 2 DFAC",
+        "DOL",
+        "160TH",
+        "TMC",
+        "TURF TRACK",
+        "SENIOR PODS",
+        "COMBAT HETS",
+        "ZONE 6 DFAC",
+        "AMC PODS",
+        "CJFLCC-I/82nd",
+        "F/H PAD",
+        "AT&T",
+        "ZONE 6 CHAPEL",
+        "BLDG 1211",
+        "ECP"
+      ],
       "departures": [
         {
           "tripId": 1,
@@ -48163,29 +48161,29 @@
         "end": "21:30"
       },
       "is24Hour": false,
-        "stops": [
-  "ECP",
-  "LOGCAP",
-  "BLDG 761D",
-  "WASHRACK",
-  "BLDG 507",
-  "BLDG 512",
-  "ZONE 2 DFAC",
-  "DOL",
-  "160TH",
-  "TMC",
-  "TURF TRACK",
-  "SENIOR PODS",
-  "COMBAT HETS",
-  "ZONE 6 DFAC",
-  "AMC PODS",
-  "CJFLCC-I/82nd",
-  "F/H PAD",
-  "AT&T",
-  "ZONE 6 CHAPEL",
-  "BLDG 1211",
-  "ECP"
-],
+      "stops": [
+        "ECP",
+        "LOGCAP",
+        "BLDG 761D",
+        "WASHRACK",
+        "BLDG 507",
+        "BLDG 512",
+        "ZONE 2 DFAC",
+        "DOL",
+        "160TH",
+        "TMC",
+        "TURF TRACK",
+        "SENIOR PODS",
+        "COMBAT HETS",
+        "ZONE 6 DFAC",
+        "AMC PODS",
+        "CJFLCC-I/82nd",
+        "F/H PAD",
+        "AT&T",
+        "ZONE 6 CHAPEL",
+        "BLDG 1211",
+        "ECP"
+      ],
       "departures": [
         {
           "tripId": 1,
@@ -48247,7 +48245,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:58",
               "pickup": true,
               "dropoff": true
@@ -48325,7 +48323,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:13",
               "pickup": true,
               "dropoff": true
@@ -48403,7 +48401,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:28",
               "pickup": true,
               "dropoff": true
@@ -48481,7 +48479,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:43",
               "pickup": true,
               "dropoff": true
@@ -48516,29 +48514,29 @@
         "end": "21:30"
       },
       "is24Hour": false,
-        "stops": [
-  "ECP",
-  "LOGCAP",
-  "BLDG 761D",
-  "WASHRACK",
-  "BLDG 507",
-  "BLDG 512",
-  "ZONE 2 DFAC",
-  "DOL",
-  "160TH",
-  "TMC",
-  "TURF TRACK",
-  "SENIOR PODS",
-  "COMBAT HETS",
-  "ZONE 6 DFAC",
-  "AMC PODS",
-  "CJFLCC-I/82nd",
-  "F/H PAD",
-  "AT&T",
-  "ZONE 6 CHAPEL",
-  "BLDG 1211",
-  "ECP"
-],
+      "stops": [
+        "ECP",
+        "LOGCAP",
+        "BLDG 761D",
+        "WASHRACK",
+        "BLDG 507",
+        "BLDG 512",
+        "ZONE 2 DFAC",
+        "DOL",
+        "160TH",
+        "TMC",
+        "TURF TRACK",
+        "SENIOR PODS",
+        "COMBAT HETS",
+        "ZONE 6 DFAC",
+        "AMC PODS",
+        "CJFLCC-I/82nd",
+        "F/H PAD",
+        "AT&T",
+        "ZONE 6 CHAPEL",
+        "BLDG 1211",
+        "ECP"
+      ],
       "departures": [
         {
           "tripId": 1,
@@ -48564,7 +48562,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "05:05",
               "pickup": true,
               "dropoff": true
@@ -48582,7 +48580,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "05:10",
               "pickup": true,
               "dropoff": true
@@ -48654,7 +48652,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "05:25",
               "pickup": true,
               "dropoff": true
@@ -48672,7 +48670,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "05:30",
               "pickup": true,
               "dropoff": true
@@ -48744,7 +48742,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII",
               "time": "04:45",
               "pickup": true,
               "dropoff": true
@@ -48762,7 +48760,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP",
               "time": "04:50",
               "pickup": true,
               "dropoff": true
@@ -48827,29 +48825,29 @@
         "end": "21:30"
       },
       "is24Hour": false,
-         "stops": [
-  "ECP",
-  "LOGCAP",
-  "BLDG 761D",
-  "WASHRACK",
-  "BLDG 507",
-  "BLDG 512",
-  "ZONE 2 DFAC",
-  "DOL",
-  "160TH",
-  "TMC",
-  "TURF TRACK",
-  "SENIOR PODS",
-  "COMBAT HETS",
-  "ZONE 6 DFAC",
-  "AMC PODS",
-  "CJFLCC-I/82nd",
-  "F/H PAD",
-  "AT&T",
-  "ZONE 6 CHAPEL",
-  "BLDG 1211",
-  "ECP"
-],
+      "stops": [
+        "ECP",
+        "LOGCAP",
+        "BLDG 761D",
+        "WASHRACK",
+        "BLDG 507",
+        "BLDG 512",
+        "ZONE 2 DFAC",
+        "DOL",
+        "160TH",
+        "TMC",
+        "TURF TRACK",
+        "SENIOR PODS",
+        "COMBAT HETS",
+        "ZONE 6 DFAC",
+        "AMC PODS",
+        "CJFLCC-I/82nd",
+        "F/H PAD",
+        "AT&T",
+        "ZONE 6 CHAPEL",
+        "BLDG 1211",
+        "ECP"
+      ],
       "departures": [
         {
           "tripId": 1,
@@ -49349,29 +49347,28 @@
       },
       "is24Hour": false,
       "stops": [
-  "ECP",
-  "LOGCAP",
-  "BLDG 761D",
-  "WASHRACK",
-  "BLDG 507",
-  "BLDG 512",
-  "ZONE 2 DFAC",
-  "DOL",
-  "160TH",
-  "TMC",
-  "TURF TRACK",
-  "SENIOR PODS",
-  "COMBAT HETS",
-  "ZONE 6 DFAC",
-  "AMC PODS",
-  "CJFLCC-I/82nd",
-  "F/H PAD",
-  "AT&T",
-  "ZONE 6 CHAPEL",
-  "BLDG 1211",
-  "ECP"
-],
-
+        "ECP",
+        "LOGCAP",
+        "BLDG 761D",
+        "WASHRACK",
+        "BLDG 507",
+        "BLDG 512",
+        "ZONE 2 DFAC",
+        "DOL",
+        "160TH",
+        "TMC",
+        "TURF TRACK",
+        "SENIOR PODS",
+        "COMBAT HETS",
+        "ZONE 6 DFAC",
+        "AMC PODS",
+        "CJFLCC-I/82nd",
+        "F/H PAD",
+        "AT&T",
+        "ZONE 6 CHAPEL",
+        "BLDG 1211",
+        "ECP"
+      ],
       "departures": [
         {
           "tripId": 1,
@@ -49385,7 +49382,7 @@
               "dropoff": false
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "04:31",
               "pickup": true,
               "dropoff": true
@@ -49439,7 +49436,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "04:49",
               "pickup": true,
               "dropoff": true
@@ -49529,7 +49526,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "04:46",
               "pickup": true,
               "dropoff": true
@@ -49583,7 +49580,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "05:04",
               "pickup": true,
               "dropoff": true
@@ -49673,7 +49670,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "05:01",
               "pickup": true,
               "dropoff": true
@@ -49727,7 +49724,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "05:19",
               "pickup": true,
               "dropoff": true
@@ -49817,7 +49814,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "DFAC 6",
               "time": "05:16",
               "pickup": true,
               "dropoff": true
@@ -49871,7 +49868,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 2 DFAC",
+              "stop": "DFAC 2",
               "time": "05:34",
               "pickup": true,
               "dropoff": true
@@ -49967,29 +49964,28 @@
       },
       "is24Hour": false,
       "stops": [
-  "ECP",
-  "LOGCAP",
-  "BLDG 761D",
-  "WASHRACK",
-  "BLDG 507",
-  "BLDG 512",
-  "ZONE 2 DFAC",
-  "DOL",
-  "160TH",
-  "TMC",
-  "TURF TRACK",
-  "SENIOR PODS",
-  "COMBAT HETS",
-  "ZONE 6 DFAC",
-  "AMC PODS",
-  "CJFLCC-I/82nd",
-  "F/H PAD",
-  "AT&T",
-  "ZONE 6 CHAPEL",
-  "BLDG 1211",
-  "ECP"
-],
-
+        "ECP",
+        "LOGCAP",
+        "BLDG 761D",
+        "WASHRACK",
+        "BLDG 507",
+        "BLDG 512",
+        "ZONE 2 DFAC",
+        "DOL",
+        "160TH",
+        "TMC",
+        "TURF TRACK",
+        "SENIOR PODS",
+        "COMBAT HETS",
+        "ZONE 6 DFAC",
+        "AMC PODS",
+        "CJFLCC-I/82nd",
+        "F/H PAD",
+        "AT&T",
+        "ZONE 6 CHAPEL",
+        "BLDG 1211",
+        "ECP"
+      ],
       "departures": [
         {
           "tripId": 1,
