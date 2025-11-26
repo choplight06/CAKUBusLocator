@@ -132,24 +132,39 @@
   </div>
 
 <script>
+<script>
 const STATE = {
   routes: [],
   stops: []
 };
 
+// Main stops you want highlighted
+const MAIN_STOPS_CANON = [
+  'ZONE 6 DFAC',
+  'ZONE 2 DFAC',
+  'TURF TRACK',
+  'ZONE 6 PX',
+  'ZONE 6 PX/GYM',
+  'COMBAT HETS',
+  'SENIOR PODS',
+  'TMC'
+].map(s => s.toUpperCase());
+
+// Simple canonical form: uppercase, trimmed
 function canonStop(name) {
   return (name || '').trim().toUpperCase();
 }
 
 function toMinutes(hhmm) {
   const [h, m] = String(hhmm).split(':').map(Number);
-  return (Number.isFinite(h) && Number.isFinite(m)) ? h * 60 + m : NaN;
+  if (!Number.isFinite(h) || !Number.isFinite(m)) return NaN;
+  return h * 60 + m;
 }
 
 function projectAfter(refMin, hhmm) {
   let m = toMinutes(hhmm);
   if (!Number.isFinite(m)) return NaN;
-  while (m < refMin) m += 1440; // roll over to next day if needed
+  while (m < refMin) m += 1440; // roll to next day if needed
   return m;
 }
 
@@ -161,97 +176,124 @@ function localNowHHMM() {
 }
 
 function fmtETA(deltaMin) {
-  if (!Number.isFinite(deltaMin) || deltaMin < 0) return '';
+  if (!Number.isFinite(deltaMin)) return '';
+  if (deltaMin < 0) return 'departed';
   const h = Math.floor(deltaMin / 60);
   const m = deltaMin % 60;
-  if (h && m) return `${h}h ${m}m`;
-  if (h) return `${h}h`;
-  return `${m} min`;
+  if (!h) return `${m} min`;
+  if (!m) return `${h} hr`;
+  return `${h} hr ${m} min`;
 }
 
+// Turn your JSON into an internal model the rest of the code can rely on
 function buildStateFromJson(json) {
-  // Accept either { routes:[...] } or plain array
-  const rawRoutes = Array.isArray(json.routes) ? json.routes :
-                    (Array.isArray(json) ? json : []);
+  const rawRoutes = Array.isArray(json.routes) ? json.routes : [];
   if (!rawRoutes.length) {
-    throw new Error('Unexpected schedule shape: no routes array found.');
+    throw new Error('No routes found in schedule JSON.');
   }
 
   const routes = rawRoutes.map((r, idx) => {
-    const label = r.label || r.name || r.routeId || `Route ${idx + 1}`;
+    const label = r.label || r.routeId || `Route ${idx + 1}`;
 
-    const departures = (r.departures || []).map((dep, i) => ({
-      tripId: dep.tripId ?? dep.id ?? (i + 1),
-      times: (dep.times || []).map(t => ({
-        stop: t.stop,
-        time: t.time,
-        pickup: t.pickup !== false,
-        dropoff: t.dropoff !== false
-      })).filter(t => t.stop && t.time)
-    })).filter(dep => dep.times.length);
+    const stops = Array.isArray(r.stops) ? r.stops.slice() : [];
 
-    const stopSet = new Set();
-    (r.stops || []).forEach(s => s && stopSet.add(s));
-    departures.forEach(dep => dep.times.forEach(t => stopSet.add(t.stop)));
+    const departures = Array.isArray(r.departures)
+      ? r.departures.map((dep, i) => {
+          const times = Array.isArray(dep.times)
+            ? dep.times
+                .map(t => ({
+                  stop: t.stop,
+                  time: t.time,
+                  pickup: t.pickup !== false,   // default true
+                  dropoff: t.dropoff !== false  // default true
+                }))
+                .filter(t => t.stop && t.time)
+            : [];
+          return {
+            tripId: dep.tripId || dep.id || (i + 1),
+            times
+          };
+        })
+        .filter(dep => dep.times.length)
+      : [];
 
-    const stops = Array.from(stopSet);
-
-    return { label, stops, departures, is24Hour: !!r.is24Hour };
+    return { label, stops, departures };
   }).filter(r => r.stops.length && r.departures.length);
 
   if (!routes.length) {
     throw new Error('Routes normalized, but none had both stops and departures.');
   }
 
-  const allStops = new Set();
-  routes.forEach(r => r.stops.forEach(s => allStops.add(s)));
+  // Build a canonical set of stops, but remember a nice display name for each
+  const allCanonStops = new Set();
+  const displayMap = new Map();
+
+  routes.forEach(r => {
+    (r.stops || []).forEach(s => {
+      const c = canonStop(s);
+      allCanonStops.add(c);
+      if (!displayMap.has(c)) displayMap.set(c, s);
+    });
+    (r.departures || []).forEach(dep => {
+      (dep.times || []).forEach(t => {
+        const c = canonStop(t.stop);
+        allCanonStops.add(c);
+        if (!displayMap.has(c)) displayMap.set(c, t.stop);
+      });
+    });
+  });
 
   STATE.routes = routes;
-  STATE.stops = Array.from(allStops).sort((a, b) => a.localeCompare(b));
+  STATE.stops = Array.from(allCanonStops)
+    .map(c => displayMap.get(c) || c)
+    .sort((a, b) => a.localeCompare(b));
 }
 
+// Fill the three dropdowns
 function populateSelectors() {
- const origin = document.getElementById('origin');
-const destination = document.getElementById('destination');
-const routeFilter = document.getElementById('routeFilter');
+  const origin = document.getElementById('origin');
+  const destination = document.getElementById('destination');
+  const routeFilter = document.getElementById('routeFilter');
 
-// Split STATE.stops into main vs other
-const mainStops = [];
-const otherStops = [];
+  const mainStops = [];
+  const otherStops = [];
+  const seenMainCanon = new Set();
 
-STATE.stops.forEach(stop => {
-  const cs = canonStop(stop); // uses  existing normalizer
-  if (MAIN_STOPS_CANON.includes(cs)) {
-    // avoid duplicates if same stop appears with slightly different spelling
-    if (!mainStops.some(ms => canonStop(ms) === cs)) {
-      mainStops.push(stop);
+  STATE.stops.forEach(stop => {
+    const c = canonStop(stop);
+    if (MAIN_STOPS_CANON.includes(c)) {
+      if (!seenMainCanon.has(c)) {
+        mainStops.push(stop);
+        seenMainCanon.add(c);
+      }
+    } else {
+      otherStops.push(stop);
     }
-  } else {
-    otherStops.push(stop);
-  }
-});
+  });
 
-const mainOptions = mainStops.map(s => `<option>${s}</option>`).join('');
-const otherOptions = otherStops.map(s => `<option>${s}</option>`).join('');
-
-// Shared HTML for both selects
-const selectorHtml = `
-  <option value="">Select stop…</option>
-  ${mainStops.length ? `<optgroup label="Main stops">${mainOptions}</optgroup>` : ''}
-  <optgroup label="All stops">${otherOptions}</optgroup>
-`;
-
-origin.innerHTML = selectorHtml;
-destination.innerHTML = selectorHtml;
-
-  const routeOptions = STATE.routes
-    .map(r => `<option>${r.label}</option>`)
+  const mainOptions = mainStops
+    .map(s => `<option value="${s}">${s}</option>`)
+    .join('');
+  const allOptions = STATE.stops
+    .map(s => `<option value="${s}">${s}</option>`)
     .join('');
 
-  routeFilter.innerHTML =
-    `<option value="">All routes</option>` + routeOptions;
+  const selectorHtml = `
+    <option value="">Select stop…</option>
+    ${mainStops.length ? `<optgroup label="Main stops">${mainOptions}</optgroup>` : ''}
+    <optgroup label="All stops">${allOptions}</optgroup>
+  `;
+
+  origin.innerHTML = selectorHtml;
+  destination.innerHTML = selectorHtml;
+
+  const routeOptions = STATE.routes
+    .map(r => `<option value="${r.label}">${r.label}</option>`)
+    .join('');
+  routeFilter.innerHTML = `<option value="">All routes</option>` + routeOptions;
 }
 
+// Find direct trips from A → B, optionally filtered by route
 function findDirectTrips(originName, destName, routeLabelOpt) {
   const originCanon = canonStop(originName);
   const destCanon = canonStop(destName);
@@ -263,8 +305,14 @@ function findDirectTrips(originName, destName, routeLabelOpt) {
   STATE.routes.forEach(route => {
     if (routeLabelOpt && route.label !== routeLabelOpt) return;
 
-    const hasOrigin = route.stops.some(s => canonStop(s) === originCanon);
-    const hasDest = route.stops.some(s => canonStop(s) === destCanon);
+    // Only consider routes that actually touch both stops somewhere
+    let hasOrigin = false;
+    let hasDest = false;
+    route.departures.forEach(dep => dep.times.forEach(t => {
+      const c = canonStop(t.stop);
+      if (c === originCanon) hasOrigin = true;
+      if (c === destCanon) hasDest = true;
+    }));
     if (!hasOrigin || !hasDest) return;
 
     route.departures.forEach(dep => {
@@ -272,14 +320,12 @@ function findDirectTrips(originName, destName, routeLabelOpt) {
       let arrTimeStr = null;
 
       for (const t of dep.times) {
-        const cs = canonStop(t.stop);
-
-        if (!depTimeStr && cs === originCanon && t.pickup) {
+        const c = canonStop(t.stop);
+        if (!depTimeStr && c === originCanon && t.pickup) {
           depTimeStr = t.time;
         }
-
-        // Only allow arrival after we have a departure
-        if (depTimeStr && cs === destCanon && t.dropoff) {
+        // Only allow arrival after we've "boarded"
+        if (depTimeStr && c === destCanon && t.dropoff) {
           arrTimeStr = t.time;
           break;
         }
@@ -303,16 +349,16 @@ function findDirectTrips(originName, destName, routeLabelOpt) {
     });
   });
 
-  // Sort by departure time after "now"
   trips.sort((a, b) => a.depMin - b.depMin);
 
   const upcoming = trips.filter(t => t.depMin >= nowMin);
   const recommended = upcoming[0] || null;
-  const others = upcoming.slice(1, 5); // show up to 5 more
+  const others = upcoming.slice(1, 5);
 
   return { recommended, others, nowMin };
 }
 
+// Render the results panel
 function renderResults(origin, dest, routeLabelOpt) {
   const { recommended, others, nowMin } = findDirectTrips(origin, dest, routeLabelOpt);
   const container = document.getElementById('results');
@@ -325,16 +371,17 @@ function renderResults(origin, dest, routeLabelOpt) {
         <div class="muted">
           There are no direct buses from <strong>${origin}</strong>
           to <strong>${dest}</strong> in the current schedule window.
-          Try a different route filter or another time of day.
+          Try a different route filter or another time.
         </div>
-      </div>`;
+      </div>
+    `;
     return;
   }
 
   const wait = recommended.depMin - nowMin;
   const ride = recommended.arrMin - recommended.depMin;
 
-  const recommendedHtml = `
+  const recHtml = `
     <div class="card">
       <h3>Next direct bus</h3>
       <p>
@@ -342,9 +389,8 @@ function renderResults(origin, dest, routeLabelOpt) {
         Route: <strong>${recommended.route}</strong>
       </p>
       <p>
-        Departs at <strong>${recommended.depTimeStr}</strong>
-        (in ${fmtETA(wait)}), arrives around
-        <strong>${recommended.arrTimeStr}</strong>
+        Departs at <strong>${recommended.depTimeStr}</strong> (in ${fmtETA(wait)}),
+        arrives around <strong>${recommended.arrTimeStr}</strong>
         (ride ~${fmtETA(ride)}).
       </p>
     </div>
@@ -364,28 +410,31 @@ function renderResults(origin, dest, routeLabelOpt) {
     `;
   }
 
-  container.innerHTML = recommendedHtml + othersHtml;
+  container.innerHTML = recHtml + othersHtml;
 }
 
+// Bootstrapping
 async function init() {
   document.getElementById('now').textContent = new Date().toLocaleString();
 
   let json;
   try {
-    const res = await fetch('schedule_with_pickup_dropoff.json?v=1', {
+    const res = await fetch('schedule_with_pickup_dropoff.json?v=8', {
       cache: 'no-store'
     });
-    if (!res.ok) {
-      throw new Error(`HTTP ${res.status}`);
-    }
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
     json = await res.json();
   } catch (e) {
     console.error('Failed to load schedule JSON', e);
     document.getElementById('results').innerHTML = `
       <div class="card">
         <h3>Could not load schedule</h3>
-        <div class="muted">Check that <code>schedule_with_pickup_dropoff.json</code> is in the same folder as <code>index.html</code> on GitHub.</div>
-      </div>`;
+        <div class="muted">
+          Check that <code>schedule_with_pickup_dropoff.json</code>
+          is in the same folder as <code>index.html</code> on GitHub.
+        </div>
+      </div>
+    `;
     return;
   }
 
@@ -397,7 +446,8 @@ async function init() {
       <div class="card">
         <h3>Schedule format error</h3>
         <div class="muted">${e.message}</div>
-      </div>`;
+      </div>
+    `;
     return;
   }
 
@@ -421,6 +471,8 @@ async function init() {
 }
 
 init();
+</script>
+
 </script>
 
 </body>
