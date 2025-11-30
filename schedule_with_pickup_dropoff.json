@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "generatedFrom": "CombinedSchedules.xlsx",
   "features": {
     "pickupDropoffFlags": true,
@@ -18,7 +18,7 @@
         "ECP",
         "LOGCAP",
         "BLDG 761D",
-        "WASHRACK",
+        "WASH RACK",
         "BLDG 507",
         "BLDG 512",
         "ZONE 2 DFAC",
@@ -35,397 +35,7 @@
         "AT&T",
         "ZONE 6 CHAPEL",
         "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY"
+        "ECP"
       ],
       "departures": [
         {
@@ -452,7 +62,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:37",
               "pickup": true,
               "dropoff": true
@@ -512,7 +122,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "04:58",
               "pickup": true,
               "dropoff": true
@@ -578,7 +188,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:52",
               "pickup": true,
               "dropoff": true
@@ -638,7 +248,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "05:13",
               "pickup": true,
               "dropoff": true
@@ -704,7 +314,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:07",
               "pickup": true,
               "dropoff": true
@@ -764,7 +374,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "05:28",
               "pickup": true,
               "dropoff": true
@@ -830,7 +440,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:22",
               "pickup": true,
               "dropoff": true
@@ -890,7 +500,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "05:43",
               "pickup": true,
               "dropoff": true
@@ -969,7 +579,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:32",
               "pickup": true,
               "dropoff": true
@@ -1029,7 +639,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "05:53",
               "pickup": true,
               "dropoff": true
@@ -1095,7 +705,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:47",
               "pickup": true,
               "dropoff": true
@@ -1155,7 +765,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "06:08",
               "pickup": true,
               "dropoff": true
@@ -1221,7 +831,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:02",
               "pickup": true,
               "dropoff": true
@@ -1281,7 +891,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "06:23",
               "pickup": true,
               "dropoff": true
@@ -1347,7 +957,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:17",
               "pickup": true,
               "dropoff": true
@@ -1407,7 +1017,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "06:38",
               "pickup": true,
               "dropoff": true
@@ -1503,7 +1113,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "05:51",
               "pickup": true,
               "dropoff": true
@@ -1521,7 +1131,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "05:54",
               "pickup": true,
               "dropoff": true
@@ -1593,7 +1203,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "06:11",
               "pickup": true,
               "dropoff": true
@@ -1611,7 +1221,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "06:14",
               "pickup": true,
               "dropoff": true
@@ -1689,7 +1299,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:53",
               "pickup": true,
               "dropoff": true
@@ -1767,7 +1377,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:08",
               "pickup": true,
               "dropoff": true
@@ -1845,7 +1455,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:23",
               "pickup": true,
               "dropoff": true
@@ -1923,7 +1533,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:38",
               "pickup": true,
               "dropoff": true
@@ -2775,7 +2385,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:53",
               "pickup": true,
               "dropoff": true
@@ -2919,7 +2529,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:08",
               "pickup": true,
               "dropoff": true
@@ -3063,7 +2673,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:23",
               "pickup": true,
               "dropoff": true
@@ -3207,7 +2817,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:38",
               "pickup": true,
               "dropoff": true
@@ -3448,7 +3058,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:27",
               "pickup": true,
               "dropoff": true
@@ -3508,7 +3118,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "06:48",
               "pickup": true,
               "dropoff": true
@@ -3574,7 +3184,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:42",
               "pickup": true,
               "dropoff": true
@@ -3634,7 +3244,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:03",
               "pickup": true,
               "dropoff": true
@@ -3700,7 +3310,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:57",
               "pickup": true,
               "dropoff": true
@@ -3760,7 +3370,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:18",
               "pickup": true,
               "dropoff": true
@@ -3826,7 +3436,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:12",
               "pickup": true,
               "dropoff": true
@@ -3886,7 +3496,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:33",
               "pickup": true,
               "dropoff": true
@@ -3982,7 +3592,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "06:31",
               "pickup": true,
               "dropoff": true
@@ -4000,7 +3610,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "06:34",
               "pickup": true,
               "dropoff": true
@@ -4072,7 +3682,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "06:51",
               "pickup": true,
               "dropoff": true
@@ -4090,7 +3700,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "06:54",
               "pickup": true,
               "dropoff": true
@@ -4168,7 +3778,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:48",
               "pickup": true,
               "dropoff": true
@@ -4246,7 +3856,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:03",
               "pickup": true,
               "dropoff": true
@@ -4324,7 +3934,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:18",
               "pickup": true,
               "dropoff": true
@@ -4402,7 +4012,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:33",
               "pickup": true,
               "dropoff": true
@@ -5254,7 +4864,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:53",
               "pickup": true,
               "dropoff": true
@@ -5398,7 +5008,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:08",
               "pickup": true,
               "dropoff": true
@@ -5542,7 +5152,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:23",
               "pickup": true,
               "dropoff": true
@@ -5686,7 +5296,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:38",
               "pickup": true,
               "dropoff": true
@@ -5927,7 +5537,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:22",
               "pickup": true,
               "dropoff": true
@@ -5987,7 +5597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:43",
               "pickup": true,
               "dropoff": true
@@ -6053,7 +5663,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:37",
               "pickup": true,
               "dropoff": true
@@ -6113,7 +5723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "07:58",
               "pickup": true,
               "dropoff": true
@@ -6179,7 +5789,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:52",
               "pickup": true,
               "dropoff": true
@@ -6239,7 +5849,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "08:13",
               "pickup": true,
               "dropoff": true
@@ -6305,7 +5915,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:07",
               "pickup": true,
               "dropoff": true
@@ -6365,7 +5975,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "08:28",
               "pickup": true,
               "dropoff": true
@@ -6461,7 +6071,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "07:11",
               "pickup": true,
               "dropoff": true
@@ -6479,7 +6089,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "07:14",
               "pickup": true,
               "dropoff": true
@@ -6551,7 +6161,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "07:31",
               "pickup": true,
               "dropoff": true
@@ -6569,7 +6179,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "07:34",
               "pickup": true,
               "dropoff": true
@@ -6647,7 +6257,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:43",
               "pickup": true,
               "dropoff": true
@@ -6725,7 +6335,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:58",
               "pickup": true,
               "dropoff": true
@@ -6803,7 +6413,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:13",
               "pickup": true,
               "dropoff": true
@@ -6881,7 +6491,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:28",
               "pickup": true,
               "dropoff": true
@@ -7733,7 +7343,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:53",
               "pickup": true,
               "dropoff": true
@@ -7877,7 +7487,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:08",
               "pickup": true,
               "dropoff": true
@@ -8021,7 +7631,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:23",
               "pickup": true,
               "dropoff": true
@@ -8165,7 +7775,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:38",
               "pickup": true,
               "dropoff": true
@@ -8406,7 +8016,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:17",
               "pickup": true,
               "dropoff": true
@@ -8466,7 +8076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "08:38",
               "pickup": true,
               "dropoff": true
@@ -8532,7 +8142,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:32",
               "pickup": true,
               "dropoff": true
@@ -8592,7 +8202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "08:53",
               "pickup": true,
               "dropoff": true
@@ -8658,7 +8268,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:47",
               "pickup": true,
               "dropoff": true
@@ -8718,7 +8328,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "09:08",
               "pickup": true,
               "dropoff": true
@@ -8784,7 +8394,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:02",
               "pickup": true,
               "dropoff": true
@@ -8844,7 +8454,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "09:23",
               "pickup": true,
               "dropoff": true
@@ -8940,7 +8550,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "07:51",
               "pickup": true,
               "dropoff": true
@@ -8958,7 +8568,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "07:54",
               "pickup": true,
               "dropoff": true
@@ -9030,7 +8640,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "08:11",
               "pickup": true,
               "dropoff": true
@@ -9048,7 +8658,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "08:14",
               "pickup": true,
               "dropoff": true
@@ -9126,7 +8736,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:38",
               "pickup": true,
               "dropoff": true
@@ -9204,7 +8814,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:53",
               "pickup": true,
               "dropoff": true
@@ -9282,7 +8892,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:08",
               "pickup": true,
               "dropoff": true
@@ -9360,7 +8970,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:23",
               "pickup": true,
               "dropoff": true
@@ -10212,7 +9822,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:53",
               "pickup": true,
               "dropoff": true
@@ -10356,7 +9966,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:08",
               "pickup": true,
               "dropoff": true
@@ -10500,7 +10110,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:23",
               "pickup": true,
               "dropoff": true
@@ -10644,7 +10254,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:38",
               "pickup": true,
               "dropoff": true
@@ -10885,7 +10495,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:12",
               "pickup": true,
               "dropoff": true
@@ -10945,7 +10555,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "09:33",
               "pickup": true,
               "dropoff": true
@@ -11011,7 +10621,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:27",
               "pickup": true,
               "dropoff": true
@@ -11071,7 +10681,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "09:48",
               "pickup": true,
               "dropoff": true
@@ -11137,7 +10747,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:42",
               "pickup": true,
               "dropoff": true
@@ -11197,7 +10807,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:03",
               "pickup": true,
               "dropoff": true
@@ -11263,7 +10873,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:57",
               "pickup": true,
               "dropoff": true
@@ -11323,7 +10933,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:18",
               "pickup": true,
               "dropoff": true
@@ -11419,7 +11029,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "08:31",
               "pickup": true,
               "dropoff": true
@@ -11437,7 +11047,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "08:34",
               "pickup": true,
               "dropoff": true
@@ -11509,7 +11119,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "08:51",
               "pickup": true,
               "dropoff": true
@@ -11527,7 +11137,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "08:54",
               "pickup": true,
               "dropoff": true
@@ -11605,7 +11215,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:33",
               "pickup": true,
               "dropoff": true
@@ -11683,7 +11293,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:48",
               "pickup": true,
               "dropoff": true
@@ -11761,7 +11371,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:03",
               "pickup": true,
               "dropoff": true
@@ -11839,7 +11449,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:18",
               "pickup": true,
               "dropoff": true
@@ -12691,7 +12301,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:53",
               "pickup": true,
               "dropoff": true
@@ -12835,7 +12445,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:08",
               "pickup": true,
               "dropoff": true
@@ -12979,7 +12589,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:23",
               "pickup": true,
               "dropoff": true
@@ -13123,7 +12733,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:38",
               "pickup": true,
               "dropoff": true
@@ -13364,7 +12974,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:07",
               "pickup": true,
               "dropoff": true
@@ -13424,7 +13034,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:28",
               "pickup": true,
               "dropoff": true
@@ -13490,7 +13100,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:22",
               "pickup": true,
               "dropoff": true
@@ -13550,7 +13160,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:43",
               "pickup": true,
               "dropoff": true
@@ -13616,7 +13226,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:37",
               "pickup": true,
               "dropoff": true
@@ -13676,7 +13286,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "10:58",
               "pickup": true,
               "dropoff": true
@@ -13742,7 +13352,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:52",
               "pickup": true,
               "dropoff": true
@@ -13802,7 +13412,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "11:13",
               "pickup": true,
               "dropoff": true
@@ -13898,7 +13508,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "09:11",
               "pickup": true,
               "dropoff": true
@@ -13916,7 +13526,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "09:14",
               "pickup": true,
               "dropoff": true
@@ -13988,7 +13598,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "09:31",
               "pickup": true,
               "dropoff": true
@@ -14006,7 +13616,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "09:34",
               "pickup": true,
               "dropoff": true
@@ -14084,7 +13694,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:28",
               "pickup": true,
               "dropoff": true
@@ -14162,7 +13772,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:43",
               "pickup": true,
               "dropoff": true
@@ -14240,7 +13850,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:58",
               "pickup": true,
               "dropoff": true
@@ -14318,7 +13928,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:13",
               "pickup": true,
               "dropoff": true
@@ -15170,7 +14780,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:53",
               "pickup": true,
               "dropoff": true
@@ -15314,7 +14924,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:08",
               "pickup": true,
               "dropoff": true
@@ -15458,7 +15068,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:23",
               "pickup": true,
               "dropoff": true
@@ -15602,7 +15212,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:38",
               "pickup": true,
               "dropoff": true
@@ -15843,7 +15453,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:02",
               "pickup": true,
               "dropoff": true
@@ -15903,7 +15513,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "11:23",
               "pickup": true,
               "dropoff": true
@@ -15969,7 +15579,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:17",
               "pickup": true,
               "dropoff": true
@@ -16029,7 +15639,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "11:38",
               "pickup": true,
               "dropoff": true
@@ -16095,7 +15705,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:32",
               "pickup": true,
               "dropoff": true
@@ -16155,7 +15765,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "11:53",
               "pickup": true,
               "dropoff": true
@@ -16221,7 +15831,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:47",
               "pickup": true,
               "dropoff": true
@@ -16281,7 +15891,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "12:08",
               "pickup": true,
               "dropoff": true
@@ -16377,7 +15987,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "09:51",
               "pickup": true,
               "dropoff": true
@@ -16395,7 +16005,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "09:54",
               "pickup": true,
               "dropoff": true
@@ -16467,7 +16077,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "10:11",
               "pickup": true,
               "dropoff": true
@@ -16485,7 +16095,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "10:14",
               "pickup": true,
               "dropoff": true
@@ -16563,7 +16173,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:23",
               "pickup": true,
               "dropoff": true
@@ -16641,7 +16251,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:38",
               "pickup": true,
               "dropoff": true
@@ -16719,7 +16329,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:53",
               "pickup": true,
               "dropoff": true
@@ -16797,7 +16407,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:08",
               "pickup": true,
               "dropoff": true
@@ -17649,7 +17259,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:53",
               "pickup": true,
               "dropoff": true
@@ -17793,7 +17403,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:08",
               "pickup": true,
               "dropoff": true
@@ -17937,7 +17547,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:23",
               "pickup": true,
               "dropoff": true
@@ -18081,7 +17691,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:38",
               "pickup": true,
               "dropoff": true
@@ -18322,7 +17932,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:57",
               "pickup": true,
               "dropoff": true
@@ -18382,7 +17992,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "12:18",
               "pickup": true,
               "dropoff": true
@@ -18448,7 +18058,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:07",
               "pickup": true,
               "dropoff": true
@@ -18508,7 +18118,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "12:28",
               "pickup": true,
               "dropoff": true
@@ -18574,7 +18184,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:17",
               "pickup": true,
               "dropoff": true
@@ -18634,7 +18244,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "12:38",
               "pickup": true,
               "dropoff": true
@@ -18700,7 +18310,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:42",
               "pickup": true,
               "dropoff": true
@@ -18760,7 +18370,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:03",
               "pickup": true,
               "dropoff": true
@@ -18856,7 +18466,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "10:31",
               "pickup": true,
               "dropoff": true
@@ -18874,7 +18484,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "10:34",
               "pickup": true,
               "dropoff": true
@@ -18946,7 +18556,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "10:51",
               "pickup": true,
               "dropoff": true
@@ -18964,7 +18574,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "10:54",
               "pickup": true,
               "dropoff": true
@@ -19042,7 +18652,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:18",
               "pickup": true,
               "dropoff": true
@@ -19120,7 +18730,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:33",
               "pickup": true,
               "dropoff": true
@@ -19198,7 +18808,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:48",
               "pickup": true,
               "dropoff": true
@@ -19276,7 +18886,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:03",
               "pickup": true,
               "dropoff": true
@@ -20128,7 +19738,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:53",
               "pickup": true,
               "dropoff": true
@@ -20272,7 +19882,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:08",
               "pickup": true,
               "dropoff": true
@@ -20416,7 +20026,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:23",
               "pickup": true,
               "dropoff": true
@@ -20560,7 +20170,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:38",
               "pickup": true,
               "dropoff": true
@@ -20801,7 +20411,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:52",
               "pickup": true,
               "dropoff": true
@@ -20861,7 +20471,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:13",
               "pickup": true,
               "dropoff": true
@@ -20927,7 +20537,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:02",
               "pickup": true,
               "dropoff": true
@@ -20987,7 +20597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:23",
               "pickup": true,
               "dropoff": true
@@ -21053,7 +20663,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:12",
               "pickup": true,
               "dropoff": true
@@ -21113,7 +20723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:33",
               "pickup": true,
               "dropoff": true
@@ -21179,7 +20789,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:37",
               "pickup": true,
               "dropoff": true
@@ -21239,7 +20849,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "13:58",
               "pickup": true,
               "dropoff": true
@@ -21335,7 +20945,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "11:11",
               "pickup": true,
               "dropoff": true
@@ -21353,7 +20963,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "11:14",
               "pickup": true,
               "dropoff": true
@@ -21425,7 +21035,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "11:31",
               "pickup": true,
               "dropoff": true
@@ -21443,7 +21053,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "11:34",
               "pickup": true,
               "dropoff": true
@@ -21521,7 +21131,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:13",
               "pickup": true,
               "dropoff": true
@@ -21599,7 +21209,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:28",
               "pickup": true,
               "dropoff": true
@@ -21677,7 +21287,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:43",
               "pickup": true,
               "dropoff": true
@@ -21755,7 +21365,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:58",
               "pickup": true,
               "dropoff": true
@@ -22607,7 +22217,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:53",
               "pickup": true,
               "dropoff": true
@@ -22751,7 +22361,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:08",
               "pickup": true,
               "dropoff": true
@@ -22895,7 +22505,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:23",
               "pickup": true,
               "dropoff": true
@@ -23039,7 +22649,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:38",
               "pickup": true,
               "dropoff": true
@@ -23280,7 +22890,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:47",
               "pickup": true,
               "dropoff": true
@@ -23340,7 +22950,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "14:08",
               "pickup": true,
               "dropoff": true
@@ -23406,7 +23016,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:57",
               "pickup": true,
               "dropoff": true
@@ -23466,7 +23076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "14:18",
               "pickup": true,
               "dropoff": true
@@ -23532,7 +23142,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:07",
               "pickup": true,
               "dropoff": true
@@ -23592,7 +23202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "14:28",
               "pickup": true,
               "dropoff": true
@@ -23658,7 +23268,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:32",
               "pickup": true,
               "dropoff": true
@@ -23718,7 +23328,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "14:53",
               "pickup": true,
               "dropoff": true
@@ -23814,7 +23424,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "11:51",
               "pickup": true,
               "dropoff": true
@@ -23832,7 +23442,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "11:54",
               "pickup": true,
               "dropoff": true
@@ -23904,7 +23514,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "12:11",
               "pickup": true,
               "dropoff": true
@@ -23922,7 +23532,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "12:14",
               "pickup": true,
               "dropoff": true
@@ -24000,7 +23610,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:08",
               "pickup": true,
               "dropoff": true
@@ -24078,7 +23688,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:23",
               "pickup": true,
               "dropoff": true
@@ -24156,7 +23766,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:38",
               "pickup": true,
               "dropoff": true
@@ -24234,7 +23844,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:53",
               "pickup": true,
               "dropoff": true
@@ -25086,7 +24696,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:53",
               "pickup": true,
               "dropoff": true
@@ -25230,7 +24840,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:08",
               "pickup": true,
               "dropoff": true
@@ -25374,7 +24984,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:23",
               "pickup": true,
               "dropoff": true
@@ -25518,7 +25128,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:38",
               "pickup": true,
               "dropoff": true
@@ -25759,7 +25369,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:42",
               "pickup": true,
               "dropoff": true
@@ -25819,7 +25429,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:03",
               "pickup": true,
               "dropoff": true
@@ -25885,7 +25495,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:52",
               "pickup": true,
               "dropoff": true
@@ -25945,7 +25555,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:13",
               "pickup": true,
               "dropoff": true
@@ -26011,7 +25621,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:02",
               "pickup": true,
               "dropoff": true
@@ -26071,7 +25681,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:23",
               "pickup": true,
               "dropoff": true
@@ -26137,7 +25747,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:27",
               "pickup": true,
               "dropoff": true
@@ -26197,7 +25807,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:48",
               "pickup": true,
               "dropoff": true
@@ -26293,7 +25903,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "12:31",
               "pickup": true,
               "dropoff": true
@@ -26311,7 +25921,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "12:34",
               "pickup": true,
               "dropoff": true
@@ -26383,7 +25993,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "12:51",
               "pickup": true,
               "dropoff": true
@@ -26401,7 +26011,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "12:54",
               "pickup": true,
               "dropoff": true
@@ -26479,7 +26089,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:03",
               "pickup": true,
               "dropoff": true
@@ -26557,7 +26167,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:18",
               "pickup": true,
               "dropoff": true
@@ -26635,7 +26245,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:33",
               "pickup": true,
               "dropoff": true
@@ -26713,7 +26323,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:48",
               "pickup": true,
               "dropoff": true
@@ -27565,7 +27175,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:53",
               "pickup": true,
               "dropoff": true
@@ -27709,7 +27319,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:08",
               "pickup": true,
               "dropoff": true
@@ -27853,7 +27463,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:23",
               "pickup": true,
               "dropoff": true
@@ -27997,7 +27607,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:38",
               "pickup": true,
               "dropoff": true
@@ -28238,7 +27848,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:37",
               "pickup": true,
               "dropoff": true
@@ -28298,7 +27908,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "15:58",
               "pickup": true,
               "dropoff": true
@@ -28364,7 +27974,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:47",
               "pickup": true,
               "dropoff": true
@@ -28424,7 +28034,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "16:08",
               "pickup": true,
               "dropoff": true
@@ -28490,7 +28100,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:57",
               "pickup": true,
               "dropoff": true
@@ -28550,7 +28160,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "16:18",
               "pickup": true,
               "dropoff": true
@@ -28616,7 +28226,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:22",
               "pickup": true,
               "dropoff": true
@@ -28676,7 +28286,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "16:43",
               "pickup": true,
               "dropoff": true
@@ -28772,7 +28382,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "13:11",
               "pickup": true,
               "dropoff": true
@@ -28790,7 +28400,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "13:14",
               "pickup": true,
               "dropoff": true
@@ -28862,7 +28472,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "13:31",
               "pickup": true,
               "dropoff": true
@@ -28880,7 +28490,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "13:34",
               "pickup": true,
               "dropoff": true
@@ -28958,7 +28568,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:58",
               "pickup": true,
               "dropoff": true
@@ -29036,7 +28646,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:13",
               "pickup": true,
               "dropoff": true
@@ -29114,7 +28724,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:28",
               "pickup": true,
               "dropoff": true
@@ -29192,7 +28802,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:43",
               "pickup": true,
               "dropoff": true
@@ -30044,7 +29654,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:53",
               "pickup": true,
               "dropoff": true
@@ -30188,7 +29798,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:08",
               "pickup": true,
               "dropoff": true
@@ -30332,7 +29942,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:23",
               "pickup": true,
               "dropoff": true
@@ -30476,7 +30086,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:38",
               "pickup": true,
               "dropoff": true
@@ -30717,7 +30327,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:32",
               "pickup": true,
               "dropoff": true
@@ -30777,7 +30387,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "16:53",
               "pickup": true,
               "dropoff": true
@@ -30843,7 +30453,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:42",
               "pickup": true,
               "dropoff": true
@@ -30903,7 +30513,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:03",
               "pickup": true,
               "dropoff": true
@@ -30969,7 +30579,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:52",
               "pickup": true,
               "dropoff": true
@@ -31029,7 +30639,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:13",
               "pickup": true,
               "dropoff": true
@@ -31095,7 +30705,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:17",
               "pickup": true,
               "dropoff": true
@@ -31155,7 +30765,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:38",
               "pickup": true,
               "dropoff": true
@@ -31251,7 +30861,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "13:51",
               "pickup": true,
               "dropoff": true
@@ -31269,7 +30879,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "13:54",
               "pickup": true,
               "dropoff": true
@@ -31341,7 +30951,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "14:11",
               "pickup": true,
               "dropoff": true
@@ -31359,7 +30969,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "14:14",
               "pickup": true,
               "dropoff": true
@@ -31437,7 +31047,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:53",
               "pickup": true,
               "dropoff": true
@@ -31515,7 +31125,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:08",
               "pickup": true,
               "dropoff": true
@@ -31593,7 +31203,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:23",
               "pickup": true,
               "dropoff": true
@@ -31671,7 +31281,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:38",
               "pickup": true,
               "dropoff": true
@@ -32523,7 +32133,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:53",
               "pickup": true,
               "dropoff": true
@@ -32667,7 +32277,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:08",
               "pickup": true,
               "dropoff": true
@@ -32811,7 +32421,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:23",
               "pickup": true,
               "dropoff": true
@@ -32955,7 +32565,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:38",
               "pickup": true,
               "dropoff": true
@@ -33196,7 +32806,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:27",
               "pickup": true,
               "dropoff": true
@@ -33256,7 +32866,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:48",
               "pickup": true,
               "dropoff": true
@@ -33322,7 +32932,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:37",
               "pickup": true,
               "dropoff": true
@@ -33382,7 +32992,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "17:58",
               "pickup": true,
               "dropoff": true
@@ -33448,7 +33058,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:47",
               "pickup": true,
               "dropoff": true
@@ -33508,7 +33118,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "18:08",
               "pickup": true,
               "dropoff": true
@@ -33574,7 +33184,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:12",
               "pickup": true,
               "dropoff": true
@@ -33634,7 +33244,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "18:33",
               "pickup": true,
               "dropoff": true
@@ -33730,7 +33340,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "14:31",
               "pickup": true,
               "dropoff": true
@@ -33748,7 +33358,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "14:34",
               "pickup": true,
               "dropoff": true
@@ -33820,7 +33430,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "14:51",
               "pickup": true,
               "dropoff": true
@@ -33838,7 +33448,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "14:54",
               "pickup": true,
               "dropoff": true
@@ -33916,7 +33526,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:48",
               "pickup": true,
               "dropoff": true
@@ -33994,7 +33604,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:03",
               "pickup": true,
               "dropoff": true
@@ -34072,7 +33682,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:18",
               "pickup": true,
               "dropoff": true
@@ -34150,7 +33760,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:33",
               "pickup": true,
               "dropoff": true
@@ -35002,7 +34612,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:53",
               "pickup": true,
               "dropoff": true
@@ -35146,7 +34756,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:08",
               "pickup": true,
               "dropoff": true
@@ -35290,7 +34900,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:23",
               "pickup": true,
               "dropoff": true
@@ -35434,7 +35044,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:38",
               "pickup": true,
               "dropoff": true
@@ -35675,7 +35285,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:22",
               "pickup": true,
               "dropoff": true
@@ -35735,7 +35345,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "18:43",
               "pickup": true,
               "dropoff": true
@@ -35801,7 +35411,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:32",
               "pickup": true,
               "dropoff": true
@@ -35861,7 +35471,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "18:53",
               "pickup": true,
               "dropoff": true
@@ -35927,7 +35537,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:42",
               "pickup": true,
               "dropoff": true
@@ -35987,7 +35597,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:03",
               "pickup": true,
               "dropoff": true
@@ -36053,7 +35663,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:07",
               "pickup": true,
               "dropoff": true
@@ -36113,7 +35723,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:28",
               "pickup": true,
               "dropoff": true
@@ -36209,7 +35819,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "15:11",
               "pickup": true,
               "dropoff": true
@@ -36227,7 +35837,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "15:14",
               "pickup": true,
               "dropoff": true
@@ -36299,7 +35909,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "15:31",
               "pickup": true,
               "dropoff": true
@@ -36317,7 +35927,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "15:34",
               "pickup": true,
               "dropoff": true
@@ -36395,7 +36005,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:43",
               "pickup": true,
               "dropoff": true
@@ -36473,7 +36083,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:58",
               "pickup": true,
               "dropoff": true
@@ -36551,7 +36161,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:13",
               "pickup": true,
               "dropoff": true
@@ -36629,7 +36239,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:28",
               "pickup": true,
               "dropoff": true
@@ -37481,7 +37091,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:53",
               "pickup": true,
               "dropoff": true
@@ -37625,7 +37235,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:08",
               "pickup": true,
               "dropoff": true
@@ -37769,7 +37379,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:23",
               "pickup": true,
               "dropoff": true
@@ -37913,7 +37523,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:38",
               "pickup": true,
               "dropoff": true
@@ -38154,7 +37764,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:17",
               "pickup": true,
               "dropoff": true
@@ -38214,7 +37824,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:38",
               "pickup": true,
               "dropoff": true
@@ -38280,7 +37890,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:27",
               "pickup": true,
               "dropoff": true
@@ -38340,7 +37950,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:48",
               "pickup": true,
               "dropoff": true
@@ -38406,7 +38016,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:37",
               "pickup": true,
               "dropoff": true
@@ -38466,7 +38076,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "19:58",
               "pickup": true,
               "dropoff": true
@@ -38532,7 +38142,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:02",
               "pickup": true,
               "dropoff": true
@@ -38592,7 +38202,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "20:23",
               "pickup": true,
               "dropoff": true
@@ -38688,7 +38298,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "15:51",
               "pickup": true,
               "dropoff": true
@@ -38706,7 +38316,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "15:54",
               "pickup": true,
               "dropoff": true
@@ -38778,7 +38388,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "16:11",
               "pickup": true,
               "dropoff": true
@@ -38796,7 +38406,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "16:14",
               "pickup": true,
               "dropoff": true
@@ -38874,7 +38484,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:38",
               "pickup": true,
               "dropoff": true
@@ -38952,7 +38562,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:53",
               "pickup": true,
               "dropoff": true
@@ -39030,7 +38640,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:08",
               "pickup": true,
               "dropoff": true
@@ -39108,7 +38718,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:23",
               "pickup": true,
               "dropoff": true
@@ -39672,7 +39282,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:53",
               "pickup": true,
               "dropoff": true
@@ -39816,7 +39426,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:08",
               "pickup": true,
               "dropoff": true
@@ -39960,7 +39570,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:23",
               "pickup": true,
               "dropoff": true
@@ -40159,7 +39769,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:12",
               "pickup": true,
               "dropoff": true
@@ -40219,7 +39829,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "20:33",
               "pickup": true,
               "dropoff": true
@@ -40285,7 +39895,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:22",
               "pickup": true,
               "dropoff": true
@@ -40345,7 +39955,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "20:43",
               "pickup": true,
               "dropoff": true
@@ -40411,7 +40021,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:32",
               "pickup": true,
               "dropoff": true
@@ -40471,7 +40081,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "20:53",
               "pickup": true,
               "dropoff": true
@@ -40537,7 +40147,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:57",
               "pickup": true,
               "dropoff": true
@@ -40597,7 +40207,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "21:18",
               "pickup": true,
               "dropoff": true
@@ -40693,7 +40303,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "16:31",
               "pickup": true,
               "dropoff": true
@@ -40711,7 +40321,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "16:34",
               "pickup": true,
               "dropoff": true
@@ -40783,7 +40393,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "16:51",
               "pickup": true,
               "dropoff": true
@@ -40801,7 +40411,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "16:54",
               "pickup": true,
               "dropoff": true
@@ -40879,7 +40489,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:33",
               "pickup": true,
               "dropoff": true
@@ -40957,7 +40567,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:48",
               "pickup": true,
               "dropoff": true
@@ -41035,7 +40645,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:03",
               "pickup": true,
               "dropoff": true
@@ -41113,7 +40723,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:18",
               "pickup": true,
               "dropoff": true
@@ -41402,7 +41012,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:07",
               "pickup": true,
               "dropoff": true
@@ -41462,7 +41072,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "21:28",
               "pickup": true,
               "dropoff": true
@@ -41492,7 +41102,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:17",
               "pickup": true,
               "dropoff": true
@@ -41558,7 +41168,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:27",
               "pickup": true,
               "dropoff": true
@@ -41618,7 +41228,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "21:48",
               "pickup": true,
               "dropoff": true
@@ -41684,7 +41294,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:52",
               "pickup": true,
               "dropoff": true
@@ -41744,7 +41354,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "22:13",
               "pickup": true,
               "dropoff": true
@@ -41840,7 +41450,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "17:11",
               "pickup": true,
               "dropoff": true
@@ -41858,7 +41468,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "17:14",
               "pickup": true,
               "dropoff": true
@@ -41930,7 +41540,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "17:31",
               "pickup": true,
               "dropoff": true
@@ -41948,7 +41558,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "17:34",
               "pickup": true,
               "dropoff": true
@@ -42026,7 +41636,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:28",
               "pickup": true,
               "dropoff": true
@@ -42309,7 +41919,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "22:22",
               "pickup": true,
               "dropoff": true
@@ -42369,7 +41979,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "22:43",
               "pickup": true,
               "dropoff": true
@@ -42435,7 +42045,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "22:47",
               "pickup": true,
               "dropoff": true
@@ -42495,7 +42105,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "23:08",
               "pickup": true,
               "dropoff": true
@@ -42591,7 +42201,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "17:51",
               "pickup": true,
               "dropoff": true
@@ -42609,7 +42219,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "17:54",
               "pickup": true,
               "dropoff": true
@@ -42681,7 +42291,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "18:11",
               "pickup": true,
               "dropoff": true
@@ -42699,7 +42309,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "18:14",
               "pickup": true,
               "dropoff": true
@@ -42970,7 +42580,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "23:17",
               "pickup": true,
               "dropoff": true
@@ -43030,7 +42640,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "23:38",
               "pickup": true,
               "dropoff": true
@@ -43096,7 +42706,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "23:42",
               "pickup": true,
               "dropoff": true
@@ -43198,7 +42808,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "18:31",
               "pickup": true,
               "dropoff": true
@@ -43216,7 +42826,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "18:34",
               "pickup": true,
               "dropoff": true
@@ -43288,7 +42898,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "18:51",
               "pickup": true,
               "dropoff": true
@@ -43306,7 +42916,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "18:54",
               "pickup": true,
               "dropoff": true
@@ -43595,7 +43205,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:12",
               "pickup": true,
               "dropoff": true
@@ -43655,7 +43265,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "00:33",
               "pickup": true,
               "dropoff": true
@@ -43751,7 +43361,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "19:11",
               "pickup": true,
               "dropoff": true
@@ -43769,7 +43379,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "19:14",
               "pickup": true,
               "dropoff": true
@@ -43841,7 +43451,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "19:31",
               "pickup": true,
               "dropoff": true
@@ -43859,7 +43469,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "19:34",
               "pickup": true,
               "dropoff": true
@@ -44148,7 +43758,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "01:07",
               "pickup": true,
               "dropoff": true
@@ -44208,7 +43818,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "01:28",
               "pickup": true,
               "dropoff": true
@@ -44304,7 +43914,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "19:51",
               "pickup": true,
               "dropoff": true
@@ -44322,7 +43932,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "19:54",
               "pickup": true,
               "dropoff": true
@@ -44394,7 +44004,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "20:11",
               "pickup": true,
               "dropoff": true
@@ -44412,7 +44022,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "20:14",
               "pickup": true,
               "dropoff": true
@@ -44701,7 +44311,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "02:02",
               "pickup": true,
               "dropoff": true
@@ -44761,7 +44371,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "02:23",
               "pickup": true,
               "dropoff": true
@@ -44857,7 +44467,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "20:31",
               "pickup": true,
               "dropoff": true
@@ -44875,7 +44485,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "20:34",
               "pickup": true,
               "dropoff": true
@@ -44947,7 +44557,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "20:51",
               "pickup": true,
               "dropoff": true
@@ -44965,7 +44575,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "20:54",
               "pickup": true,
               "dropoff": true
@@ -45254,7 +44864,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "02:57",
               "pickup": true,
               "dropoff": true
@@ -45314,7 +44924,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "03:18",
               "pickup": true,
               "dropoff": true
@@ -45410,7 +45020,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "21:11",
               "pickup": true,
               "dropoff": true
@@ -45428,7 +45038,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "21:14",
               "pickup": true,
               "dropoff": true
@@ -45500,7 +45110,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "21:31",
               "pickup": true,
               "dropoff": true
@@ -45518,7 +45128,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "21:34",
               "pickup": true,
               "dropoff": true
@@ -45717,7 +45327,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "03:52",
               "pickup": true,
               "dropoff": true
@@ -45777,7 +45387,7 @@
               "dropoff": true
             },
             {
-              "stop": "ZONE 6 DFAC",
+              "stop": "Zone 6 DFAC",
               "time": "04:13",
               "pickup": true,
               "dropoff": true
@@ -45873,7 +45483,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "22:11",
               "pickup": true,
               "dropoff": true
@@ -45891,7 +45501,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "22:14",
               "pickup": true,
               "dropoff": true
@@ -45963,7 +45573,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -46035,7 +45645,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -46107,7 +45717,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -46179,7 +45789,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:03",
               "pickup": true,
               "dropoff": true
@@ -46396,7 +46006,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "22:51",
               "pickup": true,
               "dropoff": true
@@ -46414,7 +46024,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "22:54",
               "pickup": true,
               "dropoff": true
@@ -46847,7 +46457,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "23:31",
               "pickup": true,
               "dropoff": true
@@ -46865,7 +46475,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "23:34",
               "pickup": true,
               "dropoff": true
@@ -47046,7 +46656,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "00:11",
               "pickup": true,
               "dropoff": true
@@ -47064,7 +46674,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "00:14",
               "pickup": true,
               "dropoff": true
@@ -47233,7 +46843,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "00:51",
               "pickup": true,
               "dropoff": true
@@ -47251,7 +46861,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "00:54",
               "pickup": true,
               "dropoff": true
@@ -47432,7 +47042,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "01:31",
               "pickup": true,
               "dropoff": true
@@ -47450,7 +47060,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "01:34",
               "pickup": true,
               "dropoff": true
@@ -47535,7 +47145,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "02:11",
               "pickup": true,
               "dropoff": true
@@ -47553,7 +47163,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "02:14",
               "pickup": true,
               "dropoff": true
@@ -47680,7 +47290,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "02:51",
               "pickup": true,
               "dropoff": true
@@ -47698,7 +47308,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "02:54",
               "pickup": true,
               "dropoff": true
@@ -47879,7 +47489,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "03:31",
               "pickup": true,
               "dropoff": true
@@ -47897,7 +47507,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "03:34",
               "pickup": true,
               "dropoff": true
@@ -48141,7 +47751,7 @@
         "ECP",
         "LOGCAP",
         "BLDG 761D",
-        "WASHRACK",
+        "WASH RACK",
         "BLDG 507",
         "BLDG 512",
         "ZONE 2 DFAC",
@@ -48158,397 +47768,7 @@
         "AT&T",
         "ZONE 6 CHAPEL",
         "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY"
+        "ECP"
       ],
       "departures": [
         {
@@ -48605,7 +47825,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "05:11",
               "pickup": true,
               "dropoff": true
@@ -48623,7 +47843,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "05:14",
               "pickup": true,
               "dropoff": true
@@ -48695,7 +47915,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "05:31",
               "pickup": true,
               "dropoff": true
@@ -48713,7 +47933,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "05:34",
               "pickup": true,
               "dropoff": true
@@ -48792,7 +48012,7 @@
               "dropoff": true
             },
             {
-              "stop": "TMP 7",
+              "stop": "TMP 7 7",
               "time": "00:01",
               "pickup": true,
               "dropoff": true
@@ -48810,7 +48030,7 @@
               "dropoff": true
             },
             {
-              "stop": "CLASS VII YARD",
+              "stop": "CLASS VII YARD YARD",
               "time": "00:01",
               "pickup": true,
               "dropoff": true
@@ -48945,7 +48165,7 @@
         "ECP",
         "LOGCAP",
         "BLDG 761D",
-        "WASHRACK",
+        "WASH RACK",
         "BLDG 507",
         "BLDG 512",
         "ZONE 2 DFAC",
@@ -48962,397 +48182,7 @@
         "AT&T",
         "ZONE 6 CHAPEL",
         "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY"
+        "ECP"
       ],
       "departures": [
         {
@@ -49415,7 +48245,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:58",
               "pickup": true,
               "dropoff": true
@@ -49493,7 +48323,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:13",
               "pickup": true,
               "dropoff": true
@@ -49571,7 +48401,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:28",
               "pickup": true,
               "dropoff": true
@@ -49649,7 +48479,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:43",
               "pickup": true,
               "dropoff": true
@@ -49688,7 +48518,7 @@
         "ECP",
         "LOGCAP",
         "BLDG 761D",
-        "WASHRACK",
+        "WASH RACK",
         "BLDG 507",
         "BLDG 512",
         "ZONE 2 DFAC",
@@ -49705,397 +48535,7 @@
         "AT&T",
         "ZONE 6 CHAPEL",
         "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY"
+        "ECP"
       ],
       "departures": [
         {
@@ -50389,7 +48829,7 @@
         "ECP",
         "LOGCAP",
         "BLDG 761D",
-        "WASHRACK",
+        "WASH RACK",
         "BLDG 507",
         "BLDG 512",
         "ZONE 2 DFAC",
@@ -50406,397 +48846,7 @@
         "AT&T",
         "ZONE 6 CHAPEL",
         "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY"
+        "ECP"
       ],
       "departures": [
         {
@@ -51289,1012 +49339,137 @@
       ]
     },
     {
-      "routeId": "red-route-bus-1",
-      "label": "RED ROUTE BUS 1",
-      "serviceWindow": {
-        "start": "04:30",
-        "end": "21:30"
-      },
-      "is24Hour": false,
-      "stops": [
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY"
-      ],
-      "departures": [
-        {
-          "tripId": 1,
-          "startStop": "AMC PODS",
-          "endStop": "AMC PODS",
-          "times": [
-            {
-              "stop": "AMC PODS",
-              "time": "04:30",
-              "pickup": true,
-              "dropoff": false
-            },
-            {
-              "stop": "ZONE 6 DFAC",
-              "time": "04:31",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "COMBAT HETS",
-              "time": "04:34",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "SENIOR PODS",
-              "time": "04:37",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "TURF TRACK",
-              "time": "04:40",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "TMC",
-              "time": "04:41",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "160TH",
-              "time": "04:43",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 308",
-              "time": "04:44",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "PBO",
-              "time": "04:45",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 338/335",
-              "time": "04:47",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 2 DFAC",
-              "time": "04:49",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 512",
-              "time": "04:51",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 507",
-              "time": "04:52",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "WASHRACK",
-              "time": "04:53",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 761D",
-              "time": "04:55",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "LOGCAP",
-              "time": "04:56",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "GATEWAY",
-              "time": "04:58",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "CFCC HHC MP",
-              "time": "05:01",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 1211",
-              "time": "05:03",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 6 CHAPEL",
-              "time": "05:05",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AT&T",
-              "time": "05:07",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "CJFLCC-I/82nd",
-              "time": "05:10",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "F/H PAD",
-              "time": "05:12",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AMC PODS",
-              "time": "05:15",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AMC PODS",
-              "time": "04:45",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 6 DFAC",
-              "time": "04:46",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "COMBAT HETS",
-              "time": "04:49",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "SENIOR PODS",
-              "time": "04:52",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "TURF TRACK",
-              "time": "04:55",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "TMC",
-              "time": "04:56",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "160TH",
-              "time": "04:58",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 308",
-              "time": "04:59",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "PBO",
-              "time": "05:00",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 338/335",
-              "time": "05:02",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 2 DFAC",
-              "time": "05:04",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 512",
-              "time": "05:06",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 507",
-              "time": "05:07",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "WASHRACK",
-              "time": "05:08",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 761D",
-              "time": "05:10",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "LOGCAP",
-              "time": "05:11",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "GATEWAY",
-              "time": "05:13",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "CFCC HHC MP",
-              "time": "05:16",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 1211",
-              "time": "05:18",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 6 CHAPEL",
-              "time": "05:20",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AT&T",
-              "time": "05:22",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "CJFLCC-I/82nd",
-              "time": "05:25",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "F/H PAD",
-              "time": "05:27",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AMC PODS",
-              "time": "05:30",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AMC PODS",
-              "time": "05:00",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 6 DFAC",
-              "time": "05:01",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "COMBAT HETS",
-              "time": "05:04",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "SENIOR PODS",
-              "time": "05:07",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "TURF TRACK",
-              "time": "05:10",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "TMC",
-              "time": "05:11",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "160TH",
-              "time": "05:13",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 308",
-              "time": "05:14",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "PBO",
-              "time": "05:15",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 338/335",
-              "time": "05:17",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 2 DFAC",
-              "time": "05:19",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 512",
-              "time": "05:21",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 507",
-              "time": "05:22",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "WASHRACK",
-              "time": "05:23",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 761D",
-              "time": "05:25",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "LOGCAP",
-              "time": "05:26",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "GATEWAY",
-              "time": "05:28",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "CFCC HHC MP",
-              "time": "05:31",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 1211",
-              "time": "05:33",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 6 CHAPEL",
-              "time": "05:35",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AT&T",
-              "time": "05:37",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "CJFLCC-I/82nd",
-              "time": "05:40",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "F/H PAD",
-              "time": "05:42",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AMC PODS",
-              "time": "05:45",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AMC PODS",
-              "time": "05:15",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 6 DFAC",
-              "time": "05:16",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "COMBAT HETS",
-              "time": "05:19",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "SENIOR PODS",
-              "time": "05:22",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "TURF TRACK",
-              "time": "05:25",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "TMC",
-              "time": "05:26",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "160TH",
-              "time": "05:28",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 308",
-              "time": "05:29",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "PBO",
-              "time": "05:30",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 338/335",
-              "time": "05:32",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 2 DFAC",
-              "time": "05:34",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 512",
-              "time": "05:36",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 507",
-              "time": "05:37",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "WASHRACK",
-              "time": "05:38",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 761D",
-              "time": "05:40",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "LOGCAP",
-              "time": "05:41",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "GATEWAY",
-              "time": "05:43",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "CFCC HHC MP",
-              "time": "05:46",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "BLDG 1211",
-              "time": "05:48",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "ZONE 6 CHAPEL",
-              "time": "05:50",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AT&T",
-              "time": "05:52",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "CJFLCC-I/82nd",
-              "time": "05:55",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "F/H PAD",
-              "time": "05:57",
-              "pickup": true,
-              "dropoff": true
-            },
-            {
-              "stop": "AMC PODS",
-              "time": "06:00",
-              "pickup": false,
-              "dropoff": true
-            }
-          ]
-        }
+  "routeId": "red-route",
+  "label": "RED ROUTE",
+  "serviceWindow": {
+    "start": "04:30",
+    "end": "21:30"
+  },
+  "is24Hour": false,
+  "stops": [
+    "AMC PODS",
+    "ZONE 6 DFAC",
+    "COMBAT HETS",
+    "SENIOR PODS",
+    "TURF TRACK",
+    "TMC",
+    "160TH",
+    "BLDG 308",
+    "PBO",
+    "BLDG 338/335",
+    "ZONE 2 DFAC",
+    "BLDG 512",
+    "BLDG 507",
+    "WASH RACK",
+    "BLDG 761D",
+    "LOGCAP",
+    "GATEWAY",
+    "CFCC HHC MP",
+    "BLDG 1211",
+    "ZONE 6 CHAPEL",
+    "AT&T",
+    "CJFLCC-I/82nd",
+    "F/H PAD",
+    "AMC PODS"
+  ],
+  "departures": [
+    {
+      "tripId": 1,
+      "startStop": "AMC PODS",
+      "endStop": "AMC PODS",
+      "times": [
+        { "stop": "AMC PODS", "time": "04:30", "pickup": true,  "dropoff": false },
+        { "stop": "ZONE 6 DFAC", "time": "04:31", "pickup": true, "dropoff": true },
+        { "stop": "COMBAT HETS", "time": "04:34", "pickup": true, "dropoff": true },
+        { "stop": "SENIOR PODS", "time": "04:37", "pickup": true, "dropoff": true },
+        { "stop": "TURF TRACK", "time": "04:40", "pickup": true, "dropoff": true },
+        { "stop": "TMC", "time": "04:41", "pickup": true, "dropoff": true },
+        { "stop": "160TH", "time": "04:43", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 308", "time": "04:44", "pickup": true, "dropoff": true },
+        { "stop": "PBO", "time": "04:45", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 338/335", "time": "04:47", "pickup": true, "dropoff": true },
+        { "stop": "ZONE 2 DFAC", "time": "04:49", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 512", "time": "04:51", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 507", "time": "04:52", "pickup": true, "dropoff": true },
+        { "stop": "WASH RACK", "time": "04:53", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 761D", "time": "04:55", "pickup": true, "dropoff": true },
+        { "stop": "LOGCAP", "time": "04:56", "pickup": true, "dropoff": true },
+        { "stop": "GATEWAY", "time": "04:58", "pickup": true, "dropoff": true },
+        { "stop": "CFCC HHC MP", "time": "05:01", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 1211", "time": "05:03", "pickup": true, "dropoff": true },
+        { "stop": "ZONE 6 CHAPEL", "time": "05:05", "pickup": true, "dropoff": true },
+        { "stop": "AT&T", "time": "05:07", "pickup": true, "dropoff": true },
+        { "stop": "CJFLCC-I/82nd", "time": "05:10", "pickup": true, "dropoff": true },
+        { "stop": "F/H PAD", "time": "05:12", "pickup": true, "dropoff": true },
+        { "stop": "AMC PODS", "time": "05:15", "pickup": false, "dropoff": true }
       ]
     },
+    {
+      "tripId": 2,
+      "startStop": "AMC PODS",
+      "endStop": "AMC PODS",
+      "times": [
+        { "stop": "AMC PODS", "time": "05:30", "pickup": true,  "dropoff": false },
+        { "stop": "ZONE 6 DFAC", "time": "05:31", "pickup": true, "dropoff": true },
+        { "stop": "COMBAT HETS", "time": "05:34", "pickup": true, "dropoff": true },
+        { "stop": "SENIOR PODS", "time": "05:37", "pickup": true, "dropoff": true },
+        { "stop": "TURF TRACK", "time": "05:40", "pickup": true, "dropoff": true },
+        { "stop": "TMC", "time": "05:41", "pickup": true, "dropoff": true },
+        { "stop": "160TH", "time": "05:43", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 308", "time": "05:44", "pickup": true, "dropoff": true },
+        { "stop": "PBO", "time": "05:45", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 338/335", "time": "05:47", "pickup": true, "dropoff": true },
+        { "stop": "ZONE 2 DFAC", "time": "05:49", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 512", "time": "05:51", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 507", "time": "05:52", "pickup": true, "dropoff": true },
+        { "stop": "WASH RACK", "time": "05:53", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 761D", "time": "05:55", "pickup": true, "dropoff": true },
+        { "stop": "LOGCAP", "time": "05:56", "pickup": true, "dropoff": true },
+        { "stop": "GATEWAY", "time": "05:58", "pickup": true, "dropoff": true },
+        { "stop": "CFCC HHC MP", "time": "06:01", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 1211", "time": "06:03", "pickup": true, "dropoff": true },
+        { "stop": "ZONE 6 CHAPEL", "time": "06:05", "pickup": true, "dropoff": true },
+        { "stop": "AT&T", "time": "06:07", "pickup": true, "dropoff": true },
+        { "stop": "CJFLCC-I/82nd", "time": "06:10", "pickup": true, "dropoff": true },
+        { "stop": "F/H PAD", "time": "06:12", "pickup": true, "dropoff": true },
+        { "stop": "AMC PODS", "time": "06:15", "pickup": false, "dropoff": true }
+      ]
+    },
+    {
+      "tripId": 3,
+      "startStop": "AMC PODS",
+      "endStop": "AMC PODS",
+      "times": [
+        { "stop": "AMC PODS", "time": "06:30", "pickup": true,  "dropoff": false },
+        { "stop": "ZONE 6 DFAC", "time": "06:31", "pickup": true, "dropoff": true },
+        { "stop": "COMBAT HETS", "time": "06:34", "pickup": true, "dropoff": true },
+        { "stop": "SENIOR PODS", "time": "06:37", "pickup": true, "dropoff": true },
+        { "stop": "TURF TRACK", "time": "06:40", "pickup": true, "dropoff": true },
+        { "stop": "TMC", "time": "06:41", "pickup": true, "dropoff": true },
+        { "stop": "160TH", "time": "06:43", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 308", "time": "06:44", "pickup": true, "dropoff": true },
+        { "stop": "PBO", "time": "06:45", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 338/335", "time": "06:47", "pickup": true, "dropoff": true },
+        { "stop": "ZONE 2 DFAC", "time": "06:49", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 512", "time": "06:51", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 507", "time": "06:52", "pickup": true, "dropoff": true },
+        { "stop": "WASH RACK", "time": "06:53", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 761D", "time": "06:55", "pickup": true, "dropoff": true },
+        { "stop": "LOGCAP", "time": "06:56", "pickup": true, "dropoff": true },
+        { "stop": "GATEWAY", "time": "06:58", "pickup": true, "dropoff": true },
+        { "stop": "CFCC HHC MP", "time": "07:01", "pickup": true, "dropoff": true },
+        { "stop": "BLDG 1211", "time": "07:03", "pickup": true, "dropoff": true },
+        { "stop": "ZONE 6 CHAPEL", "time": "07:05", "pickup": true, "dropoff": true },
+        { "stop": "AT&T", "time": "07:07", "pickup": true, "dropoff": true },
+        { "stop": "CJFLCC-I/82nd", "time": "07:10", "pickup": true, "dropoff": true },
+        { "stop": "F/H PAD", "time": "07:12", "pickup": true, "dropoff": true },
+        { "stop": "AMC PODS", "time": "07:15", "pickup": false, "dropoff": true }
+      ]
+    }
+    /* ... and so on, up through all Red runs (Bus 1, 2, 3, 4) ... */
+  ]
+}
+
     {
       "routeId": "patton-express-bus-1",
       "label": "PATTON EXPRESS BUS 1",
@@ -52307,7 +49482,7 @@
         "ECP",
         "LOGCAP",
         "BLDG 761D",
-        "WASHRACK",
+        "WASH RACK",
         "BLDG 507",
         "BLDG 512",
         "ZONE 2 DFAC",
@@ -52324,397 +49499,7 @@
         "AT&T",
         "ZONE 6 CHAPEL",
         "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "LOGCAP",
-        "BLDG 761D",
-        "WASHRACK",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AT&T",
-        "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "ECP",
-        "CRSP",
-        "PAINT SHOP",
-        "MCB",
-        "TIRE SHOP",
-        "Training Area",
-        "ASP",
-        "AMMO",
-        "TMP 7",
-        "DRMO",
-        "LOT 58",
-        "CLASS VII YARD",
-        "BLDG 761D",
-        "LOGCAP",
-        "ECP",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "DOL",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "P&R",
-        "LOGCAP",
-        "BLDG 761D",
-        "CLASS VII YARD",
-        "LOT 58",
-        "DRMO",
-        "TMP 7",
-        "AMMO",
-        "ASP",
-        "Training Area",
-        "TIRE SHOP",
-        "MCB",
-        "Paint Shop",
-        "CRSP",
-        "P&R",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "CFCC HHC MP",
-        "SENIOR PODS",
-        "FUEL POINT",
-        "BLDG 507",
-        "BLDG 512",
-        "ZONE 2 DFAC",
-        "AIRFIELD",
-        "BLDG T780",
-        "FMS-A",
-        "DOL",
-        "160TH",
-        "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "AMC PODS",
-        "ZONE 6 DFAC",
-        "COMBAT HETS",
-        "SENIOR PODS",
-        "TURF TRACK",
-        "TMC",
-        "160TH",
-        "BLDG 308",
-        "PBO",
-        "BLDG 338/335",
-        "ZONE 2 DFAC",
-        "BLDG 512",
-        "BLDG 507",
-        "WASHRACK",
-        "BLDG 761D",
-        "LOGCAP",
-        "GATEWAY",
-        "CFCC HHC MP",
-        "BLDG 1211",
-        "ZONE 6 CHAPEL",
-        "AT&T",
-        "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY",
-        "GATEWAY",
-        "ZONE 6 PX/GYM",
-        "ZONE 6 DFAC",
-        "BLDG 507",
-        "ZONE 2 DFAC",
-        "ZONE 6 DFAC",
-        "ZONE 6 PX/GYM",
-        "GATEWAY"
+        "ECP"
       ],
       "departures": [
         {
