@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CAKU Bus Schedule Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --surface: #0f172a;
+      --panel: #111a2e;
+      --fg: #e6eefc;
+      --muted: #9fb0d0;
+      --border: #1e2a47;
+      --accent: #60a5fa;
+      --danger: #f87171;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.35);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #1e293b 0, #020617 55%);
+      color: var(--fg);
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(15,23,42,0.95);
+      border-bottom: 1px solid var(--border);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr);
+      gap: 12px;
+      padding: 12px;
+    }
+
+    @media (max-width: 800px) {
+      main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+      }
+    }
+
+    .panel {
+      background: rgba(15,23,42,0.98);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 12px;
+      overflow: hidden;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .muted {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .routes-list {
+      max-height: calc(100vh - 170px);
+      overflow-y: auto;
+      margin-top: 8px;
+    }
+
+    .route-item {
+      padding: 6px 8px;
+      margin-bottom: 4px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.85rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .route-item span {
+      max-width: 160px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .route-item small {
+      color: var(--muted);
+      font-size: 0.7rem;
+    }
+
+    .route-item:hover {
+      background: #111827;
+    }
+
+    .route-item.active {
+      background: #1d283a;
+      border: 1px solid var(--accent);
+    }
+
+    label {
+      font-size: 0.8rem;
+      display: block;
+      margin-top: 6px;
+      margin-bottom: 2px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 4px 6px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: #020617;
+      color: var(--fg);
+      font-size: 0.8rem;
+    }
+
+    input[type="checkbox"] {
+      transform: scale(1.1);
+    }
+
+    .inline {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .inline > * {
+      flex: 1;
+    }
+
+    .btn {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: #020617;
+      color: var(--fg);
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn:hover {
+      background: #0f172a;
+      border-color: var(--accent);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #2563eb, #0ea5e9);
+      border-color: transparent;
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.05);
+    }
+
+    .btn-danger {
+      border-color: var(--danger);
+      color: var(--danger);
+    }
+
+    .btn-danger:hover {
+      background: rgba(248,113,113,0.1);
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 6px;
+      margin-bottom: 6px;
+    }
+
+    .badge {
+      padding: 2px 6px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      font-size: 0.7rem;
+      color: var(--muted);
+    }
+
+    .grid-header {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .departures {
+      margin-top: 8px;
+      max-height: calc(100vh - 230px);
+      overflow-y: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    details {
+      border-bottom: 1px solid var(--border);
+      padding: 6px;
+    }
+
+    details[open] {
+      background: #020617;
+    }
+
+    summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 6px;
+      font-size: 0.75rem;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 3px 4px;
+      text-align: left;
+    }
+
+    th {
+      background: #020617;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+
+    td input[type="text"] {
+      width: 100%;
+      padding: 2px 3px;
+      font-size: 0.75rem;
+    }
+
+    footer {
+      padding: 8px 12px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      background: #020617;
+      display: flex;
+      justify-content: space-between;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    code {
+      font-size: 0.7rem;
+      background: #020617;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>CAKU Bus Schedule Admin</h1>
+  <span class="muted">Edit <code>schedule_with_pickup_dropoff.json</code> without touching code</span>
+</header>
+
+<main>
+  <!-- LEFT: load file + route list -->
+  <section class="panel">
+    <h2>1. Load schedule file</h2>
+    <p class="muted">
+      Choose the current <code>schedule_with_pickup_dropoff.json</code>, then pick a route to edit.
+    </p>
+    <input type="file" id="fileInput" accept="application/json" />
+
+    <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center;">
+      <h2 style="margin:0;">Routes</h2>
+      <button id="downloadBtn" class="btn btn-primary" disabled>Download updated JSON</button>
+    </div>
+    <div class="routes-list" id="routesList">
+      <p class="muted">No file loaded yet.</p>
+    </div>
+  </section>
+
+  <!-- RIGHT: route editor -->
+  <section class="panel" id="editorPanel">
+    <h2>2. Route editor</h2>
+    <p class="muted" id="editorHint">
+      Select a route on the left to view and edit its details.
+    </p>
+
+    <div id="routeMeta" style="display:none;">
+      <label>Route label
+        <input type="text" id="routeLabel" />
+      </label>
+
+      <div class="inline">
+        <label>Service window start
+          <input type="text" id="svcStart" placeholder="HH:MM (e.g. 04:30)" />
+        </label>
+        <label>Service window end
+          <input type="text" id="svcEnd" placeholder="HH:MM (e.g. 23:59)" />
+        </label>
+      </div>
+
+      <div class="inline" style="margin-top:4px;">
+        <label class="inline" style="gap:6px; flex:0 0 auto;">
+          <input type="checkbox" id="is24Hour" />
+          <span>24-hour service</span>
+        </label>
+        <span class="badge" id="stopsBadge"></span>
+        <span class="badge" id="depsBadge"></span>
+      </div>
+
+      <div class="grid-header">
+        <h3 style="margin:6px 0 0; font-size:0.85rem;">Departures</h3>
+        <div class="toolbar">
+          <button id="addDepartureBtn" class="btn">+ Add departure</button>
+        </div>
+      </div>
+
+      <div class="departures" id="departuresContainer">
+        <!-- dynamically filled -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>Changes are only saved when you click <strong>Download updated JSON</strong>.</div>
+  <div>After downloading, replace the file in GitHub and redeploy.</div>
+</footer>
+
+<script>
+  let SCHEDULE = null;        // entire JSON object
+  let CURRENT_ROUTE_INDEX = null;
+
+  const fileInput = document.getElementById('fileInput');
+  const routesList = document.getElementById('routesList');
+  const downloadBtn = document.getElementById('downloadBtn');
+
+  const editorHint = document.getElementById('editorHint');
+  const routeMeta = document.getElementById('routeMeta');
+  const routeLabelInput = document.getElementById('routeLabel');
+  const svcStartInput = document.getElementById('svcStart');
+  const svcEndInput = document.getElementById('svcEnd');
+  const is24HourInput = document.getElementById('is24Hour');
+  const stopsBadge = document.getElementById('stopsBadge');
+  const depsBadge = document.getElementById('depsBadge');
+  const departuresContainer = document.getElementById('departuresContainer');
+  const addDepartureBtn = document.getElementById('addDepartureBtn');
+
+  fileInput.addEventListener('change', handleFile);
+  downloadBtn.addEventListener('click', downloadJson);
+  addDepartureBtn.addEventListener('click', () => {
+    if (CURRENT_ROUTE_INDEX == null) return;
+    addNewDeparture();
+    renderDepartures();
+  });
+
+  function handleFile(ev) {
+    const file = ev.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const json = JSON.parse(reader.result);
+        if (!json.routes || !Array.isArray(json.routes)) {
+          throw new Error('JSON must have a "routes" array.');
+        }
+        SCHEDULE = json;
+        CURRENT_ROUTE_INDEX = null;
+        renderRoutesList();
+        clearEditor();
+        downloadBtn.disabled = false;
+      } catch (err) {
+        alert('Error parsing JSON: ' + err.message);
+        console.error(err);
+      }
+    };
+    reader.readAsText(file);
+  }
+
+  function renderRoutesList() {
+    routesList.innerHTML = '';
+    SCHEDULE.routes.forEach((r, idx) => {
+      const div = document.createElement('div');
+      div.className = 'route-item' + (idx === CURRENT_ROUTE_INDEX ? ' active' : '');
+      const labelSpan = document.createElement('span');
+      labelSpan.textContent = r.label || r.routeId || ('Route ' + (idx + 1));
+      const small = document.createElement('small');
+      const depCount = (r.departures || []).length;
+      small.textContent = depCount + ' deps';
+
+      div.appendChild(labelSpan);
+      div.appendChild(small);
+
+      div.addEventListener('click', () => {
+        CURRENT_ROUTE_INDEX = idx;
+        renderRoutesList();
+        loadRouteIntoEditor(idx);
+      });
+
+      routesList.appendChild(div);
+    });
+  }
+
+  function clearEditor() {
+    editorHint.textContent = 'Select a route on the left to view and edit its details.';
+    routeMeta.style.display = 'none';
+    departuresContainer.innerHTML = '';
+  }
+
+  function loadRouteIntoEditor(idx) {
+    const route = SCHEDULE.routes[idx];
+    editorHint.textContent = '';
+    routeMeta.style.display = 'block';
+
+    // basic metadata
+    routeLabelInput.value = route.label || route.routeId || '';
+    const win = route.serviceWindow || {};
+    svcStartInput.value = win.start || '';
+    svcEndInput.value = win.end || '';
+    is24HourInput.checked = !!route.is24Hour;
+
+    const stops = route.stops || [];
+    const deps = route.departures || [];
+    stopsBadge.textContent = stops.length + ' stops';
+    depsBadge.textContent = deps.length + ' departures';
+
+    // hook metadata change handlers
+    routeLabelInput.oninput = () => route.label = routeLabelInput.value.trim();
+    svcStartInput.oninput = () => {
+      route.serviceWindow = route.serviceWindow || {};
+      route.serviceWindow.start = svcStartInput.value.trim();
+    };
+    svcEndInput.oninput = () => {
+      route.serviceWindow = route.serviceWindow || {};
+      route.serviceWindow.end = svcEndInput.value.trim();
+    };
+    is24HourInput.onchange = () => route.is24Hour = !!is24HourInput.checked;
+
+    renderDepartures();
+  }
+
+  function renderDepartures() {
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    const stops = route.stops || [];
+    const departures = route.departures || [];
+
+    departuresContainer.innerHTML = '';
+
+    departures.forEach((dep, depIndex) => {
+      const details = document.createElement('details');
+      if (depIndex < 3) details.open = true;
+
+      const summary = document.createElement('summary');
+      const titleSpan = document.createElement('span');
+      const first = dep.times?.[0];
+      const last = dep.times?.[dep.times.length - 1];
+      const label = `Trip #${dep.tripId ?? (depIndex + 1)}: ${first?.time || '?'} → ${last?.time || '?'}`;
+      titleSpan.textContent = label;
+
+      const actions = document.createElement('div');
+      actions.style.display = 'flex';
+      actions.style.gap = '6px';
+      const cloneBtn = document.createElement('button');
+      cloneBtn.type = 'button';
+      cloneBtn.className = 'btn';
+      cloneBtn.textContent = 'Clone';
+      cloneBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        cloneDeparture(depIndex);
+      });
+
+      const delBtn = document.createElement('button');
+      delBtn.type = 'button';
+      delBtn.className = 'btn btn-danger';
+      delBtn.textContent = 'Delete';
+      delBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        if (confirm('Delete this departure?')) {
+          deleteDeparture(depIndex);
+        }
+      });
+
+      actions.appendChild(cloneBtn);
+      actions.appendChild(delBtn);
+      summary.appendChild(titleSpan);
+      summary.appendChild(actions);
+      details.appendChild(summary);
+
+      // table
+      const table = document.createElement('table');
+      const thead = document.createElement('thead');
+      thead.innerHTML = `
+        <tr>
+          <th>#</th>
+          <th>Stop</th>
+          <th>Time (HH:MM)</th>
+          <th>Pickup</th>
+          <th>Dropoff</th>
+        </tr>`;
+      table.appendChild(thead);
+
+      const tbody = document.createElement('tbody');
+      (dep.times || []).forEach((t, i) => {
+        const tr = document.createElement('tr');
+
+        const tdIndex = document.createElement('td');
+        tdIndex.textContent = i + 1;
+
+        const tdStop = document.createElement('td');
+        tdStop.textContent = t.stop;
+
+        const tdTime = document.createElement('td');
+        const timeInput = document.createElement('input');
+        timeInput.type = 'text';
+        timeInput.value = t.time || '';
+        timeInput.addEventListener('input', () => {
+          t.time = timeInput.value.trim();
+        });
+        tdTime.appendChild(timeInput);
+
+        const tdPickup = document.createElement('td');
+        const pickupInput = document.createElement('input');
+        pickupInput.type = 'checkbox';
+        pickupInput.checked = t.pickup !== false;
+        pickupInput.addEventListener('change', () => {
+          t.pickup = !!pickupInput.checked;
+        });
+        tdPickup.style.textAlign = 'center';
+        tdPickup.appendChild(pickupInput);
+
+        const tdDrop = document.createElement('td');
+        const dropInput = document.createElement('input');
+        dropInput.type = 'checkbox';
+        dropInput.checked = t.dropoff !== false;
+        dropInput.addEventListener('change', () => {
+          t.dropoff = !!dropInput.checked;
+        });
+        tdDrop.style.textAlign = 'center';
+        tdDrop.appendChild(dropInput);
+
+        tr.appendChild(tdIndex);
+        tr.appendChild(tdStop);
+        tr.appendChild(tdTime);
+        tr.appendChild(tdPickup);
+        tr.appendChild(tdDrop);
+
+        tbody.appendChild(tr);
+      });
+
+      table.appendChild(tbody);
+      details.appendChild(table);
+      departuresContainer.appendChild(details);
+    });
+
+    depsBadge.textContent = (route.departures || []).length + ' departures';
+  }
+
+  function addNewDeparture() {
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    route.departures = route.departures || [];
+    const baseId = route.departures.reduce((max, d) => Math.max(max, d.tripId || 0), 0) || 0;
+    const newTripId = baseId + 1;
+    const times = (route.stops || []).map((s) => ({
+      stop: s,
+      time: '',
+      pickup: true,
+      dropoff: true
+    }));
+    if (times.length) {
+      times[0].dropoff = false;
+      times[times.length - 1].pickup = false;
+    }
+    route.departures.push({ tripId: newTripId, times });
+  }
+
+  function cloneDeparture(index) {
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    const dep = route.departures[index];
+    const baseId = route.departures.reduce((max, d) => Math.max(max, d.tripId || 0), 0) || 0;
+    const newTripId = baseId + 1;
+    const cloned = {
+      tripId: newTripId,
+      times: (dep.times || []).map(t => ({
+        stop: t.stop,
+        time: t.time,
+        pickup: t.pickup !== false,
+        dropoff: t.dropoff !== false
+      }))
+    };
+    route.departures.splice(index + 1, 0, cloned);
+    renderDepartures();
+  }
+
+  function deleteDeparture(index) {
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    route.departures.splice(index, 1);
+    renderDepartures();
+  }
+
+  function downloadJson() {
+    if (!SCHEDULE) return;
+    const blob = new Blob([JSON.stringify(SCHEDULE, null, 2)], {
+      type: 'application/json'
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'schedule_with_pickup_dropoff_updated.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+</script>
+</body>
+</html>
