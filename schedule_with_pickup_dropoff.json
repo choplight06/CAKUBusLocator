@@ -28,7 +28,7 @@
         "ZONE 2 DFAC",
         "BLDG 512",
         "BLDG 507",
-        "WASHRACK",
+        "WASH RACK",
         "BLDG 761D",
         "LOGCAP",
         "GATEWAY",
@@ -125,7 +125,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:53",
               "pickup": true,
               "dropoff": true
@@ -276,7 +276,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:53",
               "pickup": true,
               "dropoff": true
@@ -427,7 +427,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:53",
               "pickup": true,
               "dropoff": true
@@ -578,7 +578,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:53",
               "pickup": true,
               "dropoff": true
@@ -729,7 +729,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:53",
               "pickup": true,
               "dropoff": true
@@ -880,7 +880,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:53",
               "pickup": true,
               "dropoff": true
@@ -1031,7 +1031,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:53",
               "pickup": true,
               "dropoff": true
@@ -1182,7 +1182,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:53",
               "pickup": true,
               "dropoff": true
@@ -1333,7 +1333,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:53",
               "pickup": true,
               "dropoff": true
@@ -1484,7 +1484,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:53",
               "pickup": true,
               "dropoff": true
@@ -1635,7 +1635,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:53",
               "pickup": true,
               "dropoff": true
@@ -1786,7 +1786,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:53",
               "pickup": true,
               "dropoff": true
@@ -1937,7 +1937,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:53",
               "pickup": true,
               "dropoff": true
@@ -2088,7 +2088,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:53",
               "pickup": true,
               "dropoff": true
@@ -2239,7 +2239,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:53",
               "pickup": true,
               "dropoff": true
@@ -2390,7 +2390,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:53",
               "pickup": true,
               "dropoff": true
@@ -2541,7 +2541,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:53",
               "pickup": true,
               "dropoff": true
@@ -2692,7 +2692,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:08",
               "pickup": true,
               "dropoff": true
@@ -2843,7 +2843,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:08",
               "pickup": true,
               "dropoff": true
@@ -2994,7 +2994,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:08",
               "pickup": true,
               "dropoff": true
@@ -3145,7 +3145,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:08",
               "pickup": true,
               "dropoff": true
@@ -3296,7 +3296,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:08",
               "pickup": true,
               "dropoff": true
@@ -3447,7 +3447,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:08",
               "pickup": true,
               "dropoff": true
@@ -3598,7 +3598,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:08",
               "pickup": true,
               "dropoff": true
@@ -3749,7 +3749,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:08",
               "pickup": true,
               "dropoff": true
@@ -3900,7 +3900,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:08",
               "pickup": true,
               "dropoff": true
@@ -4051,7 +4051,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:08",
               "pickup": true,
               "dropoff": true
@@ -4202,7 +4202,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:08",
               "pickup": true,
               "dropoff": true
@@ -4353,7 +4353,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:08",
               "pickup": true,
               "dropoff": true
@@ -4504,7 +4504,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:08",
               "pickup": true,
               "dropoff": true
@@ -4655,7 +4655,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:08",
               "pickup": true,
               "dropoff": true
@@ -4806,7 +4806,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:08",
               "pickup": true,
               "dropoff": true
@@ -4957,7 +4957,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:08",
               "pickup": true,
               "dropoff": true
@@ -5108,7 +5108,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:08",
               "pickup": true,
               "dropoff": true
@@ -5259,7 +5259,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:23",
               "pickup": true,
               "dropoff": true
@@ -5410,7 +5410,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:23",
               "pickup": true,
               "dropoff": true
@@ -5561,7 +5561,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:23",
               "pickup": true,
               "dropoff": true
@@ -5712,7 +5712,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:23",
               "pickup": true,
               "dropoff": true
@@ -5863,7 +5863,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:23",
               "pickup": true,
               "dropoff": true
@@ -6014,7 +6014,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:23",
               "pickup": true,
               "dropoff": true
@@ -6165,7 +6165,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:23",
               "pickup": true,
               "dropoff": true
@@ -6316,7 +6316,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:23",
               "pickup": true,
               "dropoff": true
@@ -6467,7 +6467,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:23",
               "pickup": true,
               "dropoff": true
@@ -6618,7 +6618,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:23",
               "pickup": true,
               "dropoff": true
@@ -6769,7 +6769,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:23",
               "pickup": true,
               "dropoff": true
@@ -6920,7 +6920,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:23",
               "pickup": true,
               "dropoff": true
@@ -7071,7 +7071,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:23",
               "pickup": true,
               "dropoff": true
@@ -7222,7 +7222,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:23",
               "pickup": true,
               "dropoff": true
@@ -7373,7 +7373,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:23",
               "pickup": true,
               "dropoff": true
@@ -7524,7 +7524,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:23",
               "pickup": true,
               "dropoff": true
@@ -7675,7 +7675,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:23",
               "pickup": true,
               "dropoff": true
@@ -7826,7 +7826,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:38",
               "pickup": true,
               "dropoff": true
@@ -7977,7 +7977,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:38",
               "pickup": true,
               "dropoff": true
@@ -8128,7 +8128,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:38",
               "pickup": true,
               "dropoff": true
@@ -8279,7 +8279,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:38",
               "pickup": true,
               "dropoff": true
@@ -8430,7 +8430,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:38",
               "pickup": true,
               "dropoff": true
@@ -8581,7 +8581,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:38",
               "pickup": true,
               "dropoff": true
@@ -8732,7 +8732,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:38",
               "pickup": true,
               "dropoff": true
@@ -8883,7 +8883,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:38",
               "pickup": true,
               "dropoff": true
@@ -9034,7 +9034,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:38",
               "pickup": true,
               "dropoff": true
@@ -9185,7 +9185,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:38",
               "pickup": true,
               "dropoff": true
@@ -9336,7 +9336,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:38",
               "pickup": true,
               "dropoff": true
@@ -9487,7 +9487,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:38",
               "pickup": true,
               "dropoff": true
@@ -9638,7 +9638,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:38",
               "pickup": true,
               "dropoff": true
@@ -9789,7 +9789,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:38",
               "pickup": true,
               "dropoff": true
@@ -9940,7 +9940,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:38",
               "pickup": true,
               "dropoff": true
@@ -10091,7 +10091,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:38",
               "pickup": true,
               "dropoff": true
@@ -21961,7 +21961,7 @@
         "ECP",
         "LOGCAP",
         "BLDG 761D",
-        "WASHRACK",
+        "WASH RACK",
         "BLDG 507",
         "BLDG 512",
         "ZONE 2 DFAC",
@@ -22003,7 +22003,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:37",
               "pickup": true,
               "dropoff": true
@@ -22134,7 +22134,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:32",
               "pickup": true,
               "dropoff": true
@@ -22265,7 +22265,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:27",
               "pickup": true,
               "dropoff": true
@@ -22396,7 +22396,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:22",
               "pickup": true,
               "dropoff": true
@@ -22527,7 +22527,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:17",
               "pickup": true,
               "dropoff": true
@@ -22658,7 +22658,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:12",
               "pickup": true,
               "dropoff": true
@@ -22789,7 +22789,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:07",
               "pickup": true,
               "dropoff": true
@@ -22920,7 +22920,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:02",
               "pickup": true,
               "dropoff": true
@@ -23051,7 +23051,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:57",
               "pickup": true,
               "dropoff": true
@@ -23182,7 +23182,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:52",
               "pickup": true,
               "dropoff": true
@@ -23313,7 +23313,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:47",
               "pickup": true,
               "dropoff": true
@@ -23444,7 +23444,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:42",
               "pickup": true,
               "dropoff": true
@@ -23575,7 +23575,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:37",
               "pickup": true,
               "dropoff": true
@@ -23706,7 +23706,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:32",
               "pickup": true,
               "dropoff": true
@@ -23837,7 +23837,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:27",
               "pickup": true,
               "dropoff": true
@@ -23968,7 +23968,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:22",
               "pickup": true,
               "dropoff": true
@@ -24099,7 +24099,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:17",
               "pickup": true,
               "dropoff": true
@@ -24230,7 +24230,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:12",
               "pickup": true,
               "dropoff": true
@@ -24361,7 +24361,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:07",
               "pickup": true,
               "dropoff": true
@@ -24492,7 +24492,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:52",
               "pickup": true,
               "dropoff": true
@@ -24623,7 +24623,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:47",
               "pickup": true,
               "dropoff": true
@@ -24754,7 +24754,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:42",
               "pickup": true,
               "dropoff": true
@@ -24885,7 +24885,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:37",
               "pickup": true,
               "dropoff": true
@@ -25016,7 +25016,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:32",
               "pickup": true,
               "dropoff": true
@@ -25147,7 +25147,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:27",
               "pickup": true,
               "dropoff": true
@@ -25278,7 +25278,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:22",
               "pickup": true,
               "dropoff": true
@@ -25409,7 +25409,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:17",
               "pickup": true,
               "dropoff": true
@@ -25540,7 +25540,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:12",
               "pickup": true,
               "dropoff": true
@@ -25671,7 +25671,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:07",
               "pickup": true,
               "dropoff": true
@@ -25802,7 +25802,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:02",
               "pickup": true,
               "dropoff": true
@@ -25933,7 +25933,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:57",
               "pickup": true,
               "dropoff": true
@@ -26064,7 +26064,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:52",
               "pickup": true,
               "dropoff": true
@@ -26195,7 +26195,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:47",
               "pickup": true,
               "dropoff": true
@@ -26326,7 +26326,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:42",
               "pickup": true,
               "dropoff": true
@@ -26457,7 +26457,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:37",
               "pickup": true,
               "dropoff": true
@@ -26588,7 +26588,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:32",
               "pickup": true,
               "dropoff": true
@@ -26719,7 +26719,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:27",
               "pickup": true,
               "dropoff": true
@@ -26850,7 +26850,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:22",
               "pickup": true,
               "dropoff": true
@@ -26981,7 +26981,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:22",
               "pickup": true,
               "dropoff": true
@@ -27112,7 +27112,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "00:37",
               "pickup": true,
               "dropoff": true
@@ -27243,7 +27243,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "01:17",
               "pickup": true,
               "dropoff": true
@@ -27374,7 +27374,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "01:32",
               "pickup": true,
               "dropoff": true
@@ -27505,7 +27505,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "02:12",
               "pickup": true,
               "dropoff": true
@@ -27636,7 +27636,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "02:27",
               "pickup": true,
               "dropoff": true
@@ -27767,7 +27767,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "03:07",
               "pickup": true,
               "dropoff": true
@@ -27898,7 +27898,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "03:22",
               "pickup": true,
               "dropoff": true
@@ -28029,7 +28029,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:02",
               "pickup": true,
               "dropoff": true
@@ -28160,7 +28160,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:17",
               "pickup": true,
               "dropoff": true
@@ -28291,7 +28291,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "04:57",
               "pickup": true,
               "dropoff": true
@@ -28422,7 +28422,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:07",
               "pickup": true,
               "dropoff": true
@@ -28553,7 +28553,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:12",
               "pickup": true,
               "dropoff": true
@@ -28684,7 +28684,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "05:22",
               "pickup": true,
               "dropoff": true
@@ -28815,7 +28815,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:02",
               "pickup": true,
               "dropoff": true
@@ -28946,7 +28946,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:17",
               "pickup": true,
               "dropoff": true
@@ -29077,7 +29077,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "06:57",
               "pickup": true,
               "dropoff": true
@@ -29208,7 +29208,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:12",
               "pickup": true,
               "dropoff": true
@@ -29339,7 +29339,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "07:52",
               "pickup": true,
               "dropoff": true
@@ -29470,7 +29470,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:07",
               "pickup": true,
               "dropoff": true
@@ -29601,7 +29601,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "08:47",
               "pickup": true,
               "dropoff": true
@@ -29732,7 +29732,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:02",
               "pickup": true,
               "dropoff": true
@@ -29863,7 +29863,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:42",
               "pickup": true,
               "dropoff": true
@@ -29994,7 +29994,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "09:57",
               "pickup": true,
               "dropoff": true
@@ -30125,7 +30125,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:37",
               "pickup": true,
               "dropoff": true
@@ -30256,7 +30256,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "10:52",
               "pickup": true,
               "dropoff": true
@@ -30387,7 +30387,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:32",
               "pickup": true,
               "dropoff": true
@@ -30518,7 +30518,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "11:47",
               "pickup": true,
               "dropoff": true
@@ -30649,7 +30649,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:27",
               "pickup": true,
               "dropoff": true
@@ -30780,7 +30780,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "12:42",
               "pickup": true,
               "dropoff": true
@@ -30911,7 +30911,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:22",
               "pickup": true,
               "dropoff": true
@@ -31042,7 +31042,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "13:37",
               "pickup": true,
               "dropoff": true
@@ -31173,7 +31173,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:17",
               "pickup": true,
               "dropoff": true
@@ -31304,7 +31304,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "14:32",
               "pickup": true,
               "dropoff": true
@@ -31435,7 +31435,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:12",
               "pickup": true,
               "dropoff": true
@@ -31566,7 +31566,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "15:27",
               "pickup": true,
               "dropoff": true
@@ -31697,7 +31697,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:07",
               "pickup": true,
               "dropoff": true
@@ -31828,7 +31828,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "16:22",
               "pickup": true,
               "dropoff": true
@@ -31959,7 +31959,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:02",
               "pickup": true,
               "dropoff": true
@@ -32090,7 +32090,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:17",
               "pickup": true,
               "dropoff": true
@@ -32221,7 +32221,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "17:57",
               "pickup": true,
               "dropoff": true
@@ -32352,7 +32352,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:12",
               "pickup": true,
               "dropoff": true
@@ -32483,7 +32483,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "18:52",
               "pickup": true,
               "dropoff": true
@@ -32614,7 +32614,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:07",
               "pickup": true,
               "dropoff": true
@@ -32745,7 +32745,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "19:47",
               "pickup": true,
               "dropoff": true
@@ -32876,7 +32876,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:02",
               "pickup": true,
               "dropoff": true
@@ -33007,7 +33007,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:42",
               "pickup": true,
               "dropoff": true
@@ -33138,7 +33138,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "20:57",
               "pickup": true,
               "dropoff": true
@@ -33269,7 +33269,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:37",
               "pickup": true,
               "dropoff": true
@@ -33400,7 +33400,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "21:52",
               "pickup": true,
               "dropoff": true
@@ -33531,7 +33531,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "22:32",
               "pickup": true,
               "dropoff": true
@@ -33662,7 +33662,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "22:47",
               "pickup": true,
               "dropoff": true
@@ -33793,7 +33793,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "23:27",
               "pickup": true,
               "dropoff": true
@@ -33924,7 +33924,7 @@
               "dropoff": true
             },
             {
-              "stop": "WASHRACK",
+              "stop": "WASH RACK",
               "time": "23:42",
               "pickup": true,
               "dropoff": true
