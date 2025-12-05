@@ -37,8 +37,7 @@
         "ZONE 6 CHAPEL",
         "AT&T",
         "CJFLCC-I/82nd",
-        "F/H PAD",
-        "AMC PODS"
+        "F/H PAD"
       ],
       "departures": [
         {
@@ -10180,8 +10179,7 @@
         "BLDG 507",
         "WASH RACK",
         "BLDG 761D",
-        "LOGCAP",
-        "P&R"
+        "LOGCAP"
       ],
       "departures": [
         {
@@ -16433,8 +16431,7 @@
         "TIRE SHOP",
         "MCB",
         "Paint Shop",
-        "CRSP",
-        "P&R"
+        "CRSP"
       ],
       "departures": [
         {
@@ -21977,8 +21974,7 @@
         "F/H PAD",
         "AT&T",
         "ZONE 6 CHAPEL",
-        "BLDG 1211",
-        "ECP"
+        "BLDG 1211"
       ],
       "departures": [
         {
@@ -34057,8 +34053,7 @@
         "LOT 58",
         "CLASS VII",
         "BLDG 761D",
-        "LOGCAP",
-        "ECP"
+        "LOGCAP"
       ],
       "departures": [
         {
@@ -39882,11 +39877,7 @@
         "DOL",
         "160TH",
         "TMC",
-        "TURF TRACK",
-        "SENIOR PODS",
-        "COMBAT HETS",
-        "ZONE 6 DFAC",
-        "AMC PODS"
+        "TURF TRACK"
       ],
       "departures": [
         {
@@ -56273,6 +56264,1966 @@
             {
               "stop": "ECP1",
               "time": "4:50",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Fake Bus",
+      "routeId": "NEW_ROUTE_8",
+      "serviceWindow": {
+        "start": "04:30",
+        "end": "23:59"
+      },
+      "is24Hour": false,
+      "stops": [
+        "fake1",
+        "fake2",
+        "fake3",
+        "fake4"
+      ],
+      "departures": [
+        {
+          "tripId": 1,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "04:30",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "04:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "04:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "04:45",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 2,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "4:55",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "5:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "5:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "5:10",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 3,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "5:20",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "5:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "5:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "5:35",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 4,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "5:45",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "5:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "5:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "6:00",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 5,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "6:10",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "6:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "6:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "6:25",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 6,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "6:35",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "6:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "6:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "6:50",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 7,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "7:00",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "7:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "7:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "7:15",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 8,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "7:25",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "7:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "7:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "7:40",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 9,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "7:50",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "7:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "8:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "8:05",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 10,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "8:15",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "8:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "8:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "8:30",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 11,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "8:40",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "8:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "8:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "8:55",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 12,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "9:05",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "9:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "9:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "9:20",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 13,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "9:30",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "9:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "9:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "9:45",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 14,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "9:55",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "10:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "10:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "10:10",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 15,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "10:20",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "10:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "10:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "10:35",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 16,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "10:45",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "10:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "10:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "11:00",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 17,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "11:10",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "11:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "11:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "11:25",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 18,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "11:35",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "11:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "11:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "11:50",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 19,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "12:00",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "12:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "12:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "12:15",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 20,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "12:25",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "12:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "12:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "12:40",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 21,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "12:50",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "12:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "13:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "13:05",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 22,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "4:55",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "5:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "5:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "5:10",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 23,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "5:20",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "5:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "5:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "5:35",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 24,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "5:45",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "5:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "5:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "6:00",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 25,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "6:10",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "6:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "6:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "6:25",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 26,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "6:35",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "6:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "6:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "6:50",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 27,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "7:00",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "7:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "7:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "7:15",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 28,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "7:25",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "7:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "7:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "7:40",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 29,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "7:50",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "7:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "8:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "8:05",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 30,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "8:15",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "8:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "8:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "8:30",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 31,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "8:40",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "8:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "8:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "8:55",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 32,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "9:05",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "9:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "9:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "9:20",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 33,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "9:30",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "9:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "9:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "9:45",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 34,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "9:55",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "10:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "10:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "10:10",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 35,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "10:20",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "10:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "10:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "10:35",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 36,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "10:45",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "10:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "10:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "11:00",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 37,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "11:10",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "11:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "11:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "11:25",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 38,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "11:35",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "11:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "11:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "11:50",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 39,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "12:00",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "12:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "12:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "12:15",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 40,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "12:25",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "12:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "12:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "12:40",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 41,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "12:50",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "12:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "13:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "13:05",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 42,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "13:15",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "13:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "13:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "13:30",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 43,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "13:40",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "13:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "13:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "13:55",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 44,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "14:05",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "14:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "14:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "14:20",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 45,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "14:30",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "14:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "14:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "14:45",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 46,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "14:55",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "15:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "15:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "15:10",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 47,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "15:20",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "15:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "15:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "15:35",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 48,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "15:45",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "15:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "15:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "16:00",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 49,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "16:10",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "16:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "16:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "16:25",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 50,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "16:35",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "16:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "16:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "16:50",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 51,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "17:00",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "17:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "17:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "17:15",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 52,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "17:25",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "17:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "17:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "17:40",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 53,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "17:50",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "17:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "18:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "18:05",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 54,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "18:15",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "18:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "18:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "18:30",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 55,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "18:40",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "18:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "18:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "18:55",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 56,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "19:05",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "19:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "19:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "19:20",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 57,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "19:30",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "19:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "19:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "19:45",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 58,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "19:55",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "20:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "20:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "20:10",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 59,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "20:20",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "20:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "20:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "20:35",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 60,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "20:45",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "20:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "20:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "21:00",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 61,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "21:10",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "21:15",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "21:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "21:25",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 62,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "21:35",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "21:40",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "21:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "21:50",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 63,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "22:00",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "22:05",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "22:10",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "22:15",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 64,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "22:25",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "22:30",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "22:35",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "22:40",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 65,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "22:50",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "22:55",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "23:00",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "23:05",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 66,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "23:15",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "23:20",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "23:25",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "23:30",
+              "pickup": false,
+              "dropoff": true
+            }
+          ]
+        },
+        {
+          "tripId": 67,
+          "times": [
+            {
+              "stop": "fake1",
+              "time": "23:40",
+              "pickup": true,
+              "dropoff": false
+            },
+            {
+              "stop": "fake2",
+              "time": "23:45",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake3",
+              "time": "23:50",
+              "pickup": true,
+              "dropoff": true
+            },
+            {
+              "stop": "fake4",
+              "time": "23:55",
               "pickup": false,
               "dropoff": true
             }
