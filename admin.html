@@ -484,9 +484,13 @@
       const summary = document.createElement('summary');
       const titleSpan = document.createElement('span');
       const first = dep.times?.[0];
-      const last = dep.times?.[dep.times.length - 1];
-      const label = `Trip #${dep.tripId ?? (depIndex + 1)}: ${first?.time || '?'} → ${last?.time || '?'}`;
-      titleSpan.textContent = label;
+const last = dep.times?.[dep.times.length - 1];
+let label = `Trip #${dep.tripId ?? (depIndex + 1)}: ${first?.time || '?'} → ${last?.time || '?'}`;
+if (dep.disabled) {
+  label += ' (disabled)';
+}
+titleSpan.textContent = label;
+
 
       const actions = document.createElement('div');
       actions.style.display = 'flex';
@@ -513,6 +517,35 @@
         }
       });
 
+const activeToggle = document.createElement('label');
+activeToggle.style.display = 'inline-flex';
+activeToggle.style.alignItems = 'center';
+activeToggle.style.gap = '4px';
+activeToggle.style.fontSize = '0.75rem';
+
+const activeCheckbox = document.createElement('input');
+activeCheckbox.type = 'checkbox';
+activeCheckbox.checked = !dep.disabled;  // default: active if flag missing
+activeCheckbox.addEventListener('change', (e) => {
+  // If checked, ensure dep.disabled is falsy
+  dep.disabled = !e.target.checked || undefined;
+  // Update the label text to show/hide "(disabled)"
+  const first = dep.times?.[0];
+  const last = dep.times?.[dep.times.length - 1];
+  let lbl = `Trip #${dep.tripId ?? (depIndex + 1)}: ${first?.time || '?'} → ${last?.time || '?'}`;
+  if (dep.disabled) lbl += ' (disabled)';
+  titleSpan.textContent = lbl;
+});
+
+activeToggle.appendChild(activeCheckbox);
+const spanTxt = document.createElement('span');
+spanTxt.textContent = 'Active';
+activeToggle.appendChild(spanTxt);
+
+	actions.appendChild(activeToggle);
+	actions.appendChild(cloneBtn);
+	actions.appendChild(delBtn);
+	
       actions.appendChild(cloneBtn);
       actions.appendChild(delBtn);
       summary.appendChild(titleSpan);
