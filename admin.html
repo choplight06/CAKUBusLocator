@@ -296,12 +296,15 @@
   <section class="panel">
     <h2>1. Load schedule file</h2>
     <p class="muted">
-      Choose the current <code>schedule_with_pickup_dropoff.json</code>, then pick a route to edit.
+      Choose the current <code>schedule_with_pickup_dropoff.json</code>, then pick a route to edit or create a new one.
     </p>
     <input type="file" id="fileInput" accept="application/json" />
 
-    <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center;">
-      <h2 style="margin:0;">Routes</h2>
+    <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center; gap:6px;">
+      <div style="display:flex; gap:6px; align-items:center;">
+        <h2 style="margin:0;">Routes</h2>
+        <button id="addRouteBtn" class="btn">+ Add route</button>
+      </div>
       <button id="downloadBtn" class="btn btn-primary" disabled>Download updated JSON</button>
     </div>
     <div class="routes-list" id="routesList">
@@ -313,7 +316,7 @@
   <section class="panel" id="editorPanel">
     <h2>2. Route editor</h2>
     <p class="muted" id="editorHint">
-      Select a route on the left to view and edit its details.
+      Select a route on the left to view and edit its details, or create a new route.
     </p>
 
     <div id="routeMeta" style="display:none;">
@@ -338,6 +341,13 @@
         <span class="badge" id="stopsBadge"></span>
         <span class="badge" id="depsBadge"></span>
       </div>
+
+      <label>Stops (comma-separated, in loop order)
+        <input type="text" id="routeStops" placeholder="ECP1, Gateway, Zone 6 PX/Gym, ..." />
+      </label>
+      <p class="muted" style="margin-top:2px;">
+        New departures will use this stop order. Editing stops here does not automatically rename existing rows below; you can edit those directly in the trip tables.
+      </p>
 
       <div class="grid-header">
         <h3 style="margin:6px 0 0; font-size:0.85rem;">Departures</h3>
@@ -365,6 +375,7 @@
   const fileInput = document.getElementById('fileInput');
   const routesList = document.getElementById('routesList');
   const downloadBtn = document.getElementById('downloadBtn');
+  const addRouteBtn = document.getElementById('addRouteBtn');
 
   const editorHint = document.getElementById('editorHint');
   const routeMeta = document.getElementById('routeMeta');
@@ -376,6 +387,7 @@
   const depsBadge = document.getElementById('depsBadge');
   const departuresContainer = document.getElementById('departuresContainer');
   const addDepartureBtn = document.getElementById('addDepartureBtn');
+  const routeStopsInput = document.getElementById('routeStops');
 
   fileInput.addEventListener('change', handleFile);
   downloadBtn.addEventListener('click', downloadJson);
@@ -384,6 +396,7 @@
     addNewDeparture();
     renderDepartures();
   });
+  addRouteBtn.addEventListener('click', addNewRoute);
 
   function handleFile(ev) {
     const file = ev.target.files[0];
@@ -410,6 +423,10 @@
 
   function renderRoutesList() {
     routesList.innerHTML = '';
+    if (!SCHEDULE || !Array.isArray(SCHEDULE.routes) || !SCHEDULE.routes.length) {
+      routesList.innerHTML = '<p class="muted">No routes in file.</p>';
+      return;
+    }
     SCHEDULE.routes.forEach((r, idx) => {
       const div = document.createElement('div');
       div.className = 'route-item' + (idx === CURRENT_ROUTE_INDEX ? ' active' : '');
@@ -433,13 +450,26 @@
   }
 
   function clearEditor() {
-    editorHint.textContent = 'Select a route on the left to view and edit its details.';
+    editorHint.textContent = 'Select a route on the left to view and edit its details, or create a new route.';
     routeMeta.style.display = 'none';
     departuresContainer.innerHTML = '';
   }
 
+  function syncStopsFromDepartures(route) {
+    // Build a unique stop list from route.stops + all trip rows
+    const set = new Set(route.stops || []);
+    (route.departures || []).forEach(dep => (dep.times || []).forEach(t => {
+      if (t.stop && t.stop.trim()) set.add(t.stop.trim());
+    }));
+    route.stops = Array.from(set);
+  }
+
   function loadRouteIntoEditor(idx) {
     const route = SCHEDULE.routes[idx];
+
+    // sync stops with what actually appears in times[]
+    syncStopsFromDepartures(route);
+
     editorHint.textContent = '';
     routeMeta.style.display = 'block';
 
@@ -455,6 +485,8 @@
     stopsBadge.textContent = stops.length + ' stops';
     depsBadge.textContent = deps.length + ' departures';
 
+    routeStopsInput.value = stops.join(', ');
+
     // hook metadata change handlers
     routeLabelInput.oninput = () => route.label = routeLabelInput.value.trim();
     svcStartInput.oninput = () => {
@@ -467,13 +499,24 @@
     };
     is24HourInput.onchange = () => route.is24Hour = !!is24HourInput.checked;
 
+    routeStopsInput.oninput = () => {
+      const arr = routeStopsInput.value.split(',').map(s => s.trim()).filter(Boolean);
+      route.stops = arr;
+      stopsBadge.textContent = arr.length + ' stops';
+    };
+
     renderDepartures();
   }
 
   function renderDepartures() {
     const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    syncStopsFromDepartures(route);
     const stops = route.stops || [];
     const departures = route.departures || [];
+
+    // keep stops UI in sync
+    routeStopsInput.value = stops.join(', ');
+    stopsBadge.textContent = stops.length + ' stops';
 
     departuresContainer.innerHTML = '';
 
@@ -483,14 +526,48 @@
 
       const summary = document.createElement('summary');
       const titleSpan = document.createElement('span');
+
       const first = dep.times?.[0];
       const last = dep.times?.[dep.times.length - 1];
-      const label = `Trip #${dep.tripId ?? (depIndex + 1)}: ${first?.time || '?'} → ${last?.time || '?'}`;
+      let label = `Trip #${dep.tripId ?? (depIndex + 1)}: ${first?.time || '?'} → ${last?.time || '?'}`;
+      if (dep.disabled) {
+        label += ' (disabled)';
+      }
       titleSpan.textContent = label;
 
       const actions = document.createElement('div');
       actions.style.display = 'flex';
       actions.style.gap = '6px';
+
+      // Active / disabled toggle
+      const activeToggle = document.createElement('label');
+      activeToggle.style.display = 'inline-flex';
+      activeToggle.style.alignItems = 'center';
+      activeToggle.style.gap = '4px';
+      activeToggle.style.fontSize = '0.75rem';
+
+      const activeCheckbox = document.createElement('input');
+      activeCheckbox.type = 'checkbox';
+      activeCheckbox.checked = !dep.disabled; // default active unless disabled=true
+
+      activeCheckbox.addEventListener('change', (e) => {
+        dep.disabled = !e.target.checked || undefined;
+
+        const firstT = dep.times?.[0];
+        const lastT = dep.times?.[dep.times.length - 1];
+        let lbl = `Trip #${dep.tripId ?? (depIndex + 1)}: ${firstT?.time || '?'} → ${lastT?.time || '?'}`;
+        if (dep.disabled) {
+          lbl += ' (disabled)';
+        }
+        titleSpan.textContent = lbl;
+      });
+
+      const activeText = document.createElement('span');
+      activeText.textContent = 'Active';
+
+      activeToggle.appendChild(activeCheckbox);
+      activeToggle.appendChild(activeText);
+
       const cloneBtn = document.createElement('button');
       cloneBtn.type = 'button';
       cloneBtn.className = 'btn';
@@ -513,8 +590,10 @@
         }
       });
 
+      actions.appendChild(activeToggle);
       actions.appendChild(cloneBtn);
       actions.appendChild(delBtn);
+
       summary.appendChild(titleSpan);
       summary.appendChild(actions);
       details.appendChild(summary);
@@ -540,7 +619,13 @@
         tdIndex.textContent = i + 1;
 
         const tdStop = document.createElement('td');
-        tdStop.textContent = t.stop;
+        const stopInput = document.createElement('input');
+        stopInput.type = 'text';
+        stopInput.value = t.stop || '';
+        stopInput.addEventListener('input', () => {
+          t.stop = stopInput.value.trim();
+        });
+        tdStop.appendChild(stopInput);
 
         const tdTime = document.createElement('td');
         const timeInput = document.createElement('input');
@@ -591,9 +676,14 @@
   function addNewDeparture() {
     const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
     route.departures = route.departures || [];
+
+    // ensure stops list is clean
+    syncStopsFromDepartures(route);
+    const stops = route.stops || [];
+
     const baseId = route.departures.reduce((max, d) => Math.max(max, d.tripId || 0), 0) || 0;
     const newTripId = baseId + 1;
-    const times = (route.stops || []).map((s) => ({
+    const times = stops.map((s) => ({
       stop: s,
       time: '',
       pickup: true,
@@ -613,6 +703,7 @@
     const newTripId = baseId + 1;
     const cloned = {
       tripId: newTripId,
+      disabled: dep.disabled || undefined,
       times: (dep.times || []).map(t => ({
         stop: t.stop,
         time: t.time,
@@ -630,8 +721,33 @@
     renderDepartures();
   }
 
+  function addNewRoute() {
+    if (!SCHEDULE) {
+      alert('Load a schedule JSON file first.');
+      return;
+    }
+    SCHEDULE.routes = SCHEDULE.routes || [];
+    const baseNum = SCHEDULE.routes.length + 1;
+    const newRoute = {
+      label: 'New Route ' + baseNum,
+      routeId: 'NEW_ROUTE_' + baseNum,
+      serviceWindow: { start: '', end: '' },
+      is24Hour: false,
+      stops: [],
+      departures: []
+    };
+    SCHEDULE.routes.push(newRoute);
+    CURRENT_ROUTE_INDEX = SCHEDULE.routes.length - 1;
+    renderRoutesList();
+    loadRouteIntoEditor(CURRENT_ROUTE_INDEX);
+  }
+
   function downloadJson() {
     if (!SCHEDULE) return;
+
+    // Final sync: ensure route.stops matches what actually appears in times
+    SCHEDULE.routes.forEach(route => syncStopsFromDepartures(route));
+
     const blob = new Blob([JSON.stringify(SCHEDULE, null, 2)], {
       type: 'application/json'
     });
