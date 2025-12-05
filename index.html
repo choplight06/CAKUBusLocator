@@ -515,13 +515,6 @@ function findDirectTrips(originName, destName, routeLabelOpt) {
     if (!hasOrigin || !hasDest) return;
 
     route.departures.forEach(dep => {
-  // NEW: skip disabled trips
-  if (dep.disabled) return;
-
-  let depTimeStr = null;
-  let arrTimeStr = null;
-  ...
-});
 
       let depTimeStr = null;
       let arrTimeStr = null;
