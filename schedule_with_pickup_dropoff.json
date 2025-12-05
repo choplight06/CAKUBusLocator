@@ -57564,6 +57564,7 @@
         },
         {
           "tripId": 45,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57593,6 +57594,7 @@
         },
         {
           "tripId": 46,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57622,6 +57624,7 @@
         },
         {
           "tripId": 47,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57651,6 +57654,7 @@
         },
         {
           "tripId": 48,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57680,6 +57684,7 @@
         },
         {
           "tripId": 49,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57854,6 +57859,7 @@
         },
         {
           "tripId": 55,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57883,6 +57889,7 @@
         },
         {
           "tripId": 56,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57912,6 +57919,7 @@
         },
         {
           "tripId": 57,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57941,6 +57949,7 @@
         },
         {
           "tripId": 58,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57970,6 +57979,7 @@
         },
         {
           "tripId": 59,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -57999,6 +58009,7 @@
         },
         {
           "tripId": 60,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -58028,6 +58039,7 @@
         },
         {
           "tripId": 61,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -58057,6 +58069,7 @@
         },
         {
           "tripId": 62,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -58086,6 +58099,7 @@
         },
         {
           "tripId": 63,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -58115,6 +58129,7 @@
         },
         {
           "tripId": 64,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -58144,6 +58159,7 @@
         },
         {
           "tripId": 65,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -58173,6 +58189,7 @@
         },
         {
           "tripId": 66,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
@@ -58202,6 +58219,7 @@
         },
         {
           "tripId": 67,
+          "disabled": true,
           "times": [
             {
               "stop": "fake1",
