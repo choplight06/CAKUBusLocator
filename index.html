@@ -310,7 +310,31 @@ footer .feedback-btn:active {
 }
 
 
-    
+    .feedback-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 18px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.35);
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+  z-index: 9999;
+}
+
+.feedback-float:hover {
+  background: var(--accent-2);
+  transform: translateY(-2px);
+}
+
+.feedback-float:active {
+  transform: translateY(0);
+}
+
   </style>
 </head>
 <body>
@@ -702,34 +726,31 @@ async function init() {
   btn.addEventListener('click', () => {
     renderResults(origin.value, destination.value, routeFilter.value || null);
   });
-}
 function openFeedback() {
-  const originEl = document.getElementById('origin');
-  const destinationEl = document.getElementById('destination');
-
-  const origin = originEl && originEl.value ? originEl.value : 'Not selected';
-  const destination =
-    destinationEl && destinationEl.value ? destinationEl.value : 'Not selected';
-
+  const origin = document.getElementById('origin')?.value || 'Not selected';
+  const destination = document.getElementById('destination')?.value || 'Not selected';
   const now = new Date().toLocaleString();
 
-  const subject = encodeURIComponent('CAKU Bus Finder feedback');
+  const subject = encodeURIComponent('CAKU Bus Finder Feedback');
   const body = encodeURIComponent(
-    `Current time (local): ${now}\n` +
-    `Origin: ${origin}\n` +
-    `Destination: ${destination}\n\n` +
-    `Feedback (issue, wrong time, missing route, etc.):\n`
+    `Time: ${now}\nOrigin: ${origin}\nDestination: ${destination}\n\nFeedback:\n`
   );
 
-  const to = 'choplight06@gmail.com';
 
-  window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+  const to = "choplight06@gmail.com";
+
+  //  location.href works everywhere; window.open is less reliable for mailto
+  location.href = `mailto:${to}?subject=${subject}&body=${body}`;
 }
 
 init();
 
 
 </script>
+
+<button class="feedback-float" onclick="openFeedback()">
+  Feedback
+</button>
 
 </body>
 </html>
