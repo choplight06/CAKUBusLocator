@@ -17,7 +17,7 @@
       "stops": [
         "AMC PODS",
         "ZONE 6 DFAC",
-        "COMBAT HETS",
+        "COMBAT HETS (1100/ 1300 BLOCK)",
         "SENIOR PODS",
         "TURF TRACK",
         "TMC",
@@ -59,7 +59,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "04:34",
               "pickup": true,
               "dropoff": true
@@ -210,7 +210,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:34",
               "pickup": true,
               "dropoff": true
@@ -361,7 +361,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:34",
               "pickup": true,
               "dropoff": true
@@ -512,7 +512,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:34",
               "pickup": true,
               "dropoff": true
@@ -663,7 +663,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:34",
               "pickup": true,
               "dropoff": true
@@ -814,7 +814,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:34",
               "pickup": true,
               "dropoff": true
@@ -965,7 +965,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:34",
               "pickup": true,
               "dropoff": true
@@ -1116,7 +1116,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:34",
               "pickup": true,
               "dropoff": true
@@ -1267,7 +1267,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:34",
               "pickup": true,
               "dropoff": true
@@ -1418,7 +1418,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:34",
               "pickup": true,
               "dropoff": true
@@ -1569,7 +1569,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:34",
               "pickup": true,
               "dropoff": true
@@ -1720,7 +1720,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:34",
               "pickup": true,
               "dropoff": true
@@ -1871,7 +1871,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:34",
               "pickup": true,
               "dropoff": true
@@ -2022,7 +2022,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:34",
               "pickup": true,
               "dropoff": true
@@ -2173,7 +2173,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:34",
               "pickup": true,
               "dropoff": true
@@ -2324,7 +2324,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:34",
               "pickup": true,
               "dropoff": true
@@ -2475,7 +2475,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:34",
               "pickup": true,
               "dropoff": true
@@ -2626,7 +2626,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "04:49",
               "pickup": true,
               "dropoff": true
@@ -2777,7 +2777,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:49",
               "pickup": true,
               "dropoff": true
@@ -2928,7 +2928,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:49",
               "pickup": true,
               "dropoff": true
@@ -3079,7 +3079,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:49",
               "pickup": true,
               "dropoff": true
@@ -3230,7 +3230,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:49",
               "pickup": true,
               "dropoff": true
@@ -3381,7 +3381,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:49",
               "pickup": true,
               "dropoff": true
@@ -3532,7 +3532,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:49",
               "pickup": true,
               "dropoff": true
@@ -3683,7 +3683,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:49",
               "pickup": true,
               "dropoff": true
@@ -3834,7 +3834,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:49",
               "pickup": true,
               "dropoff": true
@@ -3985,7 +3985,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:49",
               "pickup": true,
               "dropoff": true
@@ -4136,7 +4136,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:49",
               "pickup": true,
               "dropoff": true
@@ -4287,7 +4287,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:49",
               "pickup": true,
               "dropoff": true
@@ -4438,7 +4438,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:49",
               "pickup": true,
               "dropoff": true
@@ -4589,7 +4589,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:49",
               "pickup": true,
               "dropoff": true
@@ -4740,7 +4740,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:49",
               "pickup": true,
               "dropoff": true
@@ -4891,7 +4891,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:49",
               "pickup": true,
               "dropoff": true
@@ -5042,7 +5042,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:49",
               "pickup": true,
               "dropoff": true
@@ -5193,7 +5193,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:04",
               "pickup": true,
               "dropoff": true
@@ -5344,7 +5344,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:04",
               "pickup": true,
               "dropoff": true
@@ -5495,7 +5495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:04",
               "pickup": true,
               "dropoff": true
@@ -5646,7 +5646,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:04",
               "pickup": true,
               "dropoff": true
@@ -5797,7 +5797,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:04",
               "pickup": true,
               "dropoff": true
@@ -5948,7 +5948,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:04",
               "pickup": true,
               "dropoff": true
@@ -6099,7 +6099,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:04",
               "pickup": true,
               "dropoff": true
@@ -6250,7 +6250,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:04",
               "pickup": true,
               "dropoff": true
@@ -6401,7 +6401,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:04",
               "pickup": true,
               "dropoff": true
@@ -6552,7 +6552,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:04",
               "pickup": true,
               "dropoff": true
@@ -6703,7 +6703,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:04",
               "pickup": true,
               "dropoff": true
@@ -6854,7 +6854,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:04",
               "pickup": true,
               "dropoff": true
@@ -7005,7 +7005,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:04",
               "pickup": true,
               "dropoff": true
@@ -7156,7 +7156,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:04",
               "pickup": true,
               "dropoff": true
@@ -7307,7 +7307,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:04",
               "pickup": true,
               "dropoff": true
@@ -7458,7 +7458,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:04",
               "pickup": true,
               "dropoff": true
@@ -7609,7 +7609,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:04",
               "pickup": true,
               "dropoff": true
@@ -7760,7 +7760,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:19",
               "pickup": true,
               "dropoff": true
@@ -7911,7 +7911,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:19",
               "pickup": true,
               "dropoff": true
@@ -8062,7 +8062,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:19",
               "pickup": true,
               "dropoff": true
@@ -8213,7 +8213,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:19",
               "pickup": true,
               "dropoff": true
@@ -8364,7 +8364,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:19",
               "pickup": true,
               "dropoff": true
@@ -8515,7 +8515,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:19",
               "pickup": true,
               "dropoff": true
@@ -8666,7 +8666,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:19",
               "pickup": true,
               "dropoff": true
@@ -8817,7 +8817,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:19",
               "pickup": true,
               "dropoff": true
@@ -8968,7 +8968,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:19",
               "pickup": true,
               "dropoff": true
@@ -9119,7 +9119,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:19",
               "pickup": true,
               "dropoff": true
@@ -9270,7 +9270,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:19",
               "pickup": true,
               "dropoff": true
@@ -9421,7 +9421,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:19",
               "pickup": true,
               "dropoff": true
@@ -9572,7 +9572,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:19",
               "pickup": true,
               "dropoff": true
@@ -9723,7 +9723,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:19",
               "pickup": true,
               "dropoff": true
@@ -9874,7 +9874,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:19",
               "pickup": true,
               "dropoff": true
@@ -10025,7 +10025,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:19",
               "pickup": true,
               "dropoff": true
@@ -21970,7 +21970,7 @@
         "TMC",
         "TURF TRACK",
         "SENIOR PODS",
-        "COMBAT HETS",
+        "COMBAT HETS (1100/ 1300 BLOCK)",
         "ZONE 6 DFAC",
         "AMC PODS",
         "CJFLCC-I/82nd",
@@ -22057,7 +22057,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "04:56",
               "pickup": true,
               "dropoff": true
@@ -22188,7 +22188,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:51",
               "pickup": true,
               "dropoff": true
@@ -22319,7 +22319,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:46",
               "pickup": true,
               "dropoff": true
@@ -22450,7 +22450,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:41",
               "pickup": true,
               "dropoff": true
@@ -22581,7 +22581,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:36",
               "pickup": true,
               "dropoff": true
@@ -22712,7 +22712,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:31",
               "pickup": true,
               "dropoff": true
@@ -22843,7 +22843,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:26",
               "pickup": true,
               "dropoff": true
@@ -22974,7 +22974,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:21",
               "pickup": true,
               "dropoff": true
@@ -23105,7 +23105,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:16",
               "pickup": true,
               "dropoff": true
@@ -23236,7 +23236,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:11",
               "pickup": true,
               "dropoff": true
@@ -23367,7 +23367,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:06",
               "pickup": true,
               "dropoff": true
@@ -23498,7 +23498,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:01",
               "pickup": true,
               "dropoff": true
@@ -23629,7 +23629,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:56",
               "pickup": true,
               "dropoff": true
@@ -23760,7 +23760,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:51",
               "pickup": true,
               "dropoff": true
@@ -23891,7 +23891,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:46",
               "pickup": true,
               "dropoff": true
@@ -24022,7 +24022,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:41",
               "pickup": true,
               "dropoff": true
@@ -24153,7 +24153,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:36",
               "pickup": true,
               "dropoff": true
@@ -24284,7 +24284,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:31",
               "pickup": true,
               "dropoff": true
@@ -24415,7 +24415,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:26",
               "pickup": true,
               "dropoff": true
@@ -24546,7 +24546,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:11",
               "pickup": true,
               "dropoff": true
@@ -24677,7 +24677,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:06",
               "pickup": true,
               "dropoff": true
@@ -24808,7 +24808,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:01",
               "pickup": true,
               "dropoff": true
@@ -24939,7 +24939,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:56",
               "pickup": true,
               "dropoff": true
@@ -25070,7 +25070,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:51",
               "pickup": true,
               "dropoff": true
@@ -25201,7 +25201,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:46",
               "pickup": true,
               "dropoff": true
@@ -25332,7 +25332,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:41",
               "pickup": true,
               "dropoff": true
@@ -25463,7 +25463,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:36",
               "pickup": true,
               "dropoff": true
@@ -25594,7 +25594,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:31",
               "pickup": true,
               "dropoff": true
@@ -25725,7 +25725,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:26",
               "pickup": true,
               "dropoff": true
@@ -25856,7 +25856,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:21",
               "pickup": true,
               "dropoff": true
@@ -25987,7 +25987,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:16",
               "pickup": true,
               "dropoff": true
@@ -26118,7 +26118,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:11",
               "pickup": true,
               "dropoff": true
@@ -26249,7 +26249,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:06",
               "pickup": true,
               "dropoff": true
@@ -26380,7 +26380,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:01",
               "pickup": true,
               "dropoff": true
@@ -26511,7 +26511,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:56",
               "pickup": true,
               "dropoff": true
@@ -26642,7 +26642,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:51",
               "pickup": true,
               "dropoff": true
@@ -26773,7 +26773,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:46",
               "pickup": true,
               "dropoff": true
@@ -26904,7 +26904,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:41",
               "pickup": true,
               "dropoff": true
@@ -27035,7 +27035,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "00:41",
               "pickup": true,
               "dropoff": true
@@ -27166,7 +27166,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "00:56",
               "pickup": true,
               "dropoff": true
@@ -27297,7 +27297,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "01:36",
               "pickup": true,
               "dropoff": true
@@ -27428,7 +27428,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "01:51",
               "pickup": true,
               "dropoff": true
@@ -27559,7 +27559,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "02:31",
               "pickup": true,
               "dropoff": true
@@ -27690,7 +27690,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "02:46",
               "pickup": true,
               "dropoff": true
@@ -27821,7 +27821,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "03:26",
               "pickup": true,
               "dropoff": true
@@ -27952,7 +27952,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "03:41",
               "pickup": true,
               "dropoff": true
@@ -28083,7 +28083,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "04:21",
               "pickup": true,
               "dropoff": true
@@ -28214,7 +28214,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "04:36",
               "pickup": true,
               "dropoff": true
@@ -28345,7 +28345,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:16",
               "pickup": true,
               "dropoff": true
@@ -28476,7 +28476,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:26",
               "pickup": true,
               "dropoff": true
@@ -28607,7 +28607,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:31",
               "pickup": true,
               "dropoff": true
@@ -28738,7 +28738,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:41",
               "pickup": true,
               "dropoff": true
@@ -28869,7 +28869,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:21",
               "pickup": true,
               "dropoff": true
@@ -29000,7 +29000,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:36",
               "pickup": true,
               "dropoff": true
@@ -29131,7 +29131,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:16",
               "pickup": true,
               "dropoff": true
@@ -29262,7 +29262,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:31",
               "pickup": true,
               "dropoff": true
@@ -29393,7 +29393,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:11",
               "pickup": true,
               "dropoff": true
@@ -29524,7 +29524,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:26",
               "pickup": true,
               "dropoff": true
@@ -29655,7 +29655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:06",
               "pickup": true,
               "dropoff": true
@@ -29786,7 +29786,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:21",
               "pickup": true,
               "dropoff": true
@@ -29917,7 +29917,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:01",
               "pickup": true,
               "dropoff": true
@@ -30048,7 +30048,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:16",
               "pickup": true,
               "dropoff": true
@@ -30179,7 +30179,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:56",
               "pickup": true,
               "dropoff": true
@@ -30310,7 +30310,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:11",
               "pickup": true,
               "dropoff": true
@@ -30441,7 +30441,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:51",
               "pickup": true,
               "dropoff": true
@@ -30572,7 +30572,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:06",
               "pickup": true,
               "dropoff": true
@@ -30703,7 +30703,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:46",
               "pickup": true,
               "dropoff": true
@@ -30834,7 +30834,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:01",
               "pickup": true,
               "dropoff": true
@@ -30965,7 +30965,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:41",
               "pickup": true,
               "dropoff": true
@@ -31096,7 +31096,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:56",
               "pickup": true,
               "dropoff": true
@@ -31227,7 +31227,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:36",
               "pickup": true,
               "dropoff": true
@@ -31358,7 +31358,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:51",
               "pickup": true,
               "dropoff": true
@@ -31489,7 +31489,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:31",
               "pickup": true,
               "dropoff": true
@@ -31620,7 +31620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:46",
               "pickup": true,
               "dropoff": true
@@ -31751,7 +31751,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:26",
               "pickup": true,
               "dropoff": true
@@ -31882,7 +31882,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:41",
               "pickup": true,
               "dropoff": true
@@ -32013,7 +32013,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:21",
               "pickup": true,
               "dropoff": true
@@ -32144,7 +32144,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:36",
               "pickup": true,
               "dropoff": true
@@ -32275,7 +32275,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:16",
               "pickup": true,
               "dropoff": true
@@ -32406,7 +32406,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:31",
               "pickup": true,
               "dropoff": true
@@ -32537,7 +32537,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:11",
               "pickup": true,
               "dropoff": true
@@ -32668,7 +32668,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:26",
               "pickup": true,
               "dropoff": true
@@ -32799,7 +32799,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:06",
               "pickup": true,
               "dropoff": true
@@ -32930,7 +32930,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:21",
               "pickup": true,
               "dropoff": true
@@ -33061,7 +33061,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:01",
               "pickup": true,
               "dropoff": true
@@ -33192,7 +33192,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:16",
               "pickup": true,
               "dropoff": true
@@ -33323,7 +33323,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:56",
               "pickup": true,
               "dropoff": true
@@ -33454,7 +33454,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "22:11",
               "pickup": true,
               "dropoff": true
@@ -33585,7 +33585,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "22:51",
               "pickup": true,
               "dropoff": true
@@ -33716,7 +33716,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "23:06",
               "pickup": true,
               "dropoff": true
@@ -33847,7 +33847,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "23:46",
               "pickup": true,
               "dropoff": true
@@ -33978,7 +33978,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "00:01",
               "pickup": true,
               "dropoff": true
@@ -39869,7 +39869,7 @@
       "stops": [
         "AMC PODS",
         "ZONE 6 DFAC",
-        "COMBAT HETS",
+        "COMBAT HETS (1100/ 1300 BLOCK)",
         "CFCC HHC MP",
         "SENIOR PODS",
         "FUEL POINT",
@@ -39884,7 +39884,7 @@
         "TMC",
         "TURF TRACK",
         "SENIOR PODS",
-        "COMBAT HETS",
+        "COMBAT HETS (1100/ 1300 BLOCK)",
         "ZONE 6 DFAC",
         "AMC PODS"
       ],
@@ -39905,7 +39905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "04:34",
               "pickup": true,
               "dropoff": true
@@ -39995,7 +39995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:11",
               "pickup": true,
               "dropoff": true
@@ -40030,7 +40030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "04:49",
               "pickup": true,
               "dropoff": true
@@ -40120,7 +40120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:26",
               "pickup": true,
               "dropoff": true
@@ -40155,7 +40155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:04",
               "pickup": true,
               "dropoff": true
@@ -40245,7 +40245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:41",
               "pickup": true,
               "dropoff": true
@@ -40280,7 +40280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:19",
               "pickup": true,
               "dropoff": true
@@ -40370,7 +40370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:56",
               "pickup": true,
               "dropoff": true
@@ -40405,7 +40405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:34",
               "pickup": true,
               "dropoff": true
@@ -40495,7 +40495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:11",
               "pickup": true,
               "dropoff": true
@@ -40530,7 +40530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "05:49",
               "pickup": true,
               "dropoff": true
@@ -40620,7 +40620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:26",
               "pickup": true,
               "dropoff": true
@@ -40655,7 +40655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:04",
               "pickup": true,
               "dropoff": true
@@ -40745,7 +40745,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:41",
               "pickup": true,
               "dropoff": true
@@ -40780,7 +40780,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:19",
               "pickup": true,
               "dropoff": true
@@ -40870,7 +40870,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:56",
               "pickup": true,
               "dropoff": true
@@ -40905,7 +40905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:34",
               "pickup": true,
               "dropoff": true
@@ -40995,7 +40995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:11",
               "pickup": true,
               "dropoff": true
@@ -41030,7 +41030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "06:49",
               "pickup": true,
               "dropoff": true
@@ -41120,7 +41120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:26",
               "pickup": true,
               "dropoff": true
@@ -41155,7 +41155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:04",
               "pickup": true,
               "dropoff": true
@@ -41245,7 +41245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:41",
               "pickup": true,
               "dropoff": true
@@ -41280,7 +41280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:19",
               "pickup": true,
               "dropoff": true
@@ -41370,7 +41370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:56",
               "pickup": true,
               "dropoff": true
@@ -41405,7 +41405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:34",
               "pickup": true,
               "dropoff": true
@@ -41495,7 +41495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:11",
               "pickup": true,
               "dropoff": true
@@ -41530,7 +41530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "07:49",
               "pickup": true,
               "dropoff": true
@@ -41620,7 +41620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:26",
               "pickup": true,
               "dropoff": true
@@ -41655,7 +41655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:04",
               "pickup": true,
               "dropoff": true
@@ -41745,7 +41745,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:41",
               "pickup": true,
               "dropoff": true
@@ -41780,7 +41780,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:19",
               "pickup": true,
               "dropoff": true
@@ -41870,7 +41870,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:56",
               "pickup": true,
               "dropoff": true
@@ -41905,7 +41905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:34",
               "pickup": true,
               "dropoff": true
@@ -41995,7 +41995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:11",
               "pickup": true,
               "dropoff": true
@@ -42030,7 +42030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "08:49",
               "pickup": true,
               "dropoff": true
@@ -42120,7 +42120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:26",
               "pickup": true,
               "dropoff": true
@@ -42155,7 +42155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:04",
               "pickup": true,
               "dropoff": true
@@ -42245,7 +42245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:41",
               "pickup": true,
               "dropoff": true
@@ -42280,7 +42280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:19",
               "pickup": true,
               "dropoff": true
@@ -42370,7 +42370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:56",
               "pickup": true,
               "dropoff": true
@@ -42405,7 +42405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:34",
               "pickup": true,
               "dropoff": true
@@ -42495,7 +42495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:11",
               "pickup": true,
               "dropoff": true
@@ -42530,7 +42530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "09:49",
               "pickup": true,
               "dropoff": true
@@ -42620,7 +42620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:26",
               "pickup": true,
               "dropoff": true
@@ -42655,7 +42655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:04",
               "pickup": true,
               "dropoff": true
@@ -42745,7 +42745,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:41",
               "pickup": true,
               "dropoff": true
@@ -42780,7 +42780,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:19",
               "pickup": true,
               "dropoff": true
@@ -42870,7 +42870,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:56",
               "pickup": true,
               "dropoff": true
@@ -42905,7 +42905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:34",
               "pickup": true,
               "dropoff": true
@@ -42995,7 +42995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:11",
               "pickup": true,
               "dropoff": true
@@ -43030,7 +43030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:49",
               "pickup": true,
               "dropoff": true
@@ -43120,7 +43120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:26",
               "pickup": true,
               "dropoff": true
@@ -43155,7 +43155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:04",
               "pickup": true,
               "dropoff": true
@@ -43245,7 +43245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:41",
               "pickup": true,
               "dropoff": true
@@ -43280,7 +43280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:19",
               "pickup": true,
               "dropoff": true
@@ -43370,7 +43370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:56",
               "pickup": true,
               "dropoff": true
@@ -43405,7 +43405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:34",
               "pickup": true,
               "dropoff": true
@@ -43495,7 +43495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:11",
               "pickup": true,
               "dropoff": true
@@ -43530,7 +43530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:49",
               "pickup": true,
               "dropoff": true
@@ -43620,7 +43620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:26",
               "pickup": true,
               "dropoff": true
@@ -43655,7 +43655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:04",
               "pickup": true,
               "dropoff": true
@@ -43745,7 +43745,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:41",
               "pickup": true,
               "dropoff": true
@@ -43780,7 +43780,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:19",
               "pickup": true,
               "dropoff": true
@@ -43870,7 +43870,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:56",
               "pickup": true,
               "dropoff": true
@@ -43905,7 +43905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:34",
               "pickup": true,
               "dropoff": true
@@ -43995,7 +43995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:11",
               "pickup": true,
               "dropoff": true
@@ -44030,7 +44030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:49",
               "pickup": true,
               "dropoff": true
@@ -44120,7 +44120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:26",
               "pickup": true,
               "dropoff": true
@@ -44155,7 +44155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:04",
               "pickup": true,
               "dropoff": true
@@ -44245,7 +44245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:41",
               "pickup": true,
               "dropoff": true
@@ -44280,7 +44280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:19",
               "pickup": true,
               "dropoff": true
@@ -44370,7 +44370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:56",
               "pickup": true,
               "dropoff": true
@@ -44405,7 +44405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:34",
               "pickup": true,
               "dropoff": true
@@ -44495,7 +44495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:11",
               "pickup": true,
               "dropoff": true
@@ -44530,7 +44530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:49",
               "pickup": true,
               "dropoff": true
@@ -44620,7 +44620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:26",
               "pickup": true,
               "dropoff": true
@@ -44655,7 +44655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:04",
               "pickup": true,
               "dropoff": true
@@ -44745,7 +44745,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:41",
               "pickup": true,
               "dropoff": true
@@ -44780,7 +44780,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:19",
               "pickup": true,
               "dropoff": true
@@ -44870,7 +44870,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:56",
               "pickup": true,
               "dropoff": true
@@ -44905,7 +44905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:34",
               "pickup": true,
               "dropoff": true
@@ -44995,7 +44995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:11",
               "pickup": true,
               "dropoff": true
@@ -45030,7 +45030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:49",
               "pickup": true,
               "dropoff": true
@@ -45120,7 +45120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:26",
               "pickup": true,
               "dropoff": true
@@ -45155,7 +45155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:04",
               "pickup": true,
               "dropoff": true
@@ -45245,7 +45245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:41",
               "pickup": true,
               "dropoff": true
@@ -45280,7 +45280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:19",
               "pickup": true,
               "dropoff": true
@@ -45370,7 +45370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:56",
               "pickup": true,
               "dropoff": true
@@ -45405,7 +45405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:34",
               "pickup": true,
               "dropoff": true
@@ -45495,7 +45495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:11",
               "pickup": true,
               "dropoff": true
@@ -45530,7 +45530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:49",
               "pickup": true,
               "dropoff": true
@@ -45620,7 +45620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:26",
               "pickup": true,
               "dropoff": true
@@ -45655,7 +45655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:04",
               "pickup": true,
               "dropoff": true
@@ -45745,7 +45745,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:41",
               "pickup": true,
               "dropoff": true
@@ -45780,7 +45780,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:19",
               "pickup": true,
               "dropoff": true
@@ -45870,7 +45870,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:56",
               "pickup": true,
               "dropoff": true
@@ -45905,7 +45905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:34",
               "pickup": true,
               "dropoff": true
@@ -45995,7 +45995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:11",
               "pickup": true,
               "dropoff": true
@@ -46030,7 +46030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:49",
               "pickup": true,
               "dropoff": true
@@ -46120,7 +46120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:26",
               "pickup": true,
               "dropoff": true
@@ -46155,7 +46155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:04",
               "pickup": true,
               "dropoff": true
@@ -46245,7 +46245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:41",
               "pickup": true,
               "dropoff": true
@@ -46280,7 +46280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:19",
               "pickup": true,
               "dropoff": true
@@ -46370,7 +46370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:56",
               "pickup": true,
               "dropoff": true
@@ -46405,7 +46405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:34",
               "pickup": true,
               "dropoff": true
@@ -46495,7 +46495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:11",
               "pickup": true,
               "dropoff": true
@@ -46530,7 +46530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:49",
               "pickup": true,
               "dropoff": true
@@ -46620,7 +46620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:26",
               "pickup": true,
               "dropoff": true
@@ -46655,7 +46655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:04",
               "pickup": true,
               "dropoff": true
@@ -46745,7 +46745,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:41",
               "pickup": true,
               "dropoff": true
@@ -46780,7 +46780,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:19",
               "pickup": true,
               "dropoff": true
@@ -46870,7 +46870,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:56",
               "pickup": true,
               "dropoff": true
@@ -46905,7 +46905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:34",
               "pickup": true,
               "dropoff": true
@@ -46995,7 +46995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:11",
               "pickup": true,
               "dropoff": true
@@ -47030,7 +47030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:49",
               "pickup": true,
               "dropoff": true
@@ -47120,7 +47120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:26",
               "pickup": true,
               "dropoff": true
@@ -47155,7 +47155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:04",
               "pickup": true,
               "dropoff": true
@@ -47245,7 +47245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:41",
               "pickup": true,
               "dropoff": true
@@ -47280,7 +47280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:19",
               "pickup": true,
               "dropoff": true
@@ -47370,7 +47370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:56",
               "pickup": true,
               "dropoff": true
@@ -47405,7 +47405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:34",
               "pickup": true,
               "dropoff": true
@@ -47495,7 +47495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:11",
               "pickup": true,
               "dropoff": true
@@ -47530,7 +47530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:49",
               "pickup": true,
               "dropoff": true
@@ -47620,7 +47620,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:26",
               "pickup": true,
               "dropoff": true
@@ -47655,7 +47655,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:04",
               "pickup": true,
               "dropoff": true
@@ -47745,7 +47745,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:41",
               "pickup": true,
               "dropoff": true
@@ -47780,7 +47780,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:19",
               "pickup": true,
               "dropoff": true
@@ -47870,7 +47870,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:56",
               "pickup": true,
               "dropoff": true
@@ -47905,7 +47905,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:34",
               "pickup": true,
               "dropoff": true
@@ -47995,7 +47995,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:11",
               "pickup": true,
               "dropoff": true
@@ -48030,7 +48030,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:49",
               "pickup": true,
               "dropoff": true
@@ -48120,7 +48120,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:26",
               "pickup": true,
               "dropoff": true
@@ -48155,7 +48155,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:04",
               "pickup": true,
               "dropoff": true
@@ -48245,7 +48245,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:41",
               "pickup": true,
               "dropoff": true
@@ -48280,7 +48280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:19",
               "pickup": true,
               "dropoff": true
@@ -48370,7 +48370,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:56",
               "pickup": true,
               "dropoff": true
@@ -48405,7 +48405,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:34",
               "pickup": true,
               "dropoff": true
@@ -48495,7 +48495,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "22:11",
               "pickup": true,
               "dropoff": true
@@ -48529,7 +48529,7 @@
         "GATEWAY",
         "ZONE 6 PX/GYM",
         "ZONE 6 DFAC",
-        "COMBAT HETS",
+        "COMBAT HETS (1100/ 1300 BLOCK)",
         "SENIOR PODS",
         "BLDG 507",
         "ZONE 2 DFAC"
@@ -48563,7 +48563,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "4:41",
               "pickup": true,
               "dropoff": true
@@ -48593,7 +48593,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "4:55",
               "pickup": true,
               "dropoff": true
@@ -48652,7 +48652,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "5:26",
               "pickup": true,
               "dropoff": true
@@ -48682,7 +48682,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "5:40",
               "pickup": true,
               "dropoff": true
@@ -48741,7 +48741,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "6:11",
               "pickup": true,
               "dropoff": true
@@ -48771,7 +48771,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "6:25",
               "pickup": true,
               "dropoff": true
@@ -48830,7 +48830,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "6:56",
               "pickup": true,
               "dropoff": true
@@ -48860,7 +48860,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "7:10",
               "pickup": true,
               "dropoff": true
@@ -48919,7 +48919,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "7:41",
               "pickup": true,
               "dropoff": true
@@ -48949,7 +48949,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "7:55",
               "pickup": true,
               "dropoff": true
@@ -49008,7 +49008,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "8:26",
               "pickup": true,
               "dropoff": true
@@ -49038,7 +49038,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "8:40",
               "pickup": true,
               "dropoff": true
@@ -49097,7 +49097,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "9:11",
               "pickup": true,
               "dropoff": true
@@ -49127,7 +49127,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "9:25",
               "pickup": true,
               "dropoff": true
@@ -49186,7 +49186,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "9:56",
               "pickup": true,
               "dropoff": true
@@ -49216,7 +49216,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:10",
               "pickup": true,
               "dropoff": true
@@ -49275,7 +49275,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:41",
               "pickup": true,
               "dropoff": true
@@ -49305,7 +49305,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:55",
               "pickup": true,
               "dropoff": true
@@ -49364,7 +49364,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:26",
               "pickup": true,
               "dropoff": true
@@ -49394,7 +49394,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:40",
               "pickup": true,
               "dropoff": true
@@ -49453,7 +49453,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:11",
               "pickup": true,
               "dropoff": true
@@ -49483,7 +49483,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:25",
               "pickup": true,
               "dropoff": true
@@ -49542,7 +49542,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:56",
               "pickup": true,
               "dropoff": true
@@ -49572,7 +49572,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:10",
               "pickup": true,
               "dropoff": true
@@ -49631,7 +49631,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:41",
               "pickup": true,
               "dropoff": true
@@ -49661,7 +49661,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:55",
               "pickup": true,
               "dropoff": true
@@ -49720,7 +49720,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:26",
               "pickup": true,
               "dropoff": true
@@ -49750,7 +49750,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:40",
               "pickup": true,
               "dropoff": true
@@ -49809,7 +49809,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:11",
               "pickup": true,
               "dropoff": true
@@ -49839,7 +49839,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:25",
               "pickup": true,
               "dropoff": true
@@ -49898,7 +49898,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:56",
               "pickup": true,
               "dropoff": true
@@ -49928,7 +49928,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:10",
               "pickup": true,
               "dropoff": true
@@ -49987,7 +49987,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:41",
               "pickup": true,
               "dropoff": true
@@ -50017,7 +50017,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:55",
               "pickup": true,
               "dropoff": true
@@ -50076,7 +50076,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:26",
               "pickup": true,
               "dropoff": true
@@ -50106,7 +50106,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:40",
               "pickup": true,
               "dropoff": true
@@ -50165,7 +50165,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:11",
               "pickup": true,
               "dropoff": true
@@ -50195,7 +50195,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:25",
               "pickup": true,
               "dropoff": true
@@ -50254,7 +50254,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:56",
               "pickup": true,
               "dropoff": true
@@ -50284,7 +50284,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:10",
               "pickup": true,
               "dropoff": true
@@ -50343,7 +50343,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:41",
               "pickup": true,
               "dropoff": true
@@ -50373,7 +50373,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:55",
               "pickup": true,
               "dropoff": true
@@ -50432,7 +50432,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:26",
               "pickup": true,
               "dropoff": true
@@ -50462,7 +50462,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:40",
               "pickup": true,
               "dropoff": true
@@ -50521,7 +50521,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:11",
               "pickup": true,
               "dropoff": true
@@ -50551,7 +50551,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:25",
               "pickup": true,
               "dropoff": true
@@ -50610,7 +50610,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "4:56",
               "pickup": true,
               "dropoff": true
@@ -50640,7 +50640,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "5:10",
               "pickup": true,
               "dropoff": true
@@ -50699,7 +50699,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "5:41",
               "pickup": true,
               "dropoff": true
@@ -50729,7 +50729,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "5:55",
               "pickup": true,
               "dropoff": true
@@ -50788,7 +50788,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "6:26",
               "pickup": true,
               "dropoff": true
@@ -50818,7 +50818,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "6:40",
               "pickup": true,
               "dropoff": true
@@ -50877,7 +50877,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "7:11",
               "pickup": true,
               "dropoff": true
@@ -50907,7 +50907,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "7:25",
               "pickup": true,
               "dropoff": true
@@ -50966,7 +50966,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "7:56",
               "pickup": true,
               "dropoff": true
@@ -50996,7 +50996,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "8:10",
               "pickup": true,
               "dropoff": true
@@ -51055,7 +51055,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "8:41",
               "pickup": true,
               "dropoff": true
@@ -51085,7 +51085,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "8:55",
               "pickup": true,
               "dropoff": true
@@ -51144,7 +51144,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "9:26",
               "pickup": true,
               "dropoff": true
@@ -51174,7 +51174,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "9:40",
               "pickup": true,
               "dropoff": true
@@ -51233,7 +51233,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:11",
               "pickup": true,
               "dropoff": true
@@ -51263,7 +51263,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:25",
               "pickup": true,
               "dropoff": true
@@ -51322,7 +51322,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:56",
               "pickup": true,
               "dropoff": true
@@ -51352,7 +51352,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:10",
               "pickup": true,
               "dropoff": true
@@ -51411,7 +51411,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:41",
               "pickup": true,
               "dropoff": true
@@ -51441,7 +51441,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:55",
               "pickup": true,
               "dropoff": true
@@ -51500,7 +51500,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:26",
               "pickup": true,
               "dropoff": true
@@ -51530,7 +51530,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:40",
               "pickup": true,
               "dropoff": true
@@ -51589,7 +51589,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:11",
               "pickup": true,
               "dropoff": true
@@ -51619,7 +51619,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:25",
               "pickup": true,
               "dropoff": true
@@ -51678,7 +51678,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:56",
               "pickup": true,
               "dropoff": true
@@ -51708,7 +51708,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:10",
               "pickup": true,
               "dropoff": true
@@ -51767,7 +51767,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:41",
               "pickup": true,
               "dropoff": true
@@ -51797,7 +51797,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:55",
               "pickup": true,
               "dropoff": true
@@ -51856,7 +51856,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:26",
               "pickup": true,
               "dropoff": true
@@ -51886,7 +51886,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:40",
               "pickup": true,
               "dropoff": true
@@ -51945,7 +51945,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:11",
               "pickup": true,
               "dropoff": true
@@ -51975,7 +51975,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:25",
               "pickup": true,
               "dropoff": true
@@ -52034,7 +52034,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:56",
               "pickup": true,
               "dropoff": true
@@ -52064,7 +52064,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:10",
               "pickup": true,
               "dropoff": true
@@ -52123,7 +52123,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:41",
               "pickup": true,
               "dropoff": true
@@ -52153,7 +52153,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:55",
               "pickup": true,
               "dropoff": true
@@ -52212,7 +52212,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:26",
               "pickup": true,
               "dropoff": true
@@ -52242,7 +52242,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:40",
               "pickup": true,
               "dropoff": true
@@ -52301,7 +52301,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:11",
               "pickup": true,
               "dropoff": true
@@ -52331,7 +52331,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:25",
               "pickup": true,
               "dropoff": true
@@ -52390,7 +52390,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:56",
               "pickup": true,
               "dropoff": true
@@ -52420,7 +52420,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:10",
               "pickup": true,
               "dropoff": true
@@ -52479,7 +52479,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:41",
               "pickup": true,
               "dropoff": true
@@ -52509,7 +52509,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:55",
               "pickup": true,
               "dropoff": true
@@ -52568,7 +52568,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:26",
               "pickup": true,
               "dropoff": true
@@ -52598,7 +52598,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:40",
               "pickup": true,
               "dropoff": true
@@ -52657,7 +52657,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "22:11",
               "pickup": true,
               "dropoff": true
@@ -52687,7 +52687,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "22:25",
               "pickup": true,
               "dropoff": true
@@ -52746,7 +52746,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "22:56",
               "pickup": true,
               "dropoff": true
@@ -52776,7 +52776,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "23:10",
               "pickup": true,
               "dropoff": true
@@ -52835,7 +52835,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "23:41",
               "pickup": true,
               "dropoff": true
@@ -52865,7 +52865,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "23:55",
               "pickup": true,
               "dropoff": true
@@ -52924,7 +52924,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "0:26",
               "pickup": true,
               "dropoff": true
@@ -52954,7 +52954,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "0:40",
               "pickup": true,
               "dropoff": true
@@ -53013,7 +53013,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "1:11",
               "pickup": true,
               "dropoff": true
@@ -53043,7 +53043,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "1:25",
               "pickup": true,
               "dropoff": true
@@ -53102,7 +53102,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "1:56",
               "pickup": true,
               "dropoff": true
@@ -53132,7 +53132,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "2:10",
               "pickup": true,
               "dropoff": true
@@ -53191,7 +53191,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "2:41",
               "pickup": true,
               "dropoff": true
@@ -53221,7 +53221,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "2:55",
               "pickup": true,
               "dropoff": true
@@ -53280,7 +53280,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "3:26",
               "pickup": true,
               "dropoff": true
@@ -53310,7 +53310,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "3:40",
               "pickup": true,
               "dropoff": true
@@ -53369,7 +53369,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "4:11",
               "pickup": true,
               "dropoff": true
@@ -53399,7 +53399,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "4:25",
               "pickup": true,
               "dropoff": true
@@ -53458,7 +53458,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "5:11",
               "pickup": true,
               "dropoff": true
@@ -53488,7 +53488,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "5:25",
               "pickup": true,
               "dropoff": true
@@ -53547,7 +53547,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "5:56",
               "pickup": true,
               "dropoff": true
@@ -53577,7 +53577,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "6:10",
               "pickup": true,
               "dropoff": true
@@ -53636,7 +53636,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "6:41",
               "pickup": true,
               "dropoff": true
@@ -53666,7 +53666,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "6:55",
               "pickup": true,
               "dropoff": true
@@ -53725,7 +53725,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "7:26",
               "pickup": true,
               "dropoff": true
@@ -53755,7 +53755,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "7:40",
               "pickup": true,
               "dropoff": true
@@ -53814,7 +53814,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "8:11",
               "pickup": true,
               "dropoff": true
@@ -53844,7 +53844,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "8:25",
               "pickup": true,
               "dropoff": true
@@ -53903,7 +53903,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "8:56",
               "pickup": true,
               "dropoff": true
@@ -53933,7 +53933,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "9:10",
               "pickup": true,
               "dropoff": true
@@ -53992,7 +53992,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "9:41",
               "pickup": true,
               "dropoff": true
@@ -54022,7 +54022,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "9:55",
               "pickup": true,
               "dropoff": true
@@ -54081,7 +54081,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:26",
               "pickup": true,
               "dropoff": true
@@ -54111,7 +54111,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "10:40",
               "pickup": true,
               "dropoff": true
@@ -54170,7 +54170,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:11",
               "pickup": true,
               "dropoff": true
@@ -54200,7 +54200,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:25",
               "pickup": true,
               "dropoff": true
@@ -54259,7 +54259,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "11:56",
               "pickup": true,
               "dropoff": true
@@ -54289,7 +54289,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:10",
               "pickup": true,
               "dropoff": true
@@ -54348,7 +54348,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:41",
               "pickup": true,
               "dropoff": true
@@ -54378,7 +54378,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "12:55",
               "pickup": true,
               "dropoff": true
@@ -54437,7 +54437,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:26",
               "pickup": true,
               "dropoff": true
@@ -54467,7 +54467,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "13:40",
               "pickup": true,
               "dropoff": true
@@ -54526,7 +54526,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:11",
               "pickup": true,
               "dropoff": true
@@ -54556,7 +54556,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:25",
               "pickup": true,
               "dropoff": true
@@ -54615,7 +54615,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "14:56",
               "pickup": true,
               "dropoff": true
@@ -54645,7 +54645,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:10",
               "pickup": true,
               "dropoff": true
@@ -54704,7 +54704,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:41",
               "pickup": true,
               "dropoff": true
@@ -54734,7 +54734,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "15:55",
               "pickup": true,
               "dropoff": true
@@ -54793,7 +54793,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:26",
               "pickup": true,
               "dropoff": true
@@ -54823,7 +54823,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "16:40",
               "pickup": true,
               "dropoff": true
@@ -54882,7 +54882,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:11",
               "pickup": true,
               "dropoff": true
@@ -54912,7 +54912,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:25",
               "pickup": true,
               "dropoff": true
@@ -54971,7 +54971,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "17:56",
               "pickup": true,
               "dropoff": true
@@ -55001,7 +55001,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:10",
               "pickup": true,
               "dropoff": true
@@ -55060,7 +55060,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:41",
               "pickup": true,
               "dropoff": true
@@ -55090,7 +55090,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "18:55",
               "pickup": true,
               "dropoff": true
@@ -55149,7 +55149,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:26",
               "pickup": true,
               "dropoff": true
@@ -55179,7 +55179,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "19:40",
               "pickup": true,
               "dropoff": true
@@ -55238,7 +55238,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:11",
               "pickup": true,
               "dropoff": true
@@ -55268,7 +55268,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:25",
               "pickup": true,
               "dropoff": true
@@ -55327,7 +55327,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "20:56",
               "pickup": true,
               "dropoff": true
@@ -55357,7 +55357,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:10",
               "pickup": true,
               "dropoff": true
@@ -55416,7 +55416,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:41",
               "pickup": true,
               "dropoff": true
@@ -55446,7 +55446,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "21:55",
               "pickup": true,
               "dropoff": true
@@ -55505,7 +55505,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "22:26",
               "pickup": true,
               "dropoff": true
@@ -55535,7 +55535,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "22:40",
               "pickup": true,
               "dropoff": true
@@ -55594,7 +55594,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "23:11",
               "pickup": true,
               "dropoff": true
@@ -55624,7 +55624,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "23:25",
               "pickup": true,
               "dropoff": true
@@ -55683,7 +55683,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "23:56",
               "pickup": true,
               "dropoff": true
@@ -55713,7 +55713,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "0:10",
               "pickup": true,
               "dropoff": true
@@ -55772,7 +55772,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "0:41",
               "pickup": true,
               "dropoff": true
@@ -55802,7 +55802,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "0:55",
               "pickup": true,
               "dropoff": true
@@ -55861,7 +55861,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "1:26",
               "pickup": true,
               "dropoff": true
@@ -55891,7 +55891,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "1:40",
               "pickup": true,
               "dropoff": true
@@ -55950,7 +55950,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "2:11",
               "pickup": true,
               "dropoff": true
@@ -55980,7 +55980,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "2:25",
               "pickup": true,
               "dropoff": true
@@ -56039,7 +56039,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "2:56",
               "pickup": true,
               "dropoff": true
@@ -56069,7 +56069,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "3:10",
               "pickup": true,
               "dropoff": true
@@ -56128,7 +56128,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "3:41",
               "pickup": true,
               "dropoff": true
@@ -56158,7 +56158,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "3:55",
               "pickup": true,
               "dropoff": true
@@ -56217,7 +56217,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "4:26",
               "pickup": true,
               "dropoff": true
@@ -56247,7 +56247,7 @@
               "dropoff": true
             },
             {
-              "stop": "COMBAT HETS",
+              "stop": "COMBAT HETS (1100/ 1300 BLOCK)",
               "time": "4:40",
               "pickup": true,
               "dropoff": true
