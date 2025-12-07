@@ -280,6 +280,44 @@ footer {
   font-size: 0.78rem;
 }
 
+.feedback-fab {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+
+  /* Prevent stretching */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 70vw;        /* Hard limit so it can’t run off-screen */
+  padding: 10px 16px;
+
+  /* Style */
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.45);
+
+  cursor: pointer;
+  z-index: 9999;
+
+  white-space: nowrap;
+}
+
+.feedback-fab:hover {
+  transform: translateY(-1px);
+}
+
+.feedback-fab:active {
+  transform: translateY(0);
+}
+
+
     
   </style>
 </head>
@@ -672,6 +710,14 @@ init();
 
 
 </script>
+
+<button
+  class="feedback-fab"
+  type="button"
+  onclick="window.open('https://forms.gle/ZGU6c1VckFTU1XBV6', '_blank', 'noopener')"
+>
+  Feedback
+</button>
 
 </body>
 </html>
