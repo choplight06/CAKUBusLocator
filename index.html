@@ -162,7 +162,7 @@ body {
   opacity: 0.8;
 }
 
-/* Make your main content feel like white “cards” on light gray, like the About Us page sections */
+/* white “cards” on light gray, like the About Us page sections */
 
 .container {
   max-width: 1000px;
@@ -269,7 +269,7 @@ button:active:not(:disabled) {
   box-shadow: 0 6px 18px rgba(0, 76, 135, 0.6);
 }
 
-/* Footer closer to V2X style: light, small, aligned right */
+
 
 footer {
   margin-top: 24px;
@@ -279,6 +279,36 @@ footer {
   text-align: right;
   font-size: 0.78rem;
 }
+
+footer span {
+  vertical-align: middle;
+}
+
+footer .feedback-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: inherit;
+  box-shadow: none;
+  letter-spacing: 0;
+}
+
+footer .feedback-btn:hover {
+  background: var(--panel-2);
+  transform: none;
+  box-shadow: none;
+}
+
+footer .feedback-btn:active {
+  transform: none;
+  box-shadow: none;
+}
+
 
     
   </style>
@@ -335,7 +365,13 @@ footer {
 
     <div id="results"></div>
 
-    <footer>© 2025 Chloe Hoplight</footer>
+    <footer>
+  <span>© 2025 Chloe Hoplight</span>
+  <button type="button" class="feedback-btn" onclick="openFeedback()">
+    Send feedback
+  </button>
+</footer>
+
   </div>
 
 
@@ -666,6 +702,28 @@ async function init() {
   btn.addEventListener('click', () => {
     renderResults(origin.value, destination.value, routeFilter.value || null);
   });
+}
+function openFeedback() {
+  const originEl = document.getElementById('origin');
+  const destinationEl = document.getElementById('destination');
+
+  const origin = originEl && originEl.value ? originEl.value : 'Not selected';
+  const destination =
+    destinationEl && destinationEl.value ? destinationEl.value : 'Not selected';
+
+  const now = new Date().toLocaleString();
+
+  const subject = encodeURIComponent('CAKU Bus Finder feedback');
+  const body = encodeURIComponent(
+    `Current time (local): ${now}\n` +
+    `Origin: ${origin}\n` +
+    `Destination: ${destination}\n\n` +
+    `Feedback (issue, wrong time, missing route, etc.):\n`
+  );
+
+  const to = 'choplight06@gmail.com';
+
+  window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
 }
 
 init();
