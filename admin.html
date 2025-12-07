@@ -349,6 +349,28 @@
         New departures will use this stop order. Editing stops here does not automatically rename existing rows below; you can edit those directly in the trip tables.
       </p>
 
+      <!-- NEW: generator for repeating departures -->
+      <div style="margin-top:10px; padding:8px; border-radius:8px; border:1px solid var(--border); background:#020617;">
+        <h3 style="margin:0 0 6px; font-size:0.85rem;">Generate repeating departures</h3>
+        <div class="inline" style="margin-bottom:4px;">
+          <label style="flex:2;">Base departure
+            <select id="genBaseDeparture"></select>
+          </label>
+        </div>
+        <div class="inline">
+          <label>Every (minutes)
+            <input type="number" id="genInterval" min="1" step="1" />
+          </label>
+          <label>Repeat count
+            <input type="number" id="genCount" min="1" step="1" />
+          </label>
+        </div>
+        <button id="genButton" class="btn" style="margin-top:6px;">Generate repeating departures</button>
+        <p class="muted" style="margin-top:4px;">
+          Uses the selected trip as a template and creates more trips with the same stop order and time gaps, shifted forward by the interval.
+        </p>
+      </div>
+
       <div class="grid-header">
         <h3 style="margin:6px 0 0; font-size:0.85rem;">Departures</h3>
         <div class="toolbar">
@@ -389,6 +411,12 @@
   const addDepartureBtn = document.getElementById('addDepartureBtn');
   const routeStopsInput = document.getElementById('routeStops');
 
+  // generator controls
+  const genBaseSelect = document.getElementById('genBaseDeparture');
+  const genIntervalInput = document.getElementById('genInterval');
+  const genCountInput = document.getElementById('genCount');
+  const genButton = document.getElementById('genButton');
+
   fileInput.addEventListener('change', handleFile);
   downloadBtn.addEventListener('click', downloadJson);
   addDepartureBtn.addEventListener('click', () => {
@@ -397,6 +425,7 @@
     renderDepartures();
   });
   addRouteBtn.addEventListener('click', addNewRoute);
+  genButton.addEventListener('click', generateRepeatingDepartures);
 
   function handleFile(ev) {
     const file = ev.target.files[0];
@@ -453,6 +482,9 @@
     editorHint.textContent = 'Select a route on the left to view and edit its details, or create a new route.';
     routeMeta.style.display = 'none';
     departuresContainer.innerHTML = '';
+    genBaseSelect.innerHTML = '';
+    genIntervalInput.value = '';
+    genCountInput.value = '';
   }
 
   function syncStopsFromDepartures(route) {
@@ -517,6 +549,17 @@
     // keep stops UI in sync
     routeStopsInput.value = stops.join(', ');
     stopsBadge.textContent = stops.length + ' stops';
+
+    // update generator base dropdown
+    genBaseSelect.innerHTML = '';
+    departures.forEach((dep, idx) => {
+      const opt = document.createElement('option');
+      const first = dep.times?.[0];
+      const last = dep.times?.[dep.times.length - 1];
+      opt.value = idx;
+      opt.textContent = `#${dep.tripId ?? (idx + 1)}: ${first?.time || '?'} → ${last?.time || '?'}`;
+      genBaseSelect.appendChild(opt);
+    });
 
     departuresContainer.innerHTML = '';
 
@@ -740,6 +783,107 @@
     CURRENT_ROUTE_INDEX = SCHEDULE.routes.length - 1;
     renderRoutesList();
     loadRouteIntoEditor(CURRENT_ROUTE_INDEX);
+  }
+
+  // ---- Time helpers for generator ----
+  function parseTime(str) {
+    if (!str) return null;
+    const m = str.trim().match(/^(\d{1,2}):(\d{2})$/);
+    if (!m) return null;
+    const h = parseInt(m[1], 10);
+    const min = parseInt(m[2], 10);
+    if (isNaN(h) || isNaN(min) || h < 0 || h > 23 || min < 0 || min > 59) return null;
+    return h * 60 + min;
+  }
+
+  function formatTime(totalMinutes) {
+    let t = ((totalMinutes % 1440) + 1440) % 1440; // wrap within 0..1439
+    const h = Math.floor(t / 60);
+    const m = t % 60;
+    return h + ':' + String(m).padStart(2, '0');
+  }
+
+  // ---- Generator: repeat departures every X minutes ----
+  function generateRepeatingDepartures() {
+    if (CURRENT_ROUTE_INDEX == null) return;
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    if (!route) return;
+    route.departures = route.departures || [];
+    const departures = route.departures;
+
+    if (!departures.length) {
+      alert('You need at least one departure to use as a base.');
+      return;
+    }
+
+    const baseIndex = parseInt(genBaseSelect.value, 10);
+    if (isNaN(baseIndex) || baseIndex < 0 || baseIndex >= departures.length) {
+      alert('Select a valid base departure.');
+      return;
+    }
+
+    const intervalMin = parseInt(genIntervalInput.value, 10);
+    if (!intervalMin || intervalMin <= 0) {
+      alert('Enter a positive interval in minutes.');
+      return;
+    }
+
+    const repeatCount = parseInt(genCountInput.value, 10);
+    if (!repeatCount || repeatCount <= 0) {
+      alert('Enter how many additional departures to generate.');
+      return;
+    }
+
+    const baseDep = departures[baseIndex];
+    if (!baseDep.times || !baseDep.times.length) {
+      alert('Base departure must have at least one stop with times filled in.');
+      return;
+    }
+
+    const baseStartStr = baseDep.times[0].time;
+    const baseStartMin = parseTime(baseStartStr);
+    if (baseStartMin == null) {
+      alert('First stop of the base departure must have a valid time (HH:MM).');
+      return;
+    }
+
+    // Compute offsets (time gap from first stop)
+    const offsets = [];
+    for (const t of baseDep.times) {
+      const tm = parseTime(t.time);
+      if (tm == null) {
+        alert('All stops in the base departure must have valid times.');
+        return;
+      }
+      let delta = tm - baseStartMin;
+      if (delta < 0) delta += 1440; // allow simple wrap
+      offsets.push({
+        stop: t.stop,
+        offset: delta,
+        pickup: t.pickup !== false,
+        dropoff: t.dropoff !== false
+      });
+    }
+
+    let nextId = departures.reduce((max, d) => Math.max(max, d.tripId || 0), 0) + 1;
+
+    for (let i = 0; i < repeatCount; i++) {
+      const shift = intervalMin * (i + 1);
+      const times = offsets.map(o => ({
+        stop: o.stop,
+        time: formatTime(baseStartMin + o.offset + shift),
+        pickup: o.pickup,
+        dropoff: o.dropoff
+      }));
+      // preserve same disabled/active state as base
+      departures.push({
+        tripId: nextId++,
+        disabled: baseDep.disabled || undefined,
+        times
+      });
+    }
+
+    renderDepartures();
   }
 
   function downloadJson() {
