@@ -162,7 +162,7 @@ body {
   opacity: 0.8;
 }
 
-/* white “cards” on light gray, like the About Us page sections */
+/* Make your main content feel like white “cards” on light gray, like the About Us page sections */
 
 .container {
   max-width: 1000px;
@@ -269,7 +269,7 @@ button:active:not(:disabled) {
   box-shadow: 0 6px 18px rgba(0, 76, 135, 0.6);
 }
 
-
+/* Footer closer to V2X style: light, small, aligned right */
 
 footer {
   margin-top: 24px;
@@ -280,61 +280,7 @@ footer {
   font-size: 0.78rem;
 }
 
-footer span {
-  vertical-align: middle;
-}
-
-footer .feedback-btn {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 8px;
-  padding: 4px 10px;
-  font-size: 0.75rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: transparent;
-  color: inherit;
-  box-shadow: none;
-  letter-spacing: 0;
-}
-
-footer .feedback-btn:hover {
-  background: var(--panel-2);
-  transform: none;
-  box-shadow: none;
-}
-
-footer .feedback-btn:active {
-  transform: none;
-  box-shadow: none;
-}
-
-
-    .feedback-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 18px;
-  background: var(--accent);
-  color: #fff;
-  font-size: 0.85rem;
-  border: none;
-  border-radius: 999px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.35);
-  cursor: pointer;
-  transition: background 0.2s ease, transform 0.15s ease;
-  z-index: 9999;
-}
-
-.feedback-float:hover {
-  background: var(--accent-2);
-  transform: translateY(-2px);
-}
-
-.feedback-float:active {
-  transform: translateY(0);
-}
-
+    
   </style>
 </head>
 <body>
@@ -389,13 +335,7 @@ footer .feedback-btn:active {
 
     <div id="results"></div>
 
-    <footer>
-  <span>© 2025 Chloe Hoplight</span>
-  <button type="button" class="feedback-btn" onclick="openFeedback()">
-    Send feedback
-  </button>
-</footer>
-
+    <footer>© 2025 Chloe Hoplight</footer>
   </div>
 
 
@@ -726,31 +666,12 @@ async function init() {
   btn.addEventListener('click', () => {
     renderResults(origin.value, destination.value, routeFilter.value || null);
   });
-function openFeedback() {
-  const origin = document.getElementById('origin')?.value || 'Not selected';
-  const destination = document.getElementById('destination')?.value || 'Not selected';
-  const now = new Date().toLocaleString();
-
-  const subject = encodeURIComponent('CAKU Bus Finder Feedback');
-  const body = encodeURIComponent(
-    `Time: ${now}\nOrigin: ${origin}\nDestination: ${destination}\n\nFeedback:\n`
-  );
-
-
-  const to = "choplight06@gmail.com";
-
-  //  location.href works everywhere; window.open is less reliable for mailto
-  location.href = `mailto:${to}?subject=${subject}&body=${body}`;
 }
 
 init();
 
 
 </script>
-
-<button class="feedback-float" onclick="openFeedback()">
-  Feedback
-</button>
 
 </body>
 </html>
