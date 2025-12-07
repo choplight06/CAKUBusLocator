@@ -282,18 +282,31 @@ footer {
 
 .feedback-fab {
   position: fixed;
-  right: 16px;
   bottom: 16px;
-  border-radius: 999px;
-  border: 1px solid var(--accent);
+  right: 16px;
+
+  /* Prevent stretching */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 70vw;        /* Hard limit so it can’t run off-screen */
   padding: 10px 16px;
-  font-size: 0.9rem;
+
+  /* Style */
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: #fff;
+  font-size: 0.9rem;
   font-weight: 600;
-  box-shadow: 0 10px 24px rgba(0, 76, 135, 0.45);
+
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.45);
+
   cursor: pointer;
-  z-index: 100;
+  z-index: 9999;
+
+  white-space: nowrap;
 }
 
 .feedback-fab:hover {
@@ -303,6 +316,7 @@ footer {
 .feedback-fab:active {
   transform: translateY(0);
 }
+
 
     
   </style>
