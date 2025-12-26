@@ -76,10 +76,11 @@
 
   <h2 style="color: #60a5fa;">💬 Feedback & Future Improvements</h2>
   <ul style="margin-left: 20px;">
-    <li>Add full feedback submission form</li>
-    <li>Improve detection of inconsistent stop data</li>
-    <li>Route visualization or map UI</li>
-    <li>Admin view for adjusting schedules</li>
+    <li>Route visualization or map UI, to include location detection to identify nearest stop to user and allow user to pinpoint on the map where their end goal is.</li>
+    <li>User location detection to find nearest stop.</li>
+    
+    
+  <li>Expand across Centcom bases</li>
   </ul>
 
 </section>
