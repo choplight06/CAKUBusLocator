@@ -320,9 +320,14 @@
     </p>
 
     <div id="routeMeta" style="display:none;">
-      <label>Route label
-        <input type="text" id="routeLabel" />
-      </label>
+      <div class="inline" style="align-items:flex-end;">
+        <label style="flex:2;">Route label
+          <input type="text" id="routeLabel" />
+        </label>
+        <div style="flex:1; display:flex; justify-content:flex-end;">
+          <button id="deleteRouteBtn" class="btn btn-danger">Delete route</button>
+        </div>
+      </div>
 
       <div class="inline">
         <label>Service window start
@@ -375,6 +380,7 @@
         <h3 style="margin:6px 0 0; font-size:0.85rem;">Departures</h3>
         <div class="toolbar">
           <button id="addDepartureBtn" class="btn">+ Add departure</button>
+          <button id="deleteSelectedBtn" class="btn btn-danger" disabled>Delete selected</button>
         </div>
       </div>
 
@@ -409,7 +415,9 @@
   const depsBadge = document.getElementById('depsBadge');
   const departuresContainer = document.getElementById('departuresContainer');
   const addDepartureBtn = document.getElementById('addDepartureBtn');
+  const deleteSelectedBtn = document.getElementById('deleteSelectedBtn');
   const routeStopsInput = document.getElementById('routeStops');
+  const deleteRouteBtn = document.getElementById('deleteRouteBtn');
 
   // generator controls
   const genBaseSelect = document.getElementById('genBaseDeparture');
@@ -424,7 +432,9 @@
     addNewDeparture();
     renderDepartures();
   });
+  deleteSelectedBtn.addEventListener('click', deleteSelectedDepartures);
   addRouteBtn.addEventListener('click', addNewRoute);
+  deleteRouteBtn.addEventListener('click', deleteRoute);
   genButton.addEventListener('click', generateRepeatingDepartures);
 
   function handleFile(ev) {
@@ -485,6 +495,8 @@
     genBaseSelect.innerHTML = '';
     genIntervalInput.value = '';
     genCountInput.value = '';
+    deleteSelectedBtn.disabled = true;
+    deleteSelectedBtn.textContent = 'Delete selected';
   }
 
   function syncStopsFromDepartures(route) {
@@ -563,6 +575,8 @@
 
     departuresContainer.innerHTML = '';
 
+    let selectedCount = 0;
+
     departures.forEach((dep, depIndex) => {
       const details = document.createElement('details');
       if (depIndex < 3) details.open = true;
@@ -581,6 +595,28 @@
       const actions = document.createElement('div');
       actions.style.display = 'flex';
       actions.style.gap = '6px';
+
+      const selectToggle = document.createElement('label');
+      selectToggle.style.display = 'inline-flex';
+      selectToggle.style.alignItems = 'center';
+      selectToggle.style.gap = '4px';
+      selectToggle.style.fontSize = '0.75rem';
+
+      const selectCheckbox = document.createElement('input');
+      selectCheckbox.type = 'checkbox';
+      selectCheckbox.checked = !!dep.selectedForDelete;
+      if (selectCheckbox.checked) selectedCount += 1;
+      selectCheckbox.addEventListener('click', (e) => e.stopPropagation());
+      selectCheckbox.addEventListener('change', (e) => {
+        dep.selectedForDelete = !!e.target.checked || undefined;
+        renderDepartures();
+      });
+
+      const selectText = document.createElement('span');
+      selectText.textContent = 'Select';
+
+      selectToggle.appendChild(selectCheckbox);
+      selectToggle.appendChild(selectText);
 
       // Active / disabled toggle
       const activeToggle = document.createElement('label');
@@ -633,6 +669,7 @@
         }
       });
 
+      actions.appendChild(selectToggle);
       actions.appendChild(activeToggle);
       actions.appendChild(cloneBtn);
       actions.appendChild(delBtn);
@@ -640,6 +677,24 @@
       summary.appendChild(titleSpan);
       summary.appendChild(actions);
       details.appendChild(summary);
+
+      const departureToolbar = document.createElement('div');
+      departureToolbar.style.display = 'flex';
+      departureToolbar.style.justifyContent = 'flex-end';
+      departureToolbar.style.marginTop = '6px';
+
+      const addStopBtn = document.createElement('button');
+      addStopBtn.type = 'button';
+      addStopBtn.className = 'btn';
+      addStopBtn.textContent = '+ Add stop';
+      addStopBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        addStopToDeparture(depIndex);
+      });
+
+      departureToolbar.appendChild(addStopBtn);
+      details.appendChild(departureToolbar);
 
       // table
       const table = document.createElement('table');
@@ -651,6 +706,7 @@
           <th>Time (HH:MM)</th>
           <th>Pickup</th>
           <th>Dropoff</th>
+          <th></th>
         </tr>`;
       table.appendChild(thead);
 
@@ -699,11 +755,25 @@
         tdDrop.style.textAlign = 'center';
         tdDrop.appendChild(dropInput);
 
+        const tdActions = document.createElement('td');
+        tdActions.style.textAlign = 'center';
+        const removeStopBtn = document.createElement('button');
+        removeStopBtn.type = 'button';
+        removeStopBtn.className = 'btn btn-danger';
+        removeStopBtn.textContent = 'Remove';
+        removeStopBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          removeStopFromDeparture(depIndex, i);
+        });
+        tdActions.appendChild(removeStopBtn);
+
         tr.appendChild(tdIndex);
         tr.appendChild(tdStop);
         tr.appendChild(tdTime);
         tr.appendChild(tdPickup);
         tr.appendChild(tdDrop);
+        tr.appendChild(tdActions);
 
         tbody.appendChild(tr);
       });
@@ -714,6 +784,8 @@
     });
 
     depsBadge.textContent = (route.departures || []).length + ' departures';
+    deleteSelectedBtn.disabled = selectedCount === 0;
+    deleteSelectedBtn.textContent = selectedCount ? `Delete selected (${selectedCount})` : 'Delete selected';
   }
 
   function addNewDeparture() {
@@ -758,6 +830,37 @@
     renderDepartures();
   }
 
+  function deleteSelectedDepartures() {
+    if (CURRENT_ROUTE_INDEX == null) return;
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    const selected = (route.departures || []).filter(dep => dep.selectedForDelete);
+    if (!selected.length) return;
+    if (!confirm(`Delete ${selected.length} selected departure(s)?`)) return;
+    route.departures = (route.departures || []).filter(dep => !dep.selectedForDelete);
+    renderDepartures();
+  }
+
+  function addStopToDeparture(depIndex) {
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    const dep = route.departures[depIndex];
+    dep.times = dep.times || [];
+    dep.times.push({
+      stop: '',
+      time: '',
+      pickup: true,
+      dropoff: true
+    });
+    renderDepartures();
+  }
+
+  function removeStopFromDeparture(depIndex, stopIndex) {
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    const dep = route.departures[depIndex];
+    if (!dep.times || dep.times.length === 0) return;
+    dep.times.splice(stopIndex, 1);
+    renderDepartures();
+  }
+
   function deleteDeparture(index) {
     const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
     route.departures.splice(index, 1);
@@ -781,6 +884,23 @@
     };
     SCHEDULE.routes.push(newRoute);
     CURRENT_ROUTE_INDEX = SCHEDULE.routes.length - 1;
+    renderRoutesList();
+    loadRouteIntoEditor(CURRENT_ROUTE_INDEX);
+  }
+
+  function deleteRoute() {
+    if (CURRENT_ROUTE_INDEX == null || !SCHEDULE) return;
+    const route = SCHEDULE.routes[CURRENT_ROUTE_INDEX];
+    const label = route.label || route.routeId || 'this route';
+    if (!confirm(`Delete ${label}? This cannot be undone.`)) return;
+    SCHEDULE.routes.splice(CURRENT_ROUTE_INDEX, 1);
+    if (!SCHEDULE.routes.length) {
+      CURRENT_ROUTE_INDEX = null;
+      renderRoutesList();
+      clearEditor();
+      return;
+    }
+    CURRENT_ROUTE_INDEX = Math.min(CURRENT_ROUTE_INDEX, SCHEDULE.routes.length - 1);
     renderRoutesList();
     loadRouteIntoEditor(CURRENT_ROUTE_INDEX);
   }
