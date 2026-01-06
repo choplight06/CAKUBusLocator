@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>V2X CAKU Bus Finder</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --surface: #0f172a;
+      --panel: #111a2e;
+      --panel-2: #0e1528;
+      --fg: #e6eefc;
+      --muted: #9fb0d0;
+      --border: #1e2a47;
+      --accent: #6ea8fe;
+      --accent-2: #60a5fa;
+      --ok-bg: #143126;
+      --ok-br: #2b6b47;
+      --no-bg: #351821;
+      --no-br: #7a2c40;
+      --shadow: 0 4px 24px rgba(0,0,0,.35);
+      --radius: 16px;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color-scheme: dark;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8ff;
+        --surface: #ffffff;
+        --panel: #ffffff;
+        --panel-2: #f9fbff;
+        --fg: #111827;
+        --muted: #64748b;
+        --border: #e5e7eb;
+        --accent: #2563eb;
+        --accent-2: #1d4ed8;
+        --ok-bg: #eaf8ef;
+        --ok-br: #bfe8cc;
+        --no-bg: #fbeeee;
+        --no-br: #f3c0c0;
+        --shadow: 0 6px 24px rgba(0,0,0,.08);
+      }
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: radial-gradient(1200px 800px at 10% -10%, rgba(96,165,250,.2), transparent 45%),
+                  radial-gradient(1200px 800px at 100% 0%, rgba(99,102,241,.18), transparent 40%),
+                  var(--bg);
+      color: var(--fg);
+    }
+    .container { max-width: 1000px; margin: 0 auto; padding: 20px clamp(12px, 3vw, 28px) 40px; }
+    .hero {
+      border-radius: 24px; padding: clamp(16px, 3.5vw, 28px); margin: 16px 0 22px;
+      background: linear-gradient(135deg, rgba(37,99,235,.14), rgba(99,102,241,.08)), var(--panel);
+      box-shadow: var(--shadow); border: 1px solid var(--border);
+    }
+    .hero h1 { margin: 0 0 4px; font-weight: 800; letter-spacing: -.02em; font-size: clamp(1.4rem, 3.4vw, 2rem); }
+    .hero p { margin: 0; color: var(--muted); font-size: clamp(.95rem, 2.2vw, 1.05rem); }
+    .card { border: 1px solid var(--border); border-radius: var(--radius);
+      padding: clamp(12px, 2vw, 18px); background: linear-gradient(180deg, var(--panel), var(--panel-2));
+      box-shadow: var(--shadow); margin-bottom: 16px; }
+    .sticky { position: sticky; top: 10px; z-index: 50; backdrop-filter: saturate(120%) blur(6px); }
+    .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 740px) { .row { grid-template-columns: 1fr; } }
+    label { font-size: .9rem; color: var(--muted); margin-bottom: 6px; display: block; }
+    select, input, button {
+      width: 100%; border-radius: 12px; border: 1px solid var(--border); padding: 14px 14px; font-size: 1rem;
+      background: var(--surface); color: var(--fg); -webkit-tap-highlight-color: transparent;
+      transition: box-shadow .15s ease, transform .06s ease, border-color .15s ease;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.02), 0 1px 0 rgba(0,0,0,.04);
+    }
+    select:focus, button:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 35%, transparent); }
+    button { border-color: var(--accent); background: linear-gradient(180deg, var(--accent), var(--accent-2)); color: white; font-weight: 700; letter-spacing: .2px; }
+    button:hover { transform: translateY(-1px); } button:active { transform: translateY(0); } button:disabled { opacity: .6; cursor: not-allowed; }
+    .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; align-items: end; }
+    @media (max-width: 740px) { .grid-3 { grid-template-columns: 1fr; } }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: .8rem; border: 1px solid var(--border); background: var(--surface); }
+    .ok { background: var(--ok-bg); border-color: var(--ok-br); } .no { background: var(--no-bg); border-color: var(--no-br); }
+    .muted { color: var(--muted); } .sub { font-size: .95rem; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; } th, td { border-top: 1px solid var(--border); padding: 10px; text-align: left; vertical-align: top; }
+    thead th { position: sticky; top: 0; background: var(--panel-2); }
+    .scroll-x { overflow-x: auto; }
+    @media (max-width: 740px) {
+      .table-as-cards table, .table-as-cards thead, .table-as-cards tbody, .table-as-cards th, .table-as-cards td, .table-as-cards tr { display: block; width: 100%; }
+      .table-as-cards thead { display: none; }
+      .table-as-cards tr { border: 1px solid var(--border); border-radius: 12px; padding: 10px; margin-bottom: 10px; background: var(--surface); }
+      .table-as-cards td { border: 0; padding: 6px 0; }
+      .table-as-cards td::before { content: attr(data-label); font-weight: 700; display: block; color: var(--muted); margin-bottom: 2px; }
+    }
+    footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); text-align: center; font-size: .95rem; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: .9rem; }
+  
+/* === V2X theme overrides === */
+
+/* Update core colors to be closer to gov2x.com */
+:root {
+  --bg: #f3f4f6;
+  --surface: #ffffff;
+  --panel: #ffffff;
+  --panel-2: #f9fafb;
+  --fg: #111827;
+  --muted: #4b5563;
+  --border: #d1d5db;
+  --accent: #0076c0;   /* V2X blue-ish */
+  --accent-2: #00a0df;
+  --ok-bg: #ecfdf5;
+  --ok-br: #16a34a;
+  --no-bg: #fef2f2;
+  --no-br: #dc2626;
+  --shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+}
+
+/* Light, corporate background instead of neon dark gradient */
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #e5f0f9 0, #f3f4f6 42%, #f9fafb 100%);
+  color: var(--fg);
+}
+
+/* Full-width V2X header strip */
+.v2x-header {
+  background: #001c3a; /* deep navy similar to V2X header */
+  color: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.45);
+}
+
+.v2x-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.v2x-brand {
+  display: flex;
+  align-items: center;
+}
+
+.v2x-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.v2x-product-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.v2x-product-name {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.v2x-product-subtitle {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+/* Make your main content feel like white “cards” on light gray, like the About Us page sections */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px clamp(12px, 3vw, 28px) 40px;
+}
+
+/* Hero becomes white card with subtle left accent, more like corporate section headers */
+.hero {
+  border-radius: 18px;
+  padding: 18px 18px 16px 20px;
+  margin: 18px 0 20px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,118,192,0.09), transparent 65%);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #0076c0, #00a0df);
+}
+
+.hero h1 {
+  position: relative;
+  margin: 0 0 6px;
+  font-weight: 700;
+  font-size: clamp(1.35rem, 3.2vw, 1.8rem);
+  letter-spacing: 0;
+}
+
+.hero p {
+  position: relative;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+/* Query card and results as white panels */
+
+.card {
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  padding: 16px 16px 14px;
+  background: var(--panel);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
+}
+
+#results .card {
+  background: var(--panel-2);
+}
+
+/* Buttons and selects tuned to a corporate-blue style */
+
+select, input, button {
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  padding: 11px 12px;
+  font-size: 0.95rem;
+  background: var(--surface);
+  color: var(--fg);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.02);
+}
+
+select:focus,
+button:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px rgba(0,118,192,0.8);
+}
+
+button {
+  border-color: var(--accent);
+  background: linear-gradient(135deg, #0076c0, #00a0df);
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 10px 26px rgba(0, 76, 135, 0.45);
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 32px rgba(0, 76, 135, 0.55);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 6px 18px rgba(0, 76, 135, 0.6);
+}
+
+/* Footer closer to V2X style: light, small, aligned right */
+
+footer {
+  margin-top: 24px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  text-align: right;
+  font-size: 0.78rem;
+}
+
+    
+  </style>
+</head>
+<body>
+  <header class="v2x-header">
+    <div class="container v2x-header-inner">
+      <div class="v2x-brand">
+        <img
+          src="V2X-color-logo-reverse-09-2024.png"
+          alt="V2X"
+          class="v2x-logo"
+        />
+      </div>
+      <div class="v2x-product-copy">
+        <div class="v2x-product-name">CAKU Bus Finder</div>
+        <div class="v2x-product-subtitle">Mission connected. Mission committed.</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+  <div class="container">
+    <div class="hero">
+      <h1>Find Your Next Bus in Camp Arifjan, Kuwait!</h1>
+      <p>Pick your current stop and destination. We’ll show the best direct ride (and a transfer if needed).</p>
+    </div>
+
+    <div id="queryCard" class="card sticky">
+      <div class="row">
+        <div>
+          <label for="origin">You're at</label>
+          <select id="origin" aria-label="Select origin stop"></select>
+        </div>
+        <div>
+          <label for="destination">You're going to</label>
+          <select id="destination" aria-label="Select destination stop"></select>
+        </div>
+      </div>
+      <div style="margin-top:12px" class="grid-3">
+        <div>
+          <label for="testTime">Time to use (HH:MM)</label>
+          <input id="testTime" type="time" step="60" aria-label="Set a time to test schedules" />
+          <div id="nowHint" class="sub muted"></div>
+        </div>
+        <div>
+          <label for="routeFilter">Route filter (optional)</label>
+          <select id="routeFilter" aria-label="Filter by route"></select>
+        </div>
+        <div>
+          <button id="findBtn" disabled>Find buses</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="results"></div>
+
+    <footer>© 2025 Chloe Hoplight</footer>
+  </div>
+
+
+<script>
+const STATE = {
+  routes: [],
+  stops: []
+};
+
+function canonStop(name) {
+  return (name || '').trim().toUpperCase();
+}
+
+
+function toMinutes(hhmm) {
+  const [h, m] = String(hhmm).split(':').map(Number);
+  return (Number.isFinite(h) && Number.isFinite(m)) ? h * 60 + m : NaN;
+}
+
+function projectAfter(refMin, hhmm) {
+  let m = toMinutes(hhmm);
+  if (!Number.isFinite(m)) return NaN;
+  while (m < refMin) m += 1440; // roll over to next day if needed
+  return m;
+}
+
+function localNowHHMM() {
+  const d = new Date();
+  const hh = String(d.getHours()).padStart(2, '0');
+  const mm = String(d.getMinutes()).padStart(2, '0');
+  return `${hh}:${mm}`;
+}
+
+// Returns the HH:MM your routing logic should use.
+// If the user picked a time in the UI, use that; otherwise fall back to device time.
+function getNowHHMM() {
+  const el = document.getElementById('testTime');
+  const val = el && typeof el.value === 'string' ? el.value.trim() : '';
+  // HTML time input gives "HH:MM" (or "" if unsupported / not set)
+  if (/^\d{2}:\d{2}$/.test(val)) return val;
+  return localNowHHMM();
+}
+
+
+function fmtETA(deltaMin) {
+  if (!Number.isFinite(deltaMin) || deltaMin < 0) return '';
+  const h = Math.floor(deltaMin / 60);
+  const m = deltaMin % 60;
+  if (h && m) return `${h}h ${m}m`;
+  if (h) return `${h}h`;
+  return `${m} min`;
+}
+
+function buildStateFromJson(json) {
+  // Accept either { routes:[...] } or plain array
+  const rawRoutes = Array.isArray(json.routes) ? json.routes :
+                    (Array.isArray(json) ? json : []);
+  if (!rawRoutes.length) {
+    throw new Error('Unexpected schedule shape: no routes array found.');
+  }
+
+  const routes = rawRoutes.map((r, idx) => {
+    const label = r.label || r.name || r.routeId || `Route ${idx + 1}`;
+
+    const departures = (r.departures || []).map((dep, i) => ({
+      tripId: dep.tripId ?? dep.id ?? (i + 1),
+      times: (dep.times || []).map(t => ({
+        stop: t.stop,
+        time: t.time,
+        pickup: t.pickup !== false,
+        dropoff: t.dropoff !== false
+      })).filter(t => t.stop && t.time)
+    })).filter(dep => dep.times.length);
+
+    const stopSet = new Set();
+    (r.stops || []).forEach(s => s && stopSet.add(s));
+    departures.forEach(dep => dep.times.forEach(t => stopSet.add(t.stop)));
+
+    const stops = Array.from(stopSet);
+
+    return { label, stops, departures, is24Hour: !!r.is24Hour };
+  }).filter(r => r.stops.length && r.departures.length);
+
+  if (!routes.length) {
+    throw new Error('Routes normalized, but none had both stops and departures.');
+  }
+
+  const allStops = new Set();
+  routes.forEach(r => r.stops.forEach(s => allStops.add(s)));
+
+  STATE.routes = routes;
+  STATE.stops = Array.from(allStops).sort((a, b) => a.localeCompare(b));
+}
+
+function populateSelectors() {
+  const origin = document.getElementById("origin");
+  const destination = document.getElementById("destination");
+  const routeFilter = document.getElementById("routeFilter");
+
+  // 1) Canonical-dedupe all stops: canon -> representative label
+  const stopMap = new Map(); // canon => display label
+  STATE.stops.forEach(s => {
+    if (!s) return;
+    const canon = canonStop(s);
+    if (!canon) return;
+    if (!stopMap.has(canon)) {
+      stopMap.set(canon, s); // first occurrence wins
+    }
+  });
+
+  // Turn into sorted array of { canon, label }
+  const allStopsArr = Array.from(stopMap.entries())
+    .map(([canon, label]) => ({ canon, label }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+
+  // 2) Define main stops, with nice labels
+  const MAIN_CONFIG = [
+    { raw: "Zone 6 DFAC",       label: "Zone 6 DFAC" },
+    { raw: "Zone 2 DFAC",       label: "Zone 2 DFAC" },
+    { raw: "Turf Track",        label: "Turf Track" },
+    { raw: "ZONE 6 PX/GYM",     label: "Zone 6 PX/Gym" }, // matches JSON stop
+    { raw: "Combat HETS",       label: "Combat HETS" },
+    { raw: "Senior Pods",       label: "Senior Pods" },
+    { raw: "TMC",               label: "TMC" }
+  ];
+
+  const MAIN_LABELS = new Map(
+    MAIN_CONFIG.map(m => [canonStop(m.raw), m.label])
+  );
+  const MAIN_CANON = new Set(
+    MAIN_CONFIG.map(m => canonStop(m.raw))
+  );
+
+  const mainStops = [];
+  const otherStops = [];
+
+  allStopsArr.forEach(s => {
+    if (MAIN_CANON.has(s.canon)) {
+      // Force the pretty label for main stops
+      mainStops.push({
+        canon: s.canon,
+        label: MAIN_LABELS.get(s.canon) || s.label
+      });
+    } else {
+      otherStops.push(s);
+    }
+  });
+
+  const makeOptions = (list) =>
+    list
+      .map(s => `<option value="${s.label}">${s.label}</option>`)
+      .join("");
+
+  const optionsHTML = `
+    <option value="">Select stop…</option>
+    <optgroup label="Main Stops">
+      ${makeOptions(mainStops)}
+    </optgroup>
+    <optgroup label="All Stops">
+      ${makeOptions(otherStops)}
+    </optgroup>
+  `;
+
+  origin.innerHTML = optionsHTML;
+  destination.innerHTML = optionsHTML;
+
+  // 3) Route filter stays as before
+  const routes = STATE.routes.map(r => r.label);
+  routeFilter.innerHTML =
+    `<option value="">All routes</option>` +
+    routes.map(r => `<option>${r}</option>`).join("");
+}
+
+
+function findDirectTrips(originName, destName, routeLabelOpt) {
+  const originCanon = canonStop(originName);
+  const destCanon = canonStop(destName);
+  const nowHHMM = getNowHHMM();
+  const nowMin = toMinutes(nowHHMM);
+
+  const trips = [];
+
+  STATE.routes.forEach(route => {
+    if (routeLabelOpt && route.label !== routeLabelOpt) return;
+
+    const hasOrigin = route.stops.some(s => canonStop(s) === originCanon);
+    const hasDest = route.stops.some(s => canonStop(s) === destCanon);
+    if (!hasOrigin || !hasDest) return;
+
+    route.departures.forEach(dep => {
+
+      let depTimeStr = null;
+      let arrTimeStr = null;
+
+      for (const t of dep.times) {
+        const cs = canonStop(t.stop);
+
+        if (!depTimeStr && cs === originCanon && t.pickup) {
+          depTimeStr = t.time;
+        }
+
+        // Only allow arrival after we have a departure
+        if (depTimeStr && cs === destCanon && t.dropoff) {
+          arrTimeStr = t.time;
+          break;
+        }
+      }
+
+      if (!depTimeStr || !arrTimeStr) return;
+
+      const depMin = projectAfter(nowMin, depTimeStr);
+      let arrMin = projectAfter(depMin, arrTimeStr);
+      if (!Number.isFinite(depMin) || !Number.isFinite(arrMin)) return;
+      if (arrMin <= depMin) arrMin += 1440;
+
+      trips.push({
+        route: route.label,
+        tripId: dep.tripId,
+        depTimeStr,
+        arrTimeStr,
+        depMin,
+        arrMin
+      });
+    });
+  });
+
+  // Sort by departure time after "now"
+  trips.sort((a, b) => a.depMin - b.depMin);
+
+  const upcoming = trips.filter(t => t.depMin >= nowMin);
+  const recommended = upcoming[0] || null;
+  const others = upcoming.slice(1, 5); // show up to 5 more
+
+  return { recommended, others, nowMin };
+}
+
+function renderResults(origin, dest, routeLabelOpt) {
+  const { recommended, others, nowMin } = findDirectTrips(origin, dest, routeLabelOpt);
+  const container = document.getElementById('results');
+  container.innerHTML = '';
+
+  if (!recommended) {
+    container.innerHTML = `
+      <div class="card">
+        <h3>No direct buses found</h3>
+        <div class="muted">
+          There are no direct buses from <strong>${origin}</strong>
+          to <strong>${dest}</strong> in the current schedule window.
+          Try a different route filter or another time of day.
+        </div>
+      </div>`;
+    return;
+  }
+
+  const wait = recommended.depMin - nowMin;
+  const ride = recommended.arrMin - recommended.depMin;
+
+  const recommendedHtml = `
+    <div class="card">
+      <h3>Next direct bus</h3>
+      <p>
+        <strong>${origin}</strong> → <strong>${dest}</strong><br/>
+        Route: <strong>${recommended.route}</strong>
+      </p>
+      <p>
+        Departs at <strong>${recommended.depTimeStr}</strong>
+        (in ${fmtETA(wait)}), arrives around
+        <strong>${recommended.arrTimeStr}</strong>
+        (ride ~${fmtETA(ride)}).
+      </p>
+    </div>
+  `;
+
+  let othersHtml = '';
+  if (others.length) {
+    othersHtml = `
+      <div class="card">
+        <h3>More upcoming direct buses</h3>
+        <ul>
+          ${others.map(t =>
+            `<li>${t.route}: ${t.depTimeStr} → ${t.arrTimeStr}</li>`
+          ).join('')}
+        </ul>
+      </div>
+    `;
+  }
+
+  container.innerHTML = recommendedHtml + othersHtml;
+}
+
+async function init() {
+  // Default the test-time input to the current device time, but always use the UI value when present.
+  const testTime = document.getElementById('testTime');
+  if (testTime) testTime.value = localNowHHMM();
+
+  const nowHint = document.getElementById('nowHint');
+  const updateNowHint = () => {
+    if (!nowHint) return;
+    nowHint.textContent = `Using ${getNowHHMM()} (device: ${new Date().toLocaleString()})`;
+  };
+  updateNowHint();
+  if (testTime) testTime.addEventListener('input', updateNowHint);
+
+  let json;
+  try {
+    const res = await fetch('schedule_with_pickup_dropoff.json?v=1', {
+      cache: 'no-store'
+    });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}`);
+    }
+    json = await res.json();
+  } catch (e) {
+    console.error('Failed to load schedule JSON', e);
+    document.getElementById('results').innerHTML = `
+      <div class="card">
+        <h3>Could not load schedule</h3>
+        <div class="muted">Check that <code>schedule_with_pickup_dropoff.json</code> is in the same folder as <code>index.html</code> on GitHub.</div>
+      </div>`;
+    return;
+  }
+
+  try {
+    buildStateFromJson(json);
+  } catch (e) {
+    console.error('Failed to interpret schedule JSON', e);
+    document.getElementById('results').innerHTML = `
+      <div class="card">
+        <h3>Schedule format error</h3>
+        <div class="muted">${e.message}</div>
+      </div>`;
+    return;
+  }
+
+  populateSelectors();
+
+  const origin = document.getElementById('origin');
+  const destination = document.getElementById('destination');
+  const routeFilter = document.getElementById('routeFilter');
+  const btn = document.getElementById('findBtn');
+
+  function validate() {
+    btn.disabled = !(origin.value && destination.value && origin.value !== destination.value);
+  }
+
+  origin.addEventListener('change', validate);
+  destination.addEventListener('change', validate);
+
+  btn.addEventListener('click', () => {
+    renderResults(origin.value, destination.value, routeFilter.value || null);
+  });
+}
+
+init();
+
+
+</script>
+
+</body>
+</html>
