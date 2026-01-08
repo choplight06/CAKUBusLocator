@@ -342,7 +342,7 @@ footer {
   <div class="container">
     <div class="hero">
       <h1>Find Your Next Bus in Camp Arifjan, Kuwait!</h1>
-      <p>Pick your current stop and destination. We’ll show the best direct ride (and a transfer if needed).</p>
+      <p>Pick your current stop and destination and we’ll show the best direct ride. Please allow +/- 5 minutes for the bus.</p>
     </div>
 
     <div id="queryCard" class="card sticky">
@@ -373,7 +373,10 @@ footer {
 
     <div id="results"></div>
 
-    <footer>© 2025 Chloe Hoplight</footer>
+    <footer>
+      <a href="https://clvbapp.gov2x.com/files/LCV%20Shuttle%20Bus%20Schedules%20as%20of%2007.15.25_CAKU_CBKU%20for%20QR%20(1).pdf">Click here to view CAKU / CBKU shuttle bus services PDF</a><br />
+      © 2025 Chloe Hoplight
+    </footer>
   </div>
 
 
@@ -643,7 +646,7 @@ function renderResults(origin, dest, routeLabelOpt) {
         <h3>More upcoming direct arrivals</h3>
         <ul>
           ${others.map(t =>
-            `<li>${t.route}: arrives ${t.arrTimeStr} (departs ${t.depTimeStr})</li>`
+            `<li>${t.route}:departs from your current stop at ${t.depTimeStr} and arrives at ${t.arrTimeStr}</li>`
           ).join('')}
         </ul>
       </div>
