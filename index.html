@@ -589,10 +589,10 @@ function findDirectTrips(originName, destName, routeLabelOpt) {
     });
   });
 
-  // Sort by departure time after "now"
-  trips.sort((a, b) => a.depMin - b.depMin);
-
   const upcoming = trips.filter(t => t.depMin >= nowMin);
+  // Sort by soonest arrival (then departure as tiebreaker)
+  upcoming.sort((a, b) => (a.arrMin - b.arrMin) || (a.depMin - b.depMin));
+
   const recommended = upcoming[0] || null;
   const others = upcoming.slice(1, 5); // show up to 5 more
 
@@ -622,7 +622,7 @@ function renderResults(origin, dest, routeLabelOpt) {
 
   const recommendedHtml = `
     <div class="card">
-      <h3>Next direct bus</h3>
+      <h3>Soonest direct arrival</h3>
       <p>
         <strong>${origin}</strong> → <strong>${dest}</strong><br/>
         Route: <strong>${recommended.route}</strong>
@@ -640,10 +640,10 @@ function renderResults(origin, dest, routeLabelOpt) {
   if (others.length) {
     othersHtml = `
       <div class="card">
-        <h3>More upcoming direct buses</h3>
+        <h3>More upcoming direct arrivals</h3>
         <ul>
           ${others.map(t =>
-            `<li>${t.route}: ${t.depTimeStr} → ${t.arrTimeStr}</li>`
+            `<li>${t.route}: arrives ${t.arrTimeStr} (departs ${t.depTimeStr})</li>`
           ).join('')}
         </ul>
       </div>
