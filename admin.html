@@ -296,9 +296,12 @@
   <section class="panel">
     <h2>1. Load schedule file</h2>
     <p class="muted">
-      Choose the current <code>schedule_with_pickup_dropoff.json</code>, then pick a route to edit or create a new one.
+      Choose the current <code>schedule_with_pickup_dropoff.json</code>, or start a new schedule file.
     </p>
-    <input type="file" id="fileInput" accept="application/json" />
+    <div class="toolbar">
+      <input type="file" id="fileInput" accept="application/json" />
+      <button id="newScheduleBtn" class="btn">Create new schedule</button>
+    </div>
 
     <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center; gap:6px;">
       <div style="display:flex; gap:6px; align-items:center;">
@@ -404,6 +407,7 @@
   const routesList = document.getElementById('routesList');
   const downloadBtn = document.getElementById('downloadBtn');
   const addRouteBtn = document.getElementById('addRouteBtn');
+  const newScheduleBtn = document.getElementById('newScheduleBtn');
 
   const editorHint = document.getElementById('editorHint');
   const routeMeta = document.getElementById('routeMeta');
@@ -426,6 +430,7 @@
   const genButton = document.getElementById('genButton');
 
   fileInput.addEventListener('change', handleFile);
+  newScheduleBtn.addEventListener('click', createNewSchedule);
   downloadBtn.addEventListener('click', downloadJson);
   addDepartureBtn.addEventListener('click', () => {
     if (CURRENT_ROUTE_INDEX == null) return;
@@ -448,6 +453,7 @@
           throw new Error('JSON must have a "routes" array.');
         }
         SCHEDULE = json;
+        SCHEDULE.pickupDropoffFlags = true;
         CURRENT_ROUTE_INDEX = null;
         renderRoutesList();
         clearEditor();
@@ -458,6 +464,21 @@
       }
     };
     reader.readAsText(file);
+  }
+
+  function createNewSchedule() {
+    if (!confirm('Create a new empty schedule file? This will replace any currently loaded data.')) {
+      return;
+    }
+    SCHEDULE = {
+      pickupDropoffFlags: true,
+      routes: []
+    };
+    CURRENT_ROUTE_INDEX = null;
+    fileInput.value = '';
+    renderRoutesList();
+    clearEditor();
+    downloadBtn.disabled = false;
   }
 
   function renderRoutesList() {
@@ -1018,7 +1039,7 @@
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'schedule_with_pickup_dropoff_updated.json';
+    a.download = 'schedule_with_pickup_dropoff.json';
     a.click();
     URL.revokeObjectURL(url);
   }
