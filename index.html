@@ -646,7 +646,7 @@ function renderResults(origin, dest, routeLabelOpt) {
         <h3>More upcoming direct arrivals</h3>
         <ul>
           ${others.map(t =>
-            `<li>${t.route}: arrives ${t.arrTimeStr} (departs ${t.depTimeStr})</li>`
+            `<li>${t.route}:departs from your current stop at ${t.depTimeStr} and arrives at ${t.arrTimeStr}</li>`
           ).join('')}
         </ul>
       </div>
